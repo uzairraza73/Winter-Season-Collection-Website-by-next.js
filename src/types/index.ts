@@ -21,7 +21,8 @@ export type ProductBadge =
   | 'Sale'
   | 'Clearance'
   | 'Exclusive'
-  | 'Christmas Edit';
+  | 'Christmas Edit'
+  | (string & {});
 
 export type ProductCategory =
   | 'All'

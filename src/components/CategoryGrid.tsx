@@ -24,7 +24,7 @@ const CATEGORY_TILES: CategoryTile[] = [
     title: 'TOYS',
     ctaText: 'Shop Toys',
     subtitle: 'Interactive wooden & educational toy collection',
-    image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80',
+    image: '/project-pic/Natural Hamish Monogram Letter Soft Toy Plush Christmas Decoration.webp',
     badge: 'Holiday Gifting',
   },
   {
@@ -60,7 +60,7 @@ const CATEGORY_TILES: CategoryTile[] = [
     title: 'CHARACTER SHOPS',
     ctaText: 'Shop Character',
     subtitle: 'Branded kids’ apparel, movie & gaming merchandise',
-    image: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800&q=80',
+    image: '/project-pic/Character Blue Character Blue Spiderman Puddle Suit.webp',
     badge: 'Disney x Marvel',
   },
   {

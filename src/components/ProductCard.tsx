@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Star, ShoppingBag, Eye, Check } from 'lucide-react';
 import Image from 'next/image';
-import { Product, ProductColor } from '@/types';
+import { Product, ProductColor, ProductSize } from '@/types';
 import { useCart } from '@/hooks/useCart';
 import { useWishlistStore } from '@/store';
 
@@ -15,6 +15,9 @@ interface ProductCardProps {
 
 export default function ProductCard({ product, onQuickView }: ProductCardProps) {
   const [selectedColor, setSelectedColor] = useState<ProductColor>(product.colors[0]);
+  const [selectedSize, setSelectedSize] = useState<ProductSize>(
+    product.sizes.find((s) => s.available) || product.sizes[0]
+  );
   const [isHovered, setIsHovered] = useState(false);
   const [isAddedRecently, setIsAddedRecently] = useState(false);
 
@@ -29,8 +32,7 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
 
   const handleQuickAdd = (e: React.MouseEvent) => {
     e.stopPropagation();
-    const firstAvailableSize = product.sizes.find((s) => s.available) || product.sizes[0];
-    addItem(product, selectedColor, firstAvailableSize);
+    addItem(product, selectedColor, selectedSize);
     setIsAddedRecently(true);
     setTimeout(() => setIsAddedRecently(false), 1800);
   };
@@ -188,6 +190,41 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
               </span>
             )}
           </div>
+
+          {/* Choose Size row for apparel & suits */}
+          {product.sizes && product.sizes.length > 0 && product.sizes[0].label !== 'One Size' && (
+            <div className="mt-2 pt-2 border-t border-slate-100">
+              <div className="flex items-center justify-between mb-1">
+                <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
+                  Choose Size:
+                </span>
+                <span className="text-[10px] font-extrabold text-[#1A1F71] bg-blue-50 px-1.5 py-0.5 rounded">
+                  {selectedSize.label}
+                </span>
+              </div>
+              <div className="flex flex-wrap gap-1">
+                {product.sizes.map((size) => (
+                  <button
+                    key={size.label}
+                    disabled={!size.available}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSelectedSize(size);
+                    }}
+                    className={`px-1.5 py-0.5 rounded text-[10px] font-bold transition-all ${
+                      selectedSize.label === size.label
+                        ? 'bg-slate-900 text-white shadow-sm'
+                        : size.available
+                        ? 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                        : 'bg-slate-50 text-slate-300 line-through cursor-not-allowed'
+                    }`}
+                  >
+                    {size.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
