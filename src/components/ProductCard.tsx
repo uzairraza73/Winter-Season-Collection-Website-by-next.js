@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useTransition } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
@@ -16,11 +16,11 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   const [isHovered, setIsHovered] = useState(false);
   const [isAddedRecently, setIsAddedRecently] = useState(false);
-  const { addItem, openCart } = useCart();
+  const [imgError, setImgError] = useState(false);
+  const { addItem } = useCart();
 
-  const primaryImage = product.colors[0]?.images[0] || '/project-pic/default.webp';
-  const secondaryImage =
-    product.colors[0]?.images[1] || primaryImage;
+  const primaryImage = product.colors[0]?.images[0] || '/project-pic/Natural Hamish Monogram Letter Soft Toy Plush Christmas Decoration.webp';
+  const secondaryImage = product.colors[0]?.images[1] || primaryImage;
 
   const displayImage = isHovered && secondaryImage ? secondaryImage : primaryImage;
 
@@ -31,8 +31,8 @@ export default function ProductCard({ product }: ProductCardProps) {
   const handleQuickAdd = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    const defaultColor = product.colors[0];
-    const defaultSize = product.sizes.find((s) => s.available) || product.sizes[0];
+    const defaultColor = product.colors[0] || { name: 'Standard', hex: '#000000', images: [displayImage] };
+    const defaultSize = product.sizes?.find((s) => s.available) || product.sizes?.[0] || { label: 'Standard', available: true };
     addItem(product, defaultColor, defaultSize);
     setIsAddedRecently(true);
     setTimeout(() => setIsAddedRecently(false), 1500);
@@ -45,16 +45,17 @@ export default function ProductCard({ product }: ProductCardProps) {
       className="group block"
     >
       <div
-        className="relative flex flex-col bg-[#14141E] rounded-2xl overflow-hidden border border-white/5 hover:border-amber-500/40 hover:shadow-[0_12px_32px_rgba(0,0,0,0.6)] transition-all duration-300 transform-gpu hover:-translate-y-1 cursor-pointer"
+        className="relative flex flex-col bg-[#14141E] rounded-2xl overflow-hidden border border-white/5 hover:border-[#FF6A00]/50 hover:shadow-[0_12px_32px_rgba(0,0,0,0.6)] transition-all duration-300 transform-gpu hover:-translate-y-1 cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         {/* Image Box */}
         <div className="relative aspect-[4/5] w-full bg-[#1A1A28] overflow-hidden">
           <Image
-            src={displayImage}
+            src={imgError ? '/project-pic/Natural Hamish Monogram Letter Soft Toy Plush Christmas Decoration.webp' : displayImage}
             alt={product.name}
             fill
+            onError={() => setImgError(true)}
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
           />
@@ -92,7 +93,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             </span>
 
             {/* Item Name */}
-            <h3 className="font-bold text-xs sm:text-sm text-white line-clamp-2 leading-snug group-hover:text-amber-400 transition-colors">
+            <h3 className="font-bold text-xs sm:text-sm text-white line-clamp-2 leading-snug group-hover:text-[#FF6A00] transition-colors">
               {product.name}
             </h3>
           </div>

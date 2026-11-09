@@ -64,13 +64,6 @@ const CATEGORY_TILES: CategoryTile[] = [
     count: '32 styles',
     image: '/project-pic/Natural Biscuit Soft Toy Plush Christmas Decotation.webp',
   },
-  {
-    id: 'tile-clearance',
-    category: 'Clearance',
-    title: 'Winter Clearance',
-    count: 'Up to 50% Off',
-    image: '/project-pic/Character Red Disney Cars Lightning McQueen 100% Cotton Sweatshirt.webp',
-  },
 ];
 
 export default function CategoryGrid() {
@@ -110,7 +103,7 @@ export default function CategoryGrid() {
           </motion.h2>
         </div>
 
-        {/* Compact 4-Column Grid on Desktop, 2-Column on Mobile */}
+        {/* Compact Responsive Grid: 7 Tiles nicely distributed */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
           {CATEGORY_TILES.map((tile, index) => (
             <motion.div
@@ -142,13 +135,13 @@ export default function CategoryGrid() {
                 />
               </div>
 
-              {/* Dark Gradient Overlay for optimal legibility matching reference */}
+              {/* Dark Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#0B0D13]/95 via-[#0B0D13]/40 to-black/20 group-hover:via-[#0B0D13]/25 transition-colors duration-300" />
 
-              {/* Glowing active border ring indicator on hover */}
+              {/* Active Border Glow on Hover */}
               <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10 group-hover:ring-[#FF6A00]/60 transition-all duration-300" />
 
-              {/* Text overlay strictly positioned at bottom-left */}
+              {/* Text Overlay */}
               <div className="absolute inset-x-0 bottom-0 p-3 sm:p-4 z-10 flex flex-col justify-end">
                 <h3 className="font-extrabold text-sm sm:text-base text-white tracking-tight leading-tight group-hover:text-[#FF6A00] transition-colors drop-shadow-md">
                   {tile.title}

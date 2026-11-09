@@ -29,13 +29,13 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#0F0F0F',
+  themeColor: '#0B0D13',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="bg-white text-[#0F0F0F] antialiased min-h-screen selection:bg-zinc-900 selection:text-white">
+    <html lang="en" className="dark">
+      <body className="bg-[#0B0D13] text-white antialiased min-h-screen selection:bg-[#FF6A00] selection:text-white">
         {children}
 
         {/* Global Slide-over Shopping Bag */}

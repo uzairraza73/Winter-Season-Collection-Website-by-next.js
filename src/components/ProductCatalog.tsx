@@ -26,23 +26,17 @@ interface FilterPill {
 
 const FILTER_PILLS: FilterPill[] = [
   { label: 'ALL PRODUCTS', value: 'All' },
+  { label: 'TOYS', value: 'Toys' },
+  { label: 'CHARACTER SHOPS', value: 'Character Shops' },
   { label: 'JACKETS & COATS', value: 'Jackets & Coats' },
   { label: 'DRESSES', value: 'Dresses' },
-  { label: 'TOYS', value: 'Toys' },
   { label: 'NEW HOMEWEAR', value: 'New Homewear Things' },
-  { label: 'CHARACTER SHOPS', value: 'Character Shops' },
   { label: 'ELECTRIC THINGS', value: 'Electric Things' },
   {
     label: 'CHRISTMAS',
     value: 'Christmas',
-    icon: <Gift size={13} className="text-[#B8860B] shrink-0" />,
+    icon: <Gift size={13} className="text-amber-400 shrink-0" />,
     badgeType: 'gold',
-  },
-  {
-    label: 'CLEARANCE',
-    value: 'Clearance',
-    icon: <Flame size={13} className="text-[#C8102E] shrink-0" />,
-    badgeType: 'crimson',
   },
   { label: 'WOMEN', value: 'Women' },
   { label: 'MEN', value: 'Men' },
@@ -58,34 +52,41 @@ export default function ProductCatalog() {
 
   // Dynamic count calculation per category
   const categoryCounts = useMemo(() => {
-    const counts: Record<string, number> = { All: products.length };
-    FILTER_PILLS.forEach((pill) => {
-      if (pill.value === 'All') return;
-      const activeCat = pill.value.toLowerCase();
-      counts[pill.value] = products.filter(
-        (p) =>
-          p.category.toLowerCase() === activeCat ||
-          (p.department && p.department.toLowerCase() === activeCat)
-      ).length;
+    const counts: Record<string, number> = {
+      All: products.length,
+    };
+
+    products.forEach((product) => {
+      counts[product.category] = (counts[product.category] || 0) + 1;
+      if (product.department) {
+        counts[product.department] = (counts[product.department] || 0) + 1;
+      }
+      if (product.badges.includes('Christmas Edit')) {
+        counts['Christmas'] = (counts['Christmas'] || 0) + 1;
+      }
     });
+
     return counts;
   }, []);
 
-  // Filter & Sort Logic
+  // Filter and sort products
   const filteredProducts = useMemo(() => {
     let result = [...products];
 
     // Category filter
     if (filters.category !== 'All') {
-      const activeCat = filters.category.toLowerCase();
-      result = result.filter(
-        (p) =>
-          p.category.toLowerCase() === activeCat ||
-          (p.department && p.department.toLowerCase() === activeCat)
-      );
+      result = result.filter((product) => {
+        if (filters.category === 'Christmas') {
+          return product.badges.includes('Christmas Edit') || product.name.toLowerCase().includes('christmas');
+        }
+        return (
+          product.category === filters.category ||
+          (product.department as string) === (filters.category as string)
+        );
+      });
     }
 
-    // Sort
+    // Sort order
     if (filters.sortBy === 'price-asc') {
       result.sort((a, b) => a.price - b.price);
     } else if (filters.sortBy === 'price-desc') {
@@ -105,42 +106,42 @@ export default function ProductCatalog() {
   };
 
   return (
-    <section id="curated-products" className="py-20 sm:py-28 bg-[#F8FAFC] text-[#0F172A] border-t border-slate-200 relative overflow-hidden">
+    <section id="curated-products" className="py-16 sm:py-24 bg-[#0B0D13] text-white border-t border-white/5 relative overflow-hidden">
       {/* Subtle ambient background glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-72 bg-gradient-to-b from-blue-100/40 via-amber-100/20 to-transparent blur-3xl pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-72 bg-gradient-to-b from-orange-500/10 via-amber-500/5 to-transparent blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* ========================================================
-            CENTER-ALIGNED MAIN HEADING & BADGES (ATTRACTIVE & ANIMATED)
+            CENTER-ALIGNED MAIN HEADING & BADGES
             ======================================================== */}
-        <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
           {/* Shimmering Badge */}
           <motion.div
             initial={{ opacity: 0, y: -12, scale: 0.95 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-amber-200/80 shadow-sm text-xs font-extrabold uppercase tracking-widest text-[#B8860B] mb-5"
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#141824] border border-[#FF6A00]/25 shadow-sm text-xs font-extrabold uppercase tracking-widest text-[#FF6A00] mb-4"
           >
             <motion.span
               animate={{ rotate: [0, 20, -20, 0] }}
               transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut' }}
             >
-              <Sparkles size={14} className="text-[#B8860B]" />
+              <Sparkles size={14} className="text-[#FF6A00]" />
             </motion.span>
             <span>THE CURATED SELECTION</span>
           </motion.div>
 
           {/* Centered Main Heading with dynamic switch animation */}
-          <div className="relative min-h-[4rem] sm:min-h-[5.5rem] flex items-center justify-center">
+          <div className="relative min-h-[3.5rem] sm:min-h-[4.5rem] flex items-center justify-center">
             <AnimatePresence mode="wait">
               <motion.h2
                 key={filters.category}
-                initial={{ opacity: 0, y: 20, filter: 'blur(8px)', scale: 0.97 }}
+                initial={{ opacity: 0, y: 15, filter: 'blur(6px)', scale: 0.97 }}
                 animate={{ opacity: 1, y: 0, filter: 'blur(0px)', scale: 1 }}
-                exit={{ opacity: 0, y: -20, filter: 'blur(8px)', scale: 0.97 }}
-                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight text-slate-950 master-heading leading-tight"
+                exit={{ opacity: 0, y: -15, filter: 'blur(6px)', scale: 0.97 }}
+                transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                className="text-3xl sm:text-5xl font-black uppercase tracking-tight text-white leading-tight"
               >
                 {filters.category === 'All' ? 'ALL SEASONAL EDITS' : filters.category.toUpperCase()}
               </motion.h2>
@@ -149,120 +150,87 @@ export default function ProductCatalog() {
         </div>
 
         {/* ========================================================
-            SUB HEADING CATEGORIES (ANIMATED, ATTRACTIVE DOCK)
+            SUB HEADING CATEGORIES (ANIMATED DOCK)
             ======================================================== */}
-        <div className="relative mb-12">
+        <div className="relative mb-10">
           {/* Scroll Navigation Buttons (Desktop) */}
           <button
             onClick={() => handleScroll('left')}
-            className="hidden md:flex absolute -left-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white/95 backdrop-blur-md border border-slate-200 shadow-lg text-slate-700 hover:text-black hover:scale-110 items-center justify-center transition-all"
+            className="hidden md:flex absolute -left-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-[#141824] border border-white/10 shadow-lg text-slate-300 hover:text-white hover:scale-110 items-center justify-center transition-all cursor-pointer"
             aria-label="Scroll Categories Left"
           >
             <ChevronLeft size={18} />
           </button>
           <button
             onClick={() => handleScroll('right')}
-            className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white/95 backdrop-blur-md border border-slate-200 shadow-lg text-slate-700 hover:text-black hover:scale-110 items-center justify-center transition-all"
+            className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-[#141824] border border-white/10 shadow-lg text-slate-300 hover:text-white hover:scale-110 items-center justify-center transition-all cursor-pointer"
             aria-label="Scroll Categories Right"
           >
             <ChevronRight size={18} />
           </button>
 
-          {/* Gradient Edge Masks for Smooth Overflow Fade */}
-          <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-[#F8FAFC] to-transparent z-10 pointer-events-none md:block hidden" />
-          <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-[#F8FAFC] to-transparent z-10 pointer-events-none md:block hidden" />
-
-          {/* Category Pill Dock Container */}
+          {/* Category Flex Track */}
           <div
             ref={scrollContainerRef}
-            className="flex items-center gap-2.5 overflow-x-auto py-2 px-1 sm:px-4 no-scrollbar scroll-smooth"
+            className="flex items-center gap-2 sm:gap-2.5 overflow-x-auto no-scrollbar scroll-smooth py-2 px-1"
           >
             {FILTER_PILLS.map((pill) => {
               const isSelected = filters.category === pill.value;
-              const count = categoryCounts[pill.value] ?? 0;
-
-              // Color styles
-              let activeBadgeColor = 'bg-slate-800 text-white';
-              let activePillStyle = 'bg-slate-900 text-white shadow-xl shadow-slate-900/20';
-
-              if (pill.badgeType === 'gold') {
-                activeBadgeColor = 'bg-amber-900 text-amber-200';
-                activePillStyle = 'bg-gradient-to-r from-[#B8860B] to-amber-700 text-white shadow-xl shadow-amber-900/25 border-amber-500';
-              } else if (pill.badgeType === 'crimson') {
-                activeBadgeColor = 'bg-rose-900 text-rose-200';
-                activePillStyle = 'bg-gradient-to-r from-[#C8102E] to-rose-700 text-white shadow-xl shadow-rose-900/25 border-rose-500';
-              }
+              const count = categoryCounts[pill.value] || 0;
 
               return (
                 <motion.button
                   key={pill.value}
                   onClick={() => setCategory(pill.value)}
-                  whileHover={{ y: -2, scale: 1.03 }}
+                  whileHover={{ y: -2, scale: 1.02 }}
                   whileTap={{ scale: 0.96 }}
-                  className={`group relative whitespace-nowrap px-4 py-2.5 rounded-2xl text-xs font-extrabold uppercase tracking-wider transition-all duration-300 shrink-0 flex items-center gap-2 border select-none ${
+                  className={`group relative whitespace-nowrap px-4 py-2.5 rounded-2xl text-xs font-extrabold uppercase tracking-wider transition-all duration-300 shrink-0 flex items-center gap-2 border select-none cursor-pointer ${
                     isSelected
-                      ? activePillStyle
-                      : pill.badgeType === 'gold'
-                      ? 'bg-amber-50/80 text-[#B8860B] border-amber-200 hover:bg-amber-100 hover:border-amber-300 shadow-sm'
-                      : pill.badgeType === 'crimson'
-                      ? 'bg-rose-50/80 text-[#C8102E] border-rose-200 hover:bg-rose-100 hover:border-rose-300 shadow-sm'
-                      : 'bg-white/90 backdrop-blur-md text-slate-700 border-slate-200/90 hover:border-slate-300 hover:bg-white hover:text-slate-950 shadow-sm hover:shadow-md'
+                      ? 'bg-[#FF6A00] text-white border-[#FF6A00] shadow-[0_4px_16px_rgba(255,106,0,0.4)]'
+                      : 'bg-[#141824] text-slate-300 border-white/10 hover:border-white/25 hover:text-white hover:bg-[#1B2133]'
                   }`}
                 >
-                  {/* Icon if provided */}
                   {pill.icon && <span>{pill.icon}</span>}
-
-                  {/* Label */}
                   <span>{pill.label}</span>
-
-                  {/* Animated Count Badge */}
                   <span
                     className={`text-[10px] font-black px-2 py-0.5 rounded-full transition-colors ${
                       isSelected
-                        ? activeBadgeColor
-                        : 'bg-slate-100 group-hover:bg-slate-200 text-slate-600'
+                        ? 'bg-black/30 text-white'
+                        : 'bg-white/10 text-slate-400 group-hover:text-white'
                     }`}
                   >
                     {count}
                   </span>
-
-                  {/* Smooth Active Indicator Glow */}
-                  {isSelected && (
-                    <motion.div
-                      layoutId="activeCategoryGlow"
-                      className="absolute inset-0 rounded-2xl border-2 border-white/30 pointer-events-none"
-                      transition={{ type: 'spring', stiffness: 380, damping: 30 }}
-                    />
-                  )}
                 </motion.button>
               );
             })}
           </div>
         </div>
 
-        {/* Sort & Quick Filter Bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8 bg-white/70 backdrop-blur-md p-3.5 sm:p-4 rounded-2xl border border-slate-200 shadow-sm">
-          <div className="text-xs text-slate-600 font-semibold flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-slate-900" />
+        {/* Sort & Status Bar */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8 bg-[#141824] p-3.5 sm:p-4 rounded-2xl border border-white/5">
+          <div className="text-xs text-slate-400 font-semibold flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span>Currently Viewing:</span>
-            <span className="font-extrabold text-slate-900 uppercase">
+            <span className="font-extrabold text-white uppercase">
               {filters.category === 'All' ? 'All Seasonal Categories' : filters.category}
             </span>
+            <span className="text-slate-500">• {filteredProducts.length} items</span>
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2 bg-white px-3.5 py-1.5 rounded-xl border border-slate-200 shadow-sm text-xs font-semibold">
-              <ArrowUpDown size={13} className="text-slate-500" />
-              <span className="text-slate-500">Sort by:</span>
+            <div className="flex items-center gap-2 bg-[#0F121C] px-3.5 py-1.5 rounded-xl border border-white/10 text-xs font-semibold">
+              <ArrowUpDown size={13} className="text-[#FF6A00]" />
+              <span className="text-slate-400">Sort by:</span>
               <select
                 value={filters.sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}
-                className="bg-transparent focus:outline-none text-[#0F172A] font-extrabold cursor-pointer"
+                className="bg-transparent focus:outline-none text-white font-extrabold cursor-pointer"
               >
-                <option value="featured">Featured Edits</option>
-                <option value="price-asc">Price: Low to High</option>
-                <option value="price-desc">Price: High to Low</option>
-                <option value="rating">Highest Rated</option>
+                <option value="featured" className="bg-[#141824] text-white">Featured Edits</option>
+                <option value="price-asc" className="bg-[#141824] text-white">Price: Low to High</option>
+                <option value="price-desc" className="bg-[#141824] text-white">Price: High to Low</option>
+                <option value="rating" className="bg-[#141824] text-white">Highest Rated</option>
               </select>
             </div>
           </div>
@@ -272,17 +240,17 @@ export default function ProductCatalog() {
             PRODUCT CARDS GRID
             ======================================================== */}
         {filteredProducts.length === 0 ? (
-          <div className="bg-white rounded-2xl p-12 text-center border border-slate-200 my-8 shadow-sm">
-            <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center mx-auto mb-4 text-slate-400">
+          <div className="bg-[#141824] rounded-2xl p-12 text-center border border-white/5 my-8">
+            <div className="w-16 h-16 rounded-full bg-white/5 flex items-center justify-center mx-auto mb-4 text-slate-400">
               <RefreshCw size={24} />
             </div>
-            <h3 className="text-lg font-extrabold text-[#0F172A] mb-1">No products found in this category</h3>
-            <p className="text-xs text-slate-500 mb-6 max-w-sm mx-auto font-medium">
+            <h3 className="text-lg font-extrabold text-white mb-1">No products found in this category</h3>
+            <p className="text-xs text-slate-400 mb-6 max-w-sm mx-auto font-medium">
               We update our inventory daily. Reset the category filter to explore our full winter showcase.
             </p>
             <button
               onClick={() => setCategory('All')}
-              className="px-6 py-2.5 bg-slate-900 text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-black transition-colors shadow-sm"
+              className="px-6 py-2.5 bg-[#FF6A00] text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-[#FF7A1A] transition-colors shadow-lg cursor-pointer"
             >
               Reset to All Products
             </button>
@@ -290,7 +258,7 @@ export default function ProductCatalog() {
         ) : (
           <motion.div
             layout
-            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
+            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-6"
           >
             {filteredProducts.map((product) => (
               <ProductCard
@@ -304,10 +272,12 @@ export default function ProductCatalog() {
       </div>
 
       {/* Quick View Modal */}
-      <QuickViewModal
-        product={quickViewProduct}
-        onClose={() => setQuickViewProduct(null)}
-      />
+      {quickViewProduct && (
+        <QuickViewModal
+          product={quickViewProduct}
+          onClose={() => setQuickViewProduct(null)}
+        />
+      )}
     </section>
   );
 }

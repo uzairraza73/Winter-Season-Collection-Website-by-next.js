@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white text-[#0F0F0F] relative">
+    <main className="min-h-screen bg-[#0B0D13] text-white relative">
       {/* Sticky Top Tier Alert Bar */}
       <VisaBanner />
 
@@ -17,7 +17,7 @@ export default function HomePage() {
       {/* Hero Section — The Winter Edit '26 */}
       <HeroSection />
 
-      {/* Category Grid Boxes (6 Custom Tiles Matching UI Mockup) */}
+      {/* Category Grid Boxes (Compact Sleek Tiles) */}
       <CategoryGrid />
 
       {/* Curated Product Showcase with Quick-Add & Sizing */}

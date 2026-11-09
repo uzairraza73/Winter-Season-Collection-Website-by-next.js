@@ -141,7 +141,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 bg-white border-b border-slate-200 transition-shadow duration-300">
+      <header className="sticky top-0 z-40 bg-[#0B0D13]/95 backdrop-blur-md border-b border-white/10 transition-shadow duration-300">
         {/* ========================================================
             TOP TIER HEADER BAR (2-Tier Grid)
             ======================================================== */}
@@ -150,10 +150,10 @@ export default function Header() {
             {/* Left: Rounded Search Bar with smooth glow-on-focus transition */}
             <div className="flex-1 max-w-sm relative" ref={searchContainerRef}>
               <div
-                className={`relative flex items-center w-full rounded-full bg-[#F1F5F9] border transition-all duration-300 ${
+                className={`relative flex items-center w-full rounded-full bg-[#141824] border transition-all duration-300 ${
                   isSearchFocused
-                    ? 'border-slate-900 bg-white shadow-lg ring-4 ring-slate-900/10'
-                    : 'border-slate-200 hover:border-slate-300'
+                    ? 'border-[#FF6A00] bg-[#141824] shadow-lg ring-4 ring-[#FF6A00]/20'
+                    : 'border-white/10 hover:border-white/20'
                 }`}
               >
                 <input
@@ -162,11 +162,11 @@ export default function Header() {
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onFocus={() => setIsSearchFocused(true)}
                   placeholder="Search for anything here..."
-                  className="w-full pl-4 pr-10 py-2.5 text-xs sm:text-sm bg-transparent rounded-full focus:outline-none text-[#0F172A] placeholder-slate-500 font-medium"
+                  className="w-full pl-4 pr-10 py-2.5 text-xs sm:text-sm bg-transparent rounded-full focus:outline-none text-white placeholder-slate-400 font-medium"
                 />
                 <button
                   type="button"
-                  className="absolute right-3 p-1 text-slate-500 hover:text-slate-900 transition-colors"
+                  className="absolute right-3 p-1 text-slate-400 hover:text-white transition-colors"
                   aria-label="Search"
                 >
                   <Search size={17} />
@@ -181,7 +181,7 @@ export default function Header() {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 6, scale: 0.98 }}
                     transition={{ duration: 0.16 }}
-                    className="absolute left-0 right-0 top-full mt-2.5 bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 z-50 overflow-hidden"
+                    className="absolute left-0 right-0 top-full mt-2.5 bg-[#141824] rounded-2xl shadow-2xl border border-white/10 p-4 z-50 overflow-hidden"
                   >
                     {searchQuery.trim() === '' ? (
                       <div>
@@ -189,7 +189,7 @@ export default function Header() {
                           Popular Winter Searches
                         </div>
                         <div className="flex flex-wrap gap-1.5 mb-3">
-                          {['Italian Wool Coats', 'Party Dresses', 'Matching Family Pajamas', 'Disney Knitwear', 'Cashmere Beanie', 'Wooden Train Set'].map((tag) => (
+                          {['Toys', 'Character Shops', 'Spiderman', 'Pokemon', 'Highland Cow', 'Minecraft Hoodie'].map((tag) => (
                             <button
                               key={tag}
                               onClick={() => {
@@ -197,15 +197,15 @@ export default function Header() {
                                 const el = document.getElementById('curated-products');
                                 if (el) el.scrollIntoView({ behavior: 'smooth' });
                               }}
-                              className="text-xs px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors font-medium"
+                              className="text-xs px-3 py-1.5 rounded-full bg-[#1E2436] hover:bg-[#252E46] text-slate-200 transition-colors font-medium cursor-pointer"
                             >
                               {tag}
                             </button>
                           ))}
                         </div>
-                        <div className="text-[11px] text-slate-500 border-t border-slate-100 pt-2 flex items-center gap-1.5">
-                          <Sparkles size={12} className="text-[#B8860B]" />
-                          Visa-only payment protection active on all searches
+                        <div className="text-[11px] text-slate-400 border-t border-white/10 pt-2 flex items-center gap-1.5">
+                          <Sparkles size={12} className="text-[#FF6A00]" />
+                          Card payment protected checkout active
                         </div>
                       </div>
                     ) : (
@@ -214,8 +214,8 @@ export default function Header() {
                           Matching Products ({searchResults.length})
                         </div>
                         {searchResults.length === 0 ? (
-                          <p className="text-xs text-slate-500 py-2">
-                            No products matching &quot;{searchQuery}&quot;. Try &quot;Coats&quot;, &quot;Dresses&quot;, or &quot;Toys&quot;.
+                          <p className="text-xs text-slate-400 py-2">
+                            No products matching &quot;{searchQuery}&quot;. Try &quot;Toys&quot;, &quot;Spiderman&quot;, or &quot;Hoodie&quot;.
                           </p>
                         ) : (
                           <div className="space-y-2">
@@ -227,11 +227,11 @@ export default function Header() {
                                   const el = document.getElementById('curated-products');
                                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                                 }}
-                                className="flex items-center gap-3 p-2 hover:bg-slate-50 rounded-xl cursor-pointer transition-colors"
+                                className="flex items-center gap-3 p-2 hover:bg-[#1E2436] rounded-xl cursor-pointer transition-colors"
                               >
-                                <div className="relative w-10 h-12 rounded-lg bg-slate-100 overflow-hidden shrink-0">
+                                <div className="relative w-10 h-12 rounded-lg bg-black/40 overflow-hidden shrink-0">
                                   <Image
-                                    src={product.colors[0]?.images[0] || 'https://images.unsplash.com/photo-1544923246-77307dd654cb?w=600&q=80'}
+                                    src={product.colors[0]?.images[0] || '/project-pic/Natural Hamish Monogram Letter Soft Toy Plush Christmas Decoration.webp'}
                                     alt={product.name}
                                     fill
                                     className="object-cover"
@@ -239,10 +239,10 @@ export default function Header() {
                                   />
                                 </div>
                                 <div className="flex-1 min-w-0">
-                                  <p className="text-xs font-bold text-slate-900 truncate">{product.name}</p>
-                                  <p className="text-[11px] text-slate-500 font-extrabold">${product.price}</p>
+                                  <p className="text-xs font-bold text-white truncate">{product.name}</p>
+                                  <p className="text-[11px] text-[#FF6A00] font-extrabold">${product.price}</p>
                                 </div>
-                                <ChevronRight size={14} className="text-slate-400" />
+                                <ChevronRight size={14} className="text-slate-500" />
                               </div>
                             ))}
                           </div>
@@ -254,14 +254,14 @@ export default function Header() {
               </AnimatePresence>
             </div>
 
-            {/* Center: Brand Logo "NEXT" in bold, high-contrast, all-caps luxury typography */}
+            {/* Center: Brand Logo "NEXT" in bold, high-contrast luxury typography */}
             <div className="text-center">
               <a
                 href="/"
                 className="inline-block group"
                 aria-label="NEXT Homepage"
               >
-                <span className="next-logo text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-[0.24em] transition-transform duration-300 group-hover:scale-[1.02]">
+                <span className="next-logo text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-[0.24em] transition-transform duration-300 group-hover:scale-[1.02]">
                   NEXT
                 </span>
               </a>
@@ -274,13 +274,13 @@ export default function Header() {
                 whileHover={{ scale: 1.15 }}
                 whileTap={{ scale: 0.92 }}
                 onClick={() => setIsWishlistOpen(true)}
-                className="relative p-2.5 rounded-xl text-slate-800 hover:text-black hover:bg-slate-100/70 transition-colors"
+                className="relative p-2.5 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
                 title="Saved Wishlist Items"
                 aria-label="Wishlist"
               >
-                <Heart size={21} className={wishlistCount > 0 ? 'fill-[#C8102E] text-[#C8102E]' : ''} />
+                <Heart size={21} className={wishlistCount > 0 ? 'fill-[#FF4500] text-[#FF4500]' : ''} />
                 {wishlistCount > 0 && (
-                  <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-[#C8102E] text-white text-[10px] font-black flex items-center justify-center shadow-sm">
+                  <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-[#FF4500] text-white text-[10px] font-black flex items-center justify-center shadow-sm">
                     {wishlistCount}
                   </span>
                 )}
@@ -292,7 +292,7 @@ export default function Header() {
                   whileHover={{ scale: 1.15 }}
                   whileTap={{ scale: 0.92 }}
                   onClick={() => setIsAccountOpen((prev) => !prev)}
-                  className="p-2.5 rounded-xl text-slate-800 hover:text-black hover:bg-slate-100/70 transition-colors"
+                  className="p-2.5 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
                   title="My Account"
                   aria-label="Account"
                 >
@@ -306,34 +306,34 @@ export default function Header() {
                 whileHover={{ scale: 1.15 }}
                 whileTap={{ scale: 0.92 }}
                 onClick={openCart}
-                className="relative p-2.5 rounded-xl text-slate-800 hover:text-black hover:bg-slate-100/70 transition-colors"
+                className="relative p-2.5 rounded-xl text-slate-300 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
                 title="Shopping Bag"
                 aria-label="Shopping Bag"
               >
                 <ShoppingBag size={21} />
                 {itemCount > 0 && (
-                  <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-slate-900 text-white text-[10px] font-black flex items-center justify-center shadow-sm">
+                  <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-[#FF6A00] text-white text-[10px] font-black flex items-center justify-center shadow-sm">
                     {itemCount}
                   </span>
                 )}
               </motion.button>
 
-              {/* Main CTA: Prominent uppercase "CHECKOUT" CTA button (bg-slate-900 text-white rounded-lg font-bold) */}
+              {/* Main CTA */}
               <motion.button
-                whileHover={{ scale: 1.04, backgroundColor: '#000000' }}
+                whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={openCheckout}
-                className="hidden sm:flex items-center gap-2 px-5 py-2.5 bg-slate-900 text-white text-xs lg:text-sm font-bold uppercase tracking-wider rounded-lg shadow-md hover:shadow-xl transition-all"
-                title="Strictly VISA Cards Only"
+                className="hidden sm:flex items-center gap-2 px-5 py-2.5 bg-[#FF6A00] text-white text-xs lg:text-sm font-bold uppercase tracking-wider rounded-xl shadow-lg hover:bg-[#FF7A1A] transition-all cursor-pointer"
+                title="Card Payment Checkout"
               >
-                <CreditCard size={15} className="text-[#F7B600]" />
+                <CreditCard size={15} />
                 CHECKOUT
               </motion.button>
 
               {/* Mobile Hamburger Toggle */}
               <button
                 onClick={() => setIsMobileMenuOpen((prev) => !prev)}
-                className="p-2 text-slate-800 hover:text-black sm:hidden"
+                className="p-2 text-slate-300 hover:text-white sm:hidden cursor-pointer"
                 aria-label="Toggle Mobile Menu"
               >
                 {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -345,18 +345,18 @@ export default function Header() {
         {/* ========================================================
             CATEGORY NAVIGATION BAR
             ======================================================== */}
-        <div className="hidden sm:block border-t border-slate-100 relative">
+        <div className="hidden sm:block border-t border-white/10 relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <nav className="flex items-center justify-center space-x-6 lg:space-x-10 py-3 relative">
               {CATEGORIES.map((cat) => {
                 const isActive = filters.category.toUpperCase() === cat.name;
                 const isHovered = hoveredCategory === cat.name;
 
-                let textColor = 'text-slate-800 hover:text-black';
+                let textColor = 'text-slate-300 hover:text-white';
                 if (cat.color === 'gold') {
-                  textColor = 'text-[#B8860B] font-extrabold hover:text-amber-700';
+                  textColor = 'text-amber-400 font-extrabold hover:text-amber-300';
                 } else if (cat.color === 'crimson') {
-                  textColor = 'text-[#C8102E] font-extrabold hover:text-red-700';
+                  textColor = 'text-[#FF4500] font-extrabold hover:text-orange-400';
                 }
 
                 return (
