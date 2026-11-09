@@ -1,63 +1,67 @@
 'use client';
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { CreditCard, ShieldCheck, Truck, ChevronRight } from 'lucide-react';
-import { useCart } from '@/hooks/useCart';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const ROTATING_LINES = [
+  { icon: '🚚', label: 'Free US Delivery on Orders Over', highlight: '$150' },
+  { icon: '💳', label: 'Exclusive US Delivery: We strictly accept', highlight: 'VISA Cards', suffix: ' for all orders' },
+  { icon: '🛡️', label: 'Verified by Visa ·', highlight: '256-Bit SSL', suffix: ' Secured Checkout' },
+];
 
 export default function VisaBanner() {
-  const { openCheckout, freeShippingRemaining, isFreeShipping } = useCart();
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % ROTATING_LINES.length);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const line = ROTATING_LINES[current];
 
   return (
-    <div className="bg-[#0F172A] text-white text-xs border-b border-slate-800 relative z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-2.5">
-          {/* Left: Free delivery status */}
-          <div className="flex items-center gap-2 text-slate-300">
-            <Truck size={14} className="text-[#B8860B]" />
-            <span>
-              {isFreeShipping ? (
-                <strong className="text-white">🎉 Free US Standard Delivery Qualified!</strong>
-              ) : (
-                <>
-                  Free US Delivery on Orders Over $150 —{' '}
-                  <span className="text-[#B8860B] font-bold">
-                    ${freeShippingRemaining.toFixed(2)} away
-                  </span>
-                </>
-              )}
-            </span>
-          </div>
+    <div className="bg-[#0F172A] text-white text-xs border-b border-slate-800 relative z-40 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex items-center justify-center gap-4">
+        {/* Left dot indicators */}
+        <div className="flex gap-1.5">
+          {ROTATING_LINES.map((_, i) => (
+            <span
+              key={i}
+              className={`block w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+                i === current ? 'bg-emerald-400 scale-125' : 'bg-white/25'
+              }`}
+            />
+          ))}
+        </div>
 
-          {/* Center: Top Promotion Ticker Matching Exact Prompt Requirement */}
-          <motion.div
-            initial={{ opacity: 0, y: -4 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="flex items-center gap-2 bg-white/10 hover:bg-white/15 px-3.5 py-1 rounded-full cursor-pointer transition-colors shadow-sm"
-            onClick={openCheckout}
-            title="Click to preview Visa-Only Checkout engine"
-          >
-            <div className="flex items-center gap-2 font-medium">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <CreditCard size={13} className="text-[#1A1F71] bg-white rounded-[3px] p-[1px]" />
-              <span className="text-slate-100 text-xs tracking-wide">
-                Exclusive US Delivery: We strictly accept <strong className="text-white underline decoration-emerald-400 font-bold">VISA Cards</strong> for all orders 💳
-              </span>
-            </div>
-            <ChevronRight size={12} className="text-slate-400" />
-          </motion.div>
+        {/* Rotating message */}
+        <div className="relative h-5 flex items-center justify-center overflow-hidden min-w-[18rem] sm:min-w-[26rem]">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={current}
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -14 }}
+              transition={{ duration: 0.38, ease: [0.22, 1, 0.36, 1] }}
+              className="flex items-center gap-1.5 text-slate-200 tracking-wide whitespace-nowrap absolute"
+            >
+              <span className="text-sm">{line.icon}</span>
+              <span>{line.label}</span>
+              <strong className="text-white font-bold underline decoration-emerald-400 underline-offset-2">
+                {line.highlight}
+              </strong>
+              {line.suffix && <span>{line.suffix}</span>}
+            </motion.div>
+          </AnimatePresence>
+        </div>
 
-          {/* Right: Currency & Security */}
-          <div className="hidden lg:flex items-center gap-3 text-slate-400 text-[11px]">
-            <span className="flex items-center gap-1.5 font-medium">
-              <ShieldCheck size={13} className="text-emerald-400" />
-              Verified by Visa • 256-Bit SSL
-            </span>
-            <span className="text-slate-700">|</span>
-            <span className="flex items-center gap-1 text-slate-200 font-semibold">
-              <span>🇺🇸</span> USD ($)
-            </span>
-          </div>
+        {/* Right dot indicators (mirror for balance) */}
+        <div className="flex gap-1.5 opacity-0 pointer-events-none" aria-hidden>
+          {ROTATING_LINES.map((_, i) => (
+            <span key={i} className="block w-1.5 h-1.5 rounded-full bg-white/25" />
+          ))}
         </div>
       </div>
     </div>

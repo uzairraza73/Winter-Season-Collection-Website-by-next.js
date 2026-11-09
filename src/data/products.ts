@@ -2600,6 +2600,357 @@ export const products: Product[] = [
     "isBestseller": true
   },
   {
+    "id": "next-coat-002",
+    "name": "Character Black Pokemon Bomber Jacket",
+    "brand": "CHARACTER",
+    "price": 72,
+    "originalPrice": 89,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["New Arrival", "Character Special"],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1a1a1a",
+        "images": [
+          "/project-pic/Character Black Pokemon Bomber Jacket.webp",
+          "/project-pic/Character Black Pokemon Bomber Jacket 1.webp"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true },
+      { "label": "11-12y", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 134,
+    "description": "Premium collegiate-cut Pokémon varsity bomber jacket featuring embroidered Pikachu patches and snap-button front closure.",
+    "features": [
+      "Embroidered Pikachu Patches",
+      "Snap-Button Front Closure",
+      "Ribbed Collar, Cuffs & Hem",
+      "Officially Licensed"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "next-coat-003",
+    "name": "Character Red Cars Bomber Jacket",
+    "brand": "CHARACTER",
+    "price": 65,
+    "originalPrice": 80,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Character Red Cars Bomber Jacket.webp",
+          "/project-pic/Character Red Cars Bomber Jacket 1.webp"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-4y", "available": true },
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true }
+    ],
+    "rating": 4.7,
+    "reviewCount": 98,
+    "description": "Lightning McQueen-inspired Disney Cars bomber jacket with bold racing graphics and cosy ribbed trims.",
+    "features": [
+      "Lightning McQueen Racing Print",
+      "Ribbed Trims",
+      "Full Zip Front",
+      "Disney Licensed"
+    ]
+  },
+  {
+    "id": "next-coat-004",
+    "name": "Character Blue 100 Cotton Lego Ninjago Hoodie",
+    "brand": "CHARACTER",
+    "price": 45,
+    "originalPrice": 55,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#1D4ED8",
+        "images": [
+          "/project-pic/Character Blue 100 Cotton Lego Ninjago Hoodie.jpg",
+          "/project-pic/Character Blue 100 Cotton Lego Ninjago Hoodie 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true },
+      { "label": "11-12y", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 112,
+    "description": "Action-ready LEGO Ninjago hoodie crafted from 100% heavyweight cotton with high-density character graphic print.",
+    "features": [
+      "100% Heavyweight Cotton",
+      "Ninjago Graphic Print",
+      "Kangaroo Front Pocket",
+      "Drawstring Hood"
+    ]
+  },
+  {
+    "id": "next-coat-005",
+    "name": "Character Black 100 Cotton Minecraft Hoodie",
+    "brand": "CHARACTER",
+    "price": 48,
+    "originalPrice": 60,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["Best Seller"],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111827",
+        "images": [
+          "/project-pic/Character Black 100 Cotton Minecraft Hoodie.jpg",
+          "/project-pic/Character Black 100 Cotton Minecraft Hoodie 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true },
+      { "label": "11-12y", "available": true },
+      { "label": "13-14y", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 198,
+    "description": "Iconic Minecraft Creeper hoodie in 100% cotton with bold pixel graphic and cosy front pocket.",
+    "features": [
+      "100% Cotton Fleece",
+      "Creeper Pixel Graphic",
+      "Drawstring Hood",
+      "Kangaroo Pocket"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "next-coat-006",
+    "name": "Character Green 100 Cotton Harry Potter Hoodie",
+    "brand": "CHARACTER",
+    "price": 52,
+    "originalPrice": 65,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Green",
+        "hex": "#16A34A",
+        "images": [
+          "/project-pic/Character Green 100 Cotton Harry Potter Hoodie.jpg",
+          "/project-pic/Character Green 100 Cotton Harry Potter Hoodie 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true },
+      { "label": "11-12y", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 143,
+    "description": "Slytherin-inspired Harry Potter hoodie in 100% premium cotton with house crest embroidery and spell motif prints.",
+    "features": [
+      "100% Premium Cotton",
+      "House Crest Embroidery",
+      "Spell Motif Prints",
+      "Officially Licensed Warner Bros."
+    ]
+  },
+  {
+    "id": "next-coat-007",
+    "name": "Character Blue Christmas Jumper",
+    "brand": "CHARACTER",
+    "price": 38,
+    "originalPrice": 48,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["Christmas Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#1D4ED8",
+        "images": [
+          "/project-pic/Character Blue Christmas Jumper.webp",
+          "/project-pic/Character Blue Christmas Jumper 1.webp"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-4y", "available": true },
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true }
+    ],
+    "rating": 4.7,
+    "reviewCount": 88,
+    "description": "Fun festive Christmas jumper with knitted holiday pattern and soft brushed interior lining.",
+    "features": [
+      "Knitted Holiday Pattern",
+      "Brushed Interior Lining",
+      "Ribbed Cuffs & Hem",
+      "Festive Seasonal Design"
+    ]
+  },
+  {
+    "id": "next-coat-008",
+    "name": "Character Green Pokemon Christmas Jumper",
+    "brand": "CHARACTER",
+    "price": 42,
+    "originalPrice": 52,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Green",
+        "hex": "#16A34A",
+        "images": [
+          "/project-pic/Character Green Pokemon Christmas Jumper.webp",
+          "/project-pic/Character Green Pokemon Christmas Jumper 1.webp"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true },
+      { "label": "11-12y", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 162,
+    "description": "Festive knitted Pokémon holiday jumper showcasing Pikachu and pokeball fairisle pattern. Incredibly soft.",
+    "features": [
+      "Fairisle Pokémon Pattern",
+      "Soft Knit Construction",
+      "Ribbed Trims",
+      "Officially Licensed"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "next-coat-009",
+    "name": "Character Red Bluey Chilli Christmas Jumper",
+    "brand": "CHARACTER",
+    "price": 40,
+    "originalPrice": 50,
+    "category": "Jackets & Coats",
+    "department": "GIRLS",
+    "badges": ["Christmas Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Character Red Bluey Chilli Christmas Jumper.jpg",
+          "/project-pic/Character Red Bluey Chilli Christmas Jumper 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-4y", "available": true },
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 76,
+    "description": "Adorable Bluey Chilli Mum Christmas jumper in festive red with holiday Bluey family motifs knitted throughout.",
+    "features": [
+      "Bluey Holiday Motifs",
+      "Festive Red Colourway",
+      "Soft Knit Fabric",
+      "ABC Kids Licensed"
+    ]
+  },
+  {
+    "id": "next-coat-010",
+    "name": "Character Black How To Train Your Dragon Toothless Print Hoodie With 3D Ears",
+    "brand": "CHARACTER",
+    "price": 55,
+    "originalPrice": 68,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["New Arrival", "Best Seller"],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111827",
+        "images": [
+          "/project-pic/Character Black How To Train Your Dragon Toothless Print Hoodie With 3D Ears.webp",
+          "/project-pic/Character Black How To Train Your Dragon Toothless Print Hoodie With 3D Ears 1.webp"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true },
+      { "label": "11-12y", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 221,
+    "description": "Toothless Night Fury 3D-ear hoodie with dramatic all-over dragon scale print. The ultimate How to Train Your Dragon fan piece.",
+    "features": [
+      "3D Toothless Ears on Hood",
+      "Dragon Scale All-Over Print",
+      "Drawstring Hood",
+      "DreamWorks Licensed"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "next-coat-011",
+    "name": "Character Blue Super Mario Galaxy Hoodie",
+    "brand": "CHARACTER",
+    "price": 50,
+    "originalPrice": 62,
+    "category": "Jackets & Coats",
+    "department": "BOYS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#1D4ED8",
+        "images": [
+          "/project-pic/Character Blue Super Mario Galaxy Hoodie.webp",
+          "/project-pic/Character Blue Super Mario Galaxy Hoodie 1.webp"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "5-6y", "available": true },
+      { "label": "7-8y", "available": true },
+      { "label": "9-10y", "available": true }
+    ],
+    "rating": 4.7,
+    "reviewCount": 95,
+    "description": "Super Mario Galaxy-themed hoodie with star-filled galaxy print and iconic Mario character motifs.",
+    "features": [
+      "Galaxy Star Print",
+      "Mario Character Motifs",
+      "Soft Fleece Interior",
+      "Nintendo Licensed"
+    ]
+  },
+  {
     "id": "next-dress-004",
     "name": "Emerald Velvet Wrap Midi Evening Dress",
     "brand": "NEXT OCCASION",
