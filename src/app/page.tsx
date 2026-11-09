@@ -7,23 +7,23 @@ import Footer from '@/components/Footer';
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#0B0D13] text-white relative">
+    <main className="min-h-screen bg-white text-slate-900 relative">
       {/* Sticky Top Tier Alert Bar */}
       <VisaBanner />
 
-      {/* Main Two-Tier Header Navigation */}
+      {/* Main Header Navigation */}
       <Header />
 
-      {/* Hero Section — The Winter Edit '26 */}
+      {/* Hero Section — Ella Winter Theme with Kid image */}
       <HeroSection />
 
-      {/* Category Grid Boxes (Compact Sleek Tiles) */}
+      {/* Category Grid Boxes (Separate pages on click) */}
       <CategoryGrid />
 
-      {/* Curated Product Showcase with Quick-Add & Sizing */}
+      {/* Curated Product Showcase with 3 Tabs */}
       <ProductCatalog />
 
-      {/* NEXT US Dark Theme Footer */}
+      {/* Clean White Theme Footer */}
       <Footer />
     </main>
   );

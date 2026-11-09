@@ -19,7 +19,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   const [imgError, setImgError] = useState(false);
   const { addItem } = useCart();
 
-  const primaryImage = product.colors[0]?.images[0] || '/project-pic/Natural Hamish Monogram Letter Soft Toy Plush Christmas Decoration.webp';
+  const primaryImage = product.colors[0]?.images[0] || '/project-pic/default.webp';
   const secondaryImage = product.colors[0]?.images[1] || primaryImage;
 
   const displayImage = isHovered && secondaryImage ? secondaryImage : primaryImage;
@@ -45,29 +45,29 @@ export default function ProductCard({ product }: ProductCardProps) {
       className="group block"
     >
       <div
-        className="relative flex flex-col bg-[#14141E] rounded-2xl overflow-hidden border border-white/5 hover:border-[#FF6A00]/50 hover:shadow-[0_12px_32px_rgba(0,0,0,0.6)] transition-all duration-300 transform-gpu hover:-translate-y-1 cursor-pointer"
+        className="relative flex flex-col bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-slate-400 hover:shadow-xl transition-all duration-300 transform-gpu hover:-translate-y-1 cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         {/* Image Box */}
-        <div className="relative aspect-[4/5] w-full bg-[#1A1A28] overflow-hidden">
+        <div className="relative aspect-[4/5] w-full bg-slate-50 overflow-hidden">
           <Image
-            src={imgError ? '/project-pic/Natural Hamish Monogram Letter Soft Toy Plush Christmas Decoration.webp' : displayImage}
+            src={imgError ? '/project-pic/default.webp' : displayImage}
             alt={product.name}
             fill
             onError={() => setImgError(true)}
-            className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+            className="object-cover transition-transform duration-600 ease-out group-hover:scale-106"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
           />
 
           {/* Top Badges */}
           <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5 z-10">
             {discountPercent ? (
-              <span className="px-2 py-0.5 rounded-md text-[10px] font-black uppercase tracking-wider bg-[#FF4500] text-white shadow-md">
+              <span className="px-2 py-0.5 rounded-md text-[10px] font-black uppercase tracking-wider bg-red-600 text-white shadow-xs">
                 SALE
               </span>
             ) : (
-              <span className="px-2 py-0.5 rounded-md text-[10px] font-black uppercase tracking-wider bg-emerald-500/90 text-white shadow-md">
+              <span className="px-2 py-0.5 rounded-md text-[10px] font-black uppercase tracking-wider bg-slate-900 text-white shadow-xs">
                 NEW
               </span>
             )}
@@ -75,51 +75,48 @@ export default function ProductCard({ product }: ProductCardProps) {
 
           {discountPercent && (
             <div className="absolute top-2.5 right-2.5 z-10">
-              <span className="px-2 py-0.5 rounded-md text-[10px] font-black tracking-wider bg-[#DC2626] text-white shadow-md">
+              <span className="px-2 py-0.5 rounded-md text-[10px] font-black tracking-wider bg-red-600 text-white shadow-xs">
                 -{discountPercent}%
               </span>
             </div>
           )}
-
-          {/* Bottom subtle gradient on image */}
-          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#14141E] to-transparent pointer-events-none" />
         </div>
 
-        {/* Content Box (Dark sleek theme matching screenshot: Category/Tag, Name, Price + Cart Button) */}
-        <div className="p-3.5 sm:p-4 flex flex-col justify-between flex-1 bg-[#14141E]">
+        {/* Content Box */}
+        <div className="p-3.5 sm:p-4 flex flex-col justify-between flex-1 bg-white">
           <div>
-            <span className="text-[10px] sm:text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-1">
-              {product.category || 'Collection'}
+            <span className="text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1">
+              {product.category || 'Winter Collection'}
             </span>
 
             {/* Item Name */}
-            <h3 className="font-bold text-xs sm:text-sm text-white line-clamp-2 leading-snug group-hover:text-[#FF6A00] transition-colors">
+            <h3 className="font-bold text-xs sm:text-sm text-slate-900 line-clamp-2 leading-snug group-hover:text-sky-600 transition-colors">
               {product.name}
             </h3>
           </div>
 
           {/* Price & Action Row */}
-          <div className="flex items-center justify-between gap-2 mt-3 pt-2">
+          <div className="flex items-center justify-between gap-2 mt-3 pt-2 border-t border-slate-100">
             <div className="flex items-baseline gap-1.5 truncate">
-              <span className="text-base sm:text-lg font-black text-[#FF6A00] tracking-tight">
+              <span className="text-base sm:text-lg font-black text-slate-900 tracking-tight">
                 ${product.price}
               </span>
               {product.originalPrice && (
-                <span className="text-xs text-slate-500 line-through font-medium">
+                <span className="text-xs text-slate-400 line-through font-medium">
                   ${product.originalPrice}
                 </span>
               )}
             </div>
 
-            {/* Quick Add Button / Floating Orange Cart Circle like mockup */}
+            {/* Cart Button */}
             <motion.button
               whileTap={{ scale: 0.88 }}
               onClick={handleQuickAdd}
               aria-label="Add to cart"
-              className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-lg transition-all ${
+              className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 transition-all ${
                 isAddedRecently
-                  ? 'bg-emerald-500 text-white'
-                  : 'bg-[#FF6A00] text-white hover:bg-[#FF7A1A] hover:shadow-[0_0_12px_rgba(255,106,0,0.6)]'
+                  ? 'bg-emerald-600 text-white shadow-md'
+                  : 'bg-slate-900 text-white hover:bg-sky-600 shadow-sm'
               }`}
             >
               <ShoppingCart size={15} />

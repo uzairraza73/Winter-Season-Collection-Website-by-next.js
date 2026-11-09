@@ -57,19 +57,16 @@ export default function ProductCatalog() {
   };
 
   return (
-    <section id="curated-products" className="py-16 sm:py-24 bg-[#0B0D13] text-white border-t border-white/5 relative overflow-hidden">
-      {/* Ambient top glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-72 bg-gradient-to-b from-orange-500/10 via-amber-500/5 to-transparent blur-3xl pointer-events-none" />
-
+    <section id="curated-products" className="py-16 sm:py-24 bg-white text-slate-900 border-t border-slate-200 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* ── Heading ── */}
-        <div className="text-center mb-10 sm:mb-14">
+        {/* Heading */}
+        <div className="text-center mb-10 sm:mb-12">
           <motion.p
             initial={{ opacity: 0, y: -10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-extrabold uppercase tracking-widest text-[#FF6A00] mb-3"
+            className="text-xs font-black uppercase tracking-widest text-sky-600 mb-2"
           >
             FEATURED COLLECTION
           </motion.p>
@@ -79,16 +76,16 @@ export default function ProductCatalog() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.08 }}
-            className="text-4xl sm:text-6xl font-black uppercase tracking-tight leading-tight"
+            className="text-3xl sm:text-5xl font-black uppercase tracking-tight text-slate-900 leading-tight"
           >
             THIS SEASON&apos;S{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-purple-400">
+            <span className="text-slate-500 font-extrabold">
               FINEST
             </span>
           </motion.h2>
         </div>
 
-        {/* ── Tab Pills ── */}
+        {/* Tab Pills */}
         <div className="flex items-center justify-center gap-3 mb-10 flex-wrap">
           {TABS.map((tab) => {
             const isActive = activeTab === tab.key;
@@ -96,70 +93,63 @@ export default function ProductCatalog() {
               <motion.button
                 key={tab.key}
                 onClick={() => handleTabChange(tab.key)}
-                whileHover={{ scale: 1.04 }}
-                whileTap={{ scale: 0.96 }}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold transition-all duration-300 cursor-pointer select-none border ${
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+                className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-black uppercase tracking-wider transition-all duration-200 cursor-pointer select-none border ${
                   isActive
-                    ? 'bg-[#FF6A00] text-white border-[#FF6A00] shadow-[0_4px_20px_rgba(255,106,0,0.45)]'
-                    : 'bg-[#141824] text-slate-300 border-white/10 hover:border-white/30 hover:text-white'
+                    ? 'bg-slate-900 text-white border-slate-900 shadow-md'
+                    : 'bg-slate-100 text-slate-700 border-slate-200 hover:border-slate-400 hover:bg-slate-200'
                 }`}
               >
-                <span className={isActive ? 'text-white' : 'text-slate-400'}>{tab.icon}</span>
+                <span>{tab.icon}</span>
                 {tab.label}
               </motion.button>
             );
           })}
         </div>
 
-        {/* ── Product Grid ── */}
+        {/* Product Grid */}
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}
-            initial={{ opacity: 0, y: 18 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-5"
+            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
           >
-            {visibleProducts.map((product, i) => (
-              <motion.div
+            {visibleProducts.map((product) => (
+              <ProductCard
                 key={product.id}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: i * 0.03, ease: [0.22, 1, 0.36, 1] }}
-              >
-                <ProductCard
-                  product={product}
-                  onQuickView={(p) => setQuickViewProduct(p)}
-                />
-              </motion.div>
+                product={product}
+                onQuickView={(p) => setQuickViewProduct(p)}
+              />
             ))}
           </motion.div>
         </AnimatePresence>
 
-        {/* ── View More Button ── */}
+        {/* View More Button */}
         {hasMore && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="flex justify-center mt-10"
+            className="flex justify-center mt-12"
           >
             <motion.button
               onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.97 }}
-              className="flex items-center gap-2 px-8 py-3 bg-[#141824] hover:bg-[#1B2133] border border-white/10 hover:border-[#FF6A00]/40 text-white font-bold uppercase text-sm tracking-widest rounded-2xl transition-all duration-300 cursor-pointer shadow-lg"
+              className="flex items-center gap-2 px-8 py-3 bg-white hover:bg-slate-50 border border-slate-300 text-slate-900 font-bold uppercase text-xs tracking-widest rounded-full transition-all duration-200 cursor-pointer shadow-sm hover:shadow-md"
             >
-              <ChevronDown size={16} className="text-[#FF6A00]" />
+              <ChevronDown size={16} className="text-slate-600" />
               View More
-              <span className="text-[#FF6A00] font-black text-xs">({tabProducts.length - visibleCount} more)</span>
+              <span className="text-sky-600 font-black">({tabProducts.length - visibleCount} more)</span>
             </motion.button>
           </motion.div>
         )}
       </div>
 
-      {/* Quick View Modal */}
       {quickViewProduct && (
         <QuickViewModal
           product={quickViewProduct}

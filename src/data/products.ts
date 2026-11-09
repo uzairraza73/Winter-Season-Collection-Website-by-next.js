@@ -3079,5 +3079,331 @@ export const products: Product[] = [
       "Magnetic 360° Attachments"
     ],
     "isBestseller": true
+  },
+  {
+    "id": "bag-001",
+    "name": "Character Blue PAW Patrol Backpack",
+    "brand": "PAW PATROL",
+    "price": 36,
+    "originalPrice": 45,
+    "category": "Character Shops",
+    "department": "BOYS",
+    "badges": ["New Arrival", "Character Special"],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#1E40AF",
+        "images": [
+          "/project-pic/Character Blue PAW Patrol Backpack.jpg",
+          "/project-pic/Character Blue PAW Patrol Backpack 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 164,
+    "description": "Fun, durable PAW Patrol character backpack featuring Chase, Marshall and Rubble with padded adjustable shoulder straps and roomy dual-zip compartment.",
+    "features": [
+      "PAW Patrol Character Print",
+      "Padded Adjustable Straps",
+      "Dual-Zip Main Compartment",
+      "Side Mesh Bottle Pockets"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "bag-002",
+    "name": "Character Dark Red Spidey & His Amazing Friends Backpack",
+    "brand": "MARVEL",
+    "price": 46,
+    "originalPrice": 58,
+    "category": "Character Shops",
+    "department": "BOYS",
+    "badges": ["Best Seller", "New Arrival"],
+    "colors": [
+      {
+        "name": "Dark Red",
+        "hex": "#991B1B",
+        "images": [
+          "/project-pic/Character Dark Red Spidey & His Amazing Friends Backpack.jpg",
+          "/project-pic/Character Dark Red Spidey & His Amazing Friends Backpack 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 210,
+    "description": "Marvel Spidey & His Amazing Friends action backpack with web-embossed front pocket and ergonomic breathable back panel.",
+    "features": [
+      "Spidey Character Graphics",
+      "Reflective Safety Accents",
+      "Heavy-Duty Zippers",
+      "Officially Licensed Marvel"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "bag-003",
+    "name": "Multi Paw Patrol Backpack",
+    "brand": "PAW PATROL",
+    "price": 48,
+    "originalPrice": 60,
+    "category": "Toys",
+    "department": "GIRLS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Multi",
+        "hex": "#F43F5E",
+        "images": [
+          "/project-pic/Multi Paw Patrol Backpack.jpg",
+          "/project-pic/Multi Paw Patrol Backpack 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 142,
+    "description": "Colourful multi-character PAW Patrol school and travel bag with reinforced base and water-resistant coated fabric.",
+    "features": [
+      "Vibrant Multi-Character Artwork",
+      "Reinforced Base & Handle",
+      "Water-Resistant Fabric",
+      "Easy-Glide Zippers"
+    ]
+  },
+  {
+    "id": "bag-004",
+    "name": "Character Green Disney Toy Story Buzz Lightyear Backpack 3D Wings",
+    "brand": "DISNEY PIXAR",
+    "price": 55,
+    "originalPrice": 70,
+    "category": "Toys",
+    "department": "BOYS",
+    "badges": ["Top Pick", "New Arrival"],
+    "colors": [
+      {
+        "name": "Green",
+        "hex": "#16A34A",
+        "images": [
+          "/project-pic/Character Green Disney Toy Story Buzz Lightyear Backpack 3D Wings.jpg",
+          "/project-pic/Character Green Disney Toy Story Buzz Lightyear Backpack 3D Wings 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 288,
+    "description": "To infinity and beyond! Authentic Toy Story Buzz Lightyear backpack with 3D pop-out wings and galactic Space Ranger badges.",
+    "features": [
+      "Fold-Out 3D Jet Wings",
+      "Space Ranger Metallic Badges",
+      "Padded Straps & Back",
+      "Disney Pixar Licensed"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "bag-005",
+    "name": "Character Blue LEGO Ninjago Backpack",
+    "brand": "LEGO",
+    "price": 60,
+    "originalPrice": 75,
+    "category": "Character Shops",
+    "department": "BOYS",
+    "badges": ["Best Seller"],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB",
+        "images": [
+          "/project-pic/Character Blue LEGO Ninjago Backpack.jpg",
+          "/project-pic/Character Blue LEGO Ninjago Backpack 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 178,
+    "description": "Ultra-tough LEGO Ninjago themed rucksack equipped with LEGO brick zipper pulls, laptop sleeve, and water-repellent shell.",
+    "features": [
+      "LEGO Brick Custom Pulls",
+      "Internal Tablet/Laptop Sleeve",
+      "Reflective Safety Strips",
+      "Official LEGO Merchandise"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "bag-006",
+    "name": "Primary Colourblock Backpack",
+    "brand": "NEXT KIDS",
+    "price": 41,
+    "originalPrice": 52,
+    "category": "Toys",
+    "department": "BOYS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Multi Colourblock",
+        "hex": "#EAB308",
+        "images": [
+          "/project-pic/Primary Colourblock Backpack.jpg",
+          "/project-pic/Primary Colourblock Backpack 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 94,
+    "description": "Contemporary colourblock backpack designed with joyful primary tones, lightweight canvas body, and wipe-clean lining.",
+    "features": [
+      "Modern Retro Colourblocking",
+      "Wipe-Clean Nylon Lining",
+      "Front Zip Organizer Pocket",
+      "Ergonomic Back Support"
+    ]
+  },
+  {
+    "id": "bag-007",
+    "name": "Blue Minecraft Cross-Body Phone Bag",
+    "brand": "MINECRAFT",
+    "price": 25,
+    "originalPrice": 32,
+    "category": "Character Shops",
+    "department": "BOYS",
+    "badges": ["Trending"],
+    "colors": [
+      {
+        "name": "Pixel Blue",
+        "hex": "#0284C7",
+        "images": [
+          "/project-pic/Blue Minecraft Cross-Body Phone Bag.jpg",
+          "/project-pic/Blue Minecraft Cross-Body Phone Bag 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.7,
+    "reviewCount": 115,
+    "description": "Hands-free compact cross-body bag for mobile phone and small treasures, styled with signature Minecraft pixel art.",
+    "features": [
+      "Minecraft Pixel Artwork",
+      "Adjustable Webbing Crossbody Strap",
+      "Secure Zip Closure",
+      "Mojang Studios Licensed"
+    ]
+  },
+  {
+    "id": "bag-008",
+    "name": "Blue Drawcord Minecraft Bag",
+    "brand": "MINECRAFT",
+    "price": 20,
+    "originalPrice": 26,
+    "category": "Toys",
+    "department": "BOYS",
+    "badges": ["Best Seller"],
+    "colors": [
+      {
+        "name": "Creeper Blue",
+        "hex": "#0369A1",
+        "images": [
+          "/project-pic/Blue Drawcord Minecraft Bag.jpg",
+          "/project-pic/Blue Drawcord Minecraft Bag 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 310,
+    "description": "Lightweight durable drawstring swim and gym sack featuring bold Minecraft graphics. Perfect for sports and school PE kits.",
+    "features": [
+      "Reinforced Corner Eyelets",
+      "Quick-Cinch Cord Closure",
+      "Water-Resistant Finish",
+      "Easy Fold & Pack"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "bag-009",
+    "name": "Navy Space Print Backpack",
+    "brand": "NEXT ADVENTURE",
+    "price": 42,
+    "originalPrice": 52,
+    "category": "Toys",
+    "department": "BOYS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Navy Cosmic",
+        "hex": "#0F172A",
+        "images": [
+          "/project-pic/Navy Space Print Backpack.jpg",
+          "/project-pic/Navy Space Print Backpack 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 128,
+    "description": "Cosmic galaxy explorer backpack adorned with constellations, rockets, and luminous glow-in-the-dark celestial details.",
+    "features": [
+      "Glow-in-the-Dark Space Print",
+      "Padded Shoulder Harness",
+      "Twin Exterior Drink Holders",
+      "Spacious Interior With Name Tag"
+    ]
+  },
+  {
+    "id": "bag-010",
+    "name": "Blue Sonic Backpack",
+    "brand": "SEGA",
+    "price": 57,
+    "originalPrice": 72,
+    "category": "Character Shops",
+    "department": "BOYS",
+    "badges": ["Best Seller", "New Arrival"],
+    "colors": [
+      {
+        "name": "Sonic Royal Blue",
+        "hex": "#1D4ED8",
+        "images": [
+          "/project-pic/Blue Sonic Backpack.jpg",
+          "/project-pic/Blue Sonic Backpack 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 245,
+    "description": "High-velocity Sonic the Hedgehog backpack featuring dynamic 3D Sonic front graphics, gold ring zipper charm, and padded straps.",
+    "features": [
+      "3D Sonic The Hedgehog Graphic",
+      "Gold Ring Metal Zipper Pull",
+      "Heavy-Duty Ergonomic Straps",
+      "Official SEGA Licensed"
+    ],
+    "isBestseller": true
   }
 ];

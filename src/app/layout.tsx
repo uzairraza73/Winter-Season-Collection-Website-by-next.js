@@ -4,24 +4,24 @@ import CartDrawer from '@/components/CartDrawer';
 import VisaCheckoutModal from '@/components/VisaCheckoutModal';
 
 export const metadata: Metadata = {
-  title: 'NEXT US — Official Online Shop | The Winter Edit ’26',
+  title: 'WinterWear — Official Online Shop | The Winter Collection',
   description:
-    'Shop the latest fashion, footwear, beauty, home decor, and toys from NEXT US. Exclusive Visa checkout protection with free US standard shipping on orders over $150.',
+    'Cozy, stylish, and premium winter essentials. Winter coats, character backpacks, soft toys, homewear, and dresses with secure card checkout.',
   keywords: [
+    'WinterWear',
     'NEXT US',
-    'next.us',
     'winter coats',
     'party dresses',
-    'wooden toys',
-    'homewear',
+    'backpacks',
+    'soft toys',
     'character shops',
     'holiday knitwear',
     'Visa checkout',
   ],
   openGraph: {
-    title: 'NEXT US — Official Online Shop | The Winter Edit ’26',
+    title: 'WinterWear — Official Online Shop | The Winter Collection',
     description:
-      'Discover signature tailored coats, cozy knitwear, and seasonal essentials engineered for style and warmth.',
+      'Cozy, stylish, and premium winter essentials. Stay warm, shop more, save big.',
     type: 'website',
   },
 };
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#0B0D13',
+  themeColor: '#FFFFFF',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
-      <body className="bg-[#0B0D13] text-white antialiased min-h-screen selection:bg-[#FF6A00] selection:text-white">
+    <html lang="en" className="light">
+      <body className="bg-white text-slate-900 antialiased min-h-screen selection:bg-slate-900 selection:text-white">
         {children}
 
         {/* Global Slide-over Shopping Bag */}
