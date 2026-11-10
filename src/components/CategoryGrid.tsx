@@ -37,8 +37,8 @@ export const CATEGORY_TILES: CategoryTile[] = [
     slug: 'dresses',
     category: 'Dresses',
     title: 'Party & Casual Dresses',
-    count: '18 styles',
-    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80',
+    count: '21 styles',
+    image: '/project-pic/Monsoon Blue Suzy Lace Satin Midi Dress.jpg',
   },
   {
     id: 'tile-jackets',

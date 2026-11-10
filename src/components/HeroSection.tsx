@@ -9,19 +9,19 @@ import { ChevronRight } from 'lucide-react';
 const HERO_SLIDES = [
   {
     id: 1,
-    image: '/hero-kid.jpg', // Exact user uploaded kid with Christmas gift crown image
+    image: '/hero-kid.jpg',
     title: "KIDS' SEASONAL STYLES",
     subtitle: "Stay Warm. Shop More. Save Big.",
     cta: 'SHOP KIDS COLLECTION',
-    href: '/category/toys',
+    href: '/category/dresses',
   },
   {
     id: 2,
     image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&q=85',
-    title: "WINTER SALE 2026",
-    subtitle: "Cozy • Stylish • High-Converting Essentials",
-    cta: 'EXPLORE SALE',
-    href: '/#curated-products',
+    title: "PARTY & CASUAL DRESSES",
+    subtitle: "Luxury Velvets, Satins, Knitwear & Evening Partywear",
+    cta: 'EXPLORE DRESSES',
+    href: '/category/dresses',
   },
   {
     id: 3,
@@ -47,11 +47,11 @@ export default function HeroSection() {
 
   return (
     <section className="relative w-full overflow-hidden bg-slate-100" style={{ minHeight: '380px', maxHeight: '560px', aspectRatio: '21/9' }}>
-      {/* Background slide image */}
+      {/* Background slide image - High clarity & visibility */}
       <AnimatePresence mode="wait">
         <motion.div
           key={slide.id}
-          initial={{ opacity: 0, scale: 1.03 }}
+          initial={{ opacity: 0, scale: 1.02 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.7, ease: 'easeInOut' }}
@@ -64,9 +64,9 @@ export default function HeroSection() {
             priority
             className="object-cover object-left md:object-center"
           />
-          {/* Subtle gradient so text on right is crystal clear on white theme */}
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-white/95" />
-          <div className="absolute inset-0 bg-gradient-to-t from-white/60 via-transparent to-transparent sm:hidden" />
+          {/* Subtle gradient so text on right is readable while background image remains vibrant and visible */}
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-white/75" />
+          <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-transparent sm:hidden" />
         </motion.div>
       </AnimatePresence>
 
@@ -79,7 +79,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
             transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-            className="text-right max-w-md sm:max-w-lg bg-white/85 backdrop-blur-md p-6 sm:p-8 rounded-3xl border border-slate-200/80 shadow-[0_12px_40px_rgba(15,23,42,0.08)]"
+            className="text-right max-w-md sm:max-w-lg bg-white/90 backdrop-blur-md p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-[0_16px_48px_rgba(15,23,42,0.12)]"
           >
             <span className="inline-block text-[11px] font-black uppercase tracking-widest text-sky-600 mb-2">
               Autumn / Winter 2026

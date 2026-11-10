@@ -3405,5 +3405,736 @@ export const products: Product[] = [
       "Official SEGA Licensed"
     ],
     "isBestseller": true
+  },
+  {
+    "id": "dress-001",
+    "name": "Love & Roses Chocolate Brown Crew Neck Lurex Detail Chevron Striped Party Knitted Mini Dress",
+    "brand": "LOVE & ROSES",
+    "price": 115,
+    "originalPrice": 145,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Chocolate Brown",
+        "hex": "#4A2C2A",
+        "images": [
+          "/project-pic/Love & Roses Chocolate Brown Crew Neck Lurex Detail Chevron Striped Party Knitted Mini Dress.jpg",
+          "/project-pic/Love & Roses Chocolate Brown Crew Neck Lurex Detail Chevron Striped Party Knitted Mini Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 86,
+    "description": "Party season knitted mini dress with shimmer lurex threading in a graphic chevron striped pattern and soft ribbed crew neck.",
+    "features": [
+      "Metallic Lurex Shimmer Detail",
+      "Graphic Chevron Pattern",
+      "Cozy Knitted Stretch Construction",
+      "Long Sleeve Silhouette"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-002",
+    "name": "Friends Like These Red Brooch Mini Dress",
+    "brand": "FRIENDS LIKE THESE",
+    "price": 104,
+    "originalPrice": 130,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Christmas Edit"],
+    "colors": [
+      {
+        "name": "Festive Red",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Friends Like These Red Brooch Mini Dress.jpg",
+          "/project-pic/Friends Like These Red Brooch Mini Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true },
+      { "label": "US 12", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 112,
+    "description": "Vibrant festive red mini dress finished with an ornate crystal-embellished brooch detail on the neckline. Perfect for holiday cocktails and winter celebrations.",
+    "features": [
+      "Crystal Embellished Brooch Accents",
+      "Flattering Tailored Mini Cut",
+      "Lined Premium Crepe Fabric",
+      "Concealed Back Zip"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-003",
+    "name": "JoJo Maman Bébé Navy Blue Taffeta & Check Bow Party Dress",
+    "brand": "JOJO MAMAN BÉBÉ",
+    "price": 87,
+    "originalPrice": 105,
+    "category": "Dresses",
+    "department": "GIRLS",
+    "badges": ["Party Edit", "Christmas Edit"],
+    "colors": [
+      {
+        "name": "Navy Blue",
+        "hex": "#0F172A",
+        "images": [
+          "/project-pic/JoJo Maman Bébé Navy Blue Taffeta & Check Bow Party Dress.jpg",
+          "/project-pic/JoJo Maman Bébé Navy Blue Taffeta & Check Bow Party Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "2-3y", "available": true },
+      { "label": "3-4y", "available": true },
+      { "label": "4-5y", "available": true },
+      { "label": "5-6y", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 94,
+    "description": "Classic festive party dress crafted in lustrous navy taffeta paired with an oversized holiday tartan check bow waistband.",
+    "features": [
+      "Lustrous Taffeta Full Skirt",
+      "Tartan Check Waistband Bow",
+      "Cotton Soft Underlayer Lining",
+      "Holiday Heirloom Design"
+    ]
+  },
+  {
+    "id": "dress-004",
+    "name": "Little Bird Cream Rainbow Oversized Heart Sweat & Tulle Tutu Dress",
+    "brand": "LITTLE BIRD",
+    "price": 85,
+    "originalPrice": 100,
+    "category": "Dresses",
+    "department": "GIRLS",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Cream Rainbow",
+        "hex": "#FEF3C7",
+        "images": [
+          "/project-pic/Little Bird Cream Rainbow Oversized Heart Sweat & Tulle Tutu Dress.jpg",
+          "/project-pic/Little Bird Cream Rainbow Oversized Heart Sweat & Tulle Tutu Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "18-24m", "available": true },
+      { "label": "2-3y", "available": true },
+      { "label": "3-4y", "available": true },
+      { "label": "4-5y", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 148,
+    "description": "Playful casual-party crossover featuring a cozy cream sweatshirt top with rainbow oversized heart appliqué and a multi-layered sparkling tulle tutu skirt.",
+    "features": [
+      "Rainbow Heart Appliqué",
+      "Sparkle Tiered Tulle Tutu",
+      "100% Brushed Cotton Sweat Top",
+      "Stretch Waistband for Dancing"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-005",
+    "name": "Love & Roses Black Petite Frogging Velvet Detail Midi Dress",
+    "brand": "LOVE & ROSES",
+    "price": 120,
+    "originalPrice": 150,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Black Velvet",
+        "hex": "#09090B",
+        "images": [
+          "/project-pic/Love & Roses Black Petite Frogging Velvet Detail Midi Dress.jpg",
+          "/project-pic/Love & Roses Black Petite Frogging Velvet Detail Midi Dress 1.jpg",
+          "/project-pic/Love & Roses Black Petite Frogging Velvet Detail Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4P", "available": true },
+      { "label": "US 6P", "available": true },
+      { "label": "US 8P", "available": true },
+      { "label": "US 10P", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 165,
+    "description": "Sophisticated petite midi dress detailed with luxury black velvet paneling and ornamental military frogging clasps down the bodice.",
+    "features": [
+      "Rich Velvet Bodice & Trims",
+      "Ornate Frogging Fastenings",
+      "Fluid Midi Skirt Length",
+      "Proportioned for Petites"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-006",
+    "name": "Lipsy Burgundy Red Jersey Long Sleeve Knot Front Lace Insert Collared Bodycon MIDI Dress",
+    "brand": "LIPSY LONDON",
+    "price": 115,
+    "originalPrice": 140,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Trending"],
+    "colors": [
+      {
+        "name": "Burgundy Red",
+        "hex": "#800020",
+        "images": [
+          "/project-pic/Lipsy Burgundy Red Jersey Long Sleeve Knot Front Lace Insert Collared Bodycon MIDI Dress.jpg",
+          "/project-pic/Lipsy Burgundy Red Jersey Long Sleeve Knot Front Lace Insert Collared Bodycon MIDI Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 174,
+    "description": "Sculpting stretch jersey bodycon midi in rich burgundy, styled with a sophisticated collar, delicate lace chest insert, and waist-slimming knot front twist.",
+    "features": [
+      "Knot-Front Waist Cincher",
+      "Delicate Lace Chest Insert",
+      "Tailored Shirt Collar",
+      "Flattering Heavyweight Stretch Jersey"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-007",
+    "name": "BHOEM Black/Navy Long Sleeve Knit Bodice Chiffon Asymetric Skirt Dress",
+    "brand": "BHOEM",
+    "price": 138,
+    "originalPrice": 175,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Designer Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Black / Navy",
+        "hex": "#1E293B",
+        "images": [
+          "/project-pic/1.jpg",
+          "/project-pic/2.jpg",
+          "/project-pic/3.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Small", "available": true },
+      { "label": "Medium", "available": true },
+      { "label": "Large", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 78,
+    "description": "Modern mixed-media architectural dress combining a slim ribbed knit bodice with a floating asymmetric tiered navy chiffon skirt.",
+    "features": [
+      "Fine Gauge Rib Knit Bodice",
+      "Fluid Asymmetric Chiffon Skirt",
+      "Flattering Mixed Texture Contrast",
+      "Day-to-Evening Transition"
+    ]
+  },
+  {
+    "id": "dress-008",
+    "name": "Love & Roses Chocolate Brown Faux Suede Faux Leather Stud Mix Midi Dress",
+    "brand": "LOVE & ROSES",
+    "price": 133,
+    "originalPrice": 165,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Chocolate Brown",
+        "hex": "#3E2723",
+        "images": [
+          "/project-pic/Love & Roses Chocolate Brown Faux Suede Faux Leather Stud Mix Midi Dress.jpg",
+          "/project-pic/Love & Roses Chocolate Brown Faux Suede Faux Leather Stud Mix Midi Dress 1.jpg",
+          "/project-pic/Love & Roses Chocolate Brown Faux Suede Faux Leather Stud Mix Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 89,
+    "description": "Richly textured midi dress pairing velvety faux suede with faux leather trims and edgy micro metallic stud detailing across the neckline and cuffs.",
+    "features": [
+      "Velvety Faux Suede Finish",
+      "Contrast Faux Leather Trims",
+      "Micro Metal Stud Placement",
+      "Flattering Belted Waist"
+    ]
+  },
+  {
+    "id": "dress-009",
+    "name": "Seraphine Red Maternity Knit Midi Dress with Secret Nursing Access",
+    "brand": "SERAPHINE",
+    "price": 178,
+    "originalPrice": 210,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Maternity Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Festive Ruby Red",
+        "hex": "#BE123C",
+        "images": [
+          "/project-pic/Seraphine Red Maternity Knit Midi Dress with Secret Nursing Access.jpg",
+          "/project-pic/Seraphine Red Maternity Knit Midi Dress with Secret Nursing Access 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 214,
+    "description": "Seraphine’s award-winning maternity and nursing knit midi dress in festive red with discreet lift-up breastfeeding access and bump-flattering stretch rib.",
+    "features": [
+      "Ultra-Discreet Nursing Access",
+      "Flexible Bump-Accommodating Knit",
+      "Flattering Midi Length",
+      "Royal-Endorsed Maternity Brand"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-010",
+    "name": "Style Cheat Black Lace Fit & Flare Midi Dress",
+    "brand": "STYLE CHEAT",
+    "price": 140,
+    "originalPrice": 175,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Black Lace",
+        "hex": "#0F172A",
+        "images": [
+          "/project-pic/Style Cheat Black Lace Fit & Flare Midi Dress.jpg",
+          "/project-pic/Style Cheat Black Lace Fit & Flare Midi Dress 1.jpg",
+          "/project-pic/Style Cheat Black Lace Fit & Flare Midi Dress 3.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 138,
+    "description": "Timeless fit-and-flare midi dress crafted in intricate floral lace with sheer long sleeves and scallop eyelash hemline.",
+    "features": [
+      "Intricate Floral Lace Fabric",
+      "Sheer Long Sleeves",
+      "Eyelash Scalloped Hem",
+      "Cinch Waist Fit & Flare Silhouette"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-011",
+    "name": "BHOEM Black Tailored Mini Dress",
+    "brand": "BHOEM",
+    "price": 110,
+    "originalPrice": 140,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Tailored Black",
+        "hex": "#18181B",
+        "images": [
+          "/project-pic/BHOEM Black Tailored Mini Dress.jpg",
+          "/project-pic/BHOEM Black Tailored Mini Dress 1.jpg",
+          "/project-pic/BHOEM Black Tailored Mini Dress 3.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 92,
+    "description": "Sharp, modern tailored little black dress with structured squared shoulder line and minimalist architectural silhouette.",
+    "features": [
+      "Clean Architectural Silhouette",
+      "Structured Shoulders",
+      "Full Satin Interior Lining",
+      "Concealed Zip Closure"
+    ]
+  },
+  {
+    "id": "dress-012",
+    "name": "River Island Black Long Sleeve Cinched Waist Blazer Dress",
+    "brand": "RIVER ISLAND",
+    "price": 175,
+    "originalPrice": 220,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B",
+        "images": [
+          "/project-pic/River Island Black Long Sleeve Cinched Waist Blazer Dress.jpg",
+          "/project-pic/River Island Black Long Sleeve Cinched Waist Blazer Dress 1.jpg",
+          "/project-pic/River Island Black Long Sleeve Cinched Waist Blazer Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 182,
+    "description": "Power dressing perfected. Tailored double-breasted blazer dress with deep peaked lapels, structured shoulders, and hourglass cinched waist.",
+    "features": [
+      "Hourglass Cinched Waist",
+      "Double-Breasted Horn Buttons",
+      "Deep Peaked Lapels",
+      "Signature Tailored Finish"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-013",
+    "name": "Spanx Black SPANXsmooth™ Jersey High Neck Ruched Midi Dress",
+    "brand": "SPANX",
+    "price": 275,
+    "originalPrice": 325,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Luxury Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Spanx Black",
+        "hex": "#000000",
+        "images": [
+          "/project-pic/Spanx Black SPANXsmooth™ Jersey High Neck Ruched Midi Dress.jpg",
+          "/project-pic/Spanx Black SPANXsmooth™ Jersey High Neck Ruched Midi Dress 1.jpg",
+          "/project-pic/Spanx Black SPANXsmooth™ Jersey High Neck Ruched Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 296,
+    "description": "Engineered with patented SPANXsmooth™ smoothing jersey fabric that lifts, flatters, and contours effortlessly without pinching.",
+    "features": [
+      "SPANXsmooth™ 360° Contouring Fabric",
+      "Flattering Side-Ruched Draping",
+      "Chic High-Neck Silhouette",
+      "Breathable Compression Recovery"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-014",
+    "name": "Phase Eight Black Petite Anabelle Shirt Dress",
+    "brand": "PHASE EIGHT",
+    "price": 410,
+    "originalPrice": 495,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Luxury Edit", "Designer Edit"],
+    "colors": [
+      {
+        "name": "Classic Black",
+        "hex": "#09090B",
+        "images": [
+          "/project-pic/Phase Eight Black Petite Anabelle Shirt Dress.jpg",
+          "/project-pic/Phase Eight Black Petite Anabelle Shirt Dress 1.jpg",
+          "/project-pic/Phase Eight Black Petite Anabelle Shirt Dress 2.jpg",
+          "/project-pic/Phase Eight Black Petite Anabelle Shirt Dress 3.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4P", "available": true },
+      { "label": "US 6P", "available": true },
+      { "label": "US 8P", "available": true },
+      { "label": "US 10P", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 105,
+    "description": "Phase Eight luxury black shirt dress with mother-of-pearl buttons, self-tie sash belt, and pleated full midi skirt proportioned for petite frames.",
+    "features": [
+      "Pleated Full Midi Skirt",
+      "Mother-of-Pearl Button Placket",
+      "Self-Tie Belted Sash",
+      "Tailored for Petites"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-015",
+    "name": "FatFace Black Petite Mollie Beaded Dress",
+    "brand": "FATFACE",
+    "price": 195,
+    "originalPrice": 240,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit"],
+    "colors": [
+      {
+        "name": "Black Beaded",
+        "hex": "#111827",
+        "images": [
+          "/project-pic/FatFace Black Petite Mollie Beaded Dress.jpg",
+          "/project-pic/FatFace Black Petite Mollie Beaded Dress 1.jpg",
+          "/project-pic/FatFace Black Petite Mollie Beaded Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4P", "available": true },
+      { "label": "US 6P", "available": true },
+      { "label": "US 8P", "available": true },
+      { "label": "US 10P", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 97,
+    "description": "Artisan hand-beaded vintage-inspired party dress with shimmering jet beads and sequins catching winter party lights.",
+    "features": [
+      "Hand-Embroidered Glass Beads & Sequins",
+      "Flattering Shift Silhouette",
+      "Full Satin Slip Lining",
+      "Specially Scaled Petite Fit"
+    ]
+  },
+  {
+    "id": "dress-016",
+    "name": "Amur Satin Babydoll Bow Dress",
+    "brand": "AMUR",
+    "price": 995,
+    "originalPrice": 1200,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Couture Edit", "Top Pick"],
+    "colors": [
+      {
+        "name": "Blush Satin",
+        "hex": "#FBCFE8",
+        "images": [
+          "/project-pic/Amur Satin Babydoll Bow Dress.jpg",
+          "/project-pic/Amur Satin Babydoll Bow Dress 1.jpg",
+          "/project-pic/Amur Satin Babydoll Bow Dress 2.jpg",
+          "/project-pic/Amur Satin Babydoll Bow Dress 3.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 2", "available": true },
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 64,
+    "description": "Runway luxury piece from AMUR crafted in heavy-weight recycled liquid satin with dramatic sculptural bow shoulders and puff babydoll volume.",
+    "features": [
+      "Sculptural Hand-Folded Bow Details",
+      "100% Recycled Liquid Satin",
+      "Dramatic Babydoll Volume",
+      "Haute Couture Runway Piece"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-017",
+    "name": "Love & Roses Black Floral Spot Frill Neck Chiffon Sleeve Knitted Mini Dress",
+    "brand": "LOVE & ROSES",
+    "price": 60,
+    "originalPrice": 78,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Black Floral Spot",
+        "hex": "#1F2937",
+        "images": [
+          "/project-pic/Love & Roses Black Floral Spot Frill Neck Chiffon Sleeve Knitted Mini Dress.jpg",
+          "/project-pic/Love & Roses Black Floral Spot Frill Neck Chiffon Sleeve Knitted Mini Dress 1.jpg",
+          "/project-pic/Love & Roses Black Floral Spot Frill Neck Chiffon Sleeve Knitted Mini Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.7,
+    "reviewCount": 110,
+    "description": "Charming hybrid knitted mini dress with sheer floral chiffon balloon sleeves and romantic victoriana ruffled frill collar.",
+    "features": [
+      "Victorian Ruffled Frill Collar",
+      "Floral Printed Chiffon Sleeves",
+      "Comfort Knit Body",
+      "Flattering Everyday or Party Look"
+    ]
+  },
+  {
+    "id": "dress-018",
+    "name": "Love & Roses Black Lace Collar Mini Dress",
+    "brand": "LOVE & ROSES",
+    "price": 69,
+    "originalPrice": 85,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Trending"],
+    "colors": [
+      {
+        "name": "Black with White Lace",
+        "hex": "#111827",
+        "images": [
+          "/project-pic/Love & Roses Black Lace Collar Mini Dress.jpg",
+          "/project-pic/Love & Roses Black Lace Collar Mini Dress 1.jpg",
+          "/project-pic/Love & Roses Black Lace Collar Mini Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 126,
+    "description": "Preppy Parisian chic mini dress featuring a contrasting statement white crochet lace Peter Pan collar over sleek black crepe.",
+    "features": [
+      "Contrasting White Lace Peter Pan Collar",
+      "Flattering A-Line Silhouette",
+      "Crepe Stretch Fabric",
+      "Keyhole Back Closure"
+    ]
+  },
+  {
+    "id": "dress-019",
+    "name": "Phase Eight Red Vinnie Velvet Dress",
+    "brand": "PHASE EIGHT",
+    "price": 105,
+    "originalPrice": 140,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Christmas Edit"],
+    "colors": [
+      {
+        "name": "Rich Velvet Red",
+        "hex": "#991B1B",
+        "images": [
+          "/project-pic/Phase Eight Red Vinnie Velvet Dress.jpg",
+          "/project-pic/Phase Eight Red Vinnie Velvet Dress 1.jpg",
+          "/project-pic/Phase Eight Red Vinnie Velvet Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true },
+      { "label": "US 12", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 154,
+    "description": "Opulent deep-red plush stretch velvet wrap dress with subtle shoulder pleating and self-fabric tie. The quintessential holiday party piece.",
+    "features": [
+      "Ultra-Soft Plush Stretch Velvet",
+      "Flattering Faux-Wrap Bodice",
+      "Subtle Shoulder Pleating",
+      "Festive Jewel Tone"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-020",
+    "name": "Monsoon Blue Suzy Lace Satin Midi Dress",
+    "brand": "MONSOON",
+    "price": 220,
+    "originalPrice": 275,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Luxury Edit"],
+    "colors": [
+      {
+        "name": "Midnight Sapphire Blue",
+        "hex": "#1E3A8A",
+        "images": [
+          "/project-pic/Monsoon Blue Suzy Lace Satin Midi Dress.jpg",
+          "/project-pic/Monsoon Blue Suzy Lace Satin Midi Dress 1.jpg",
+          "/project-pic/Monsoon Blue Suzy Lace Satin Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true },
+      { "label": "US 12", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 185,
+    "description": "Breathtaking occasion dress pairing corded floral lace with fluid midnight sapphire satin that catches light with every step.",
+    "features": [
+      "Corded Floral Lace Bodice",
+      "Bias-Cut Satin Skirt with Fluid Draping",
+      "Scalloped Neckline and Sleeves",
+      "Concealed Invisible Zip"
+    ],
+    "isBestseller": true
   }
 ];

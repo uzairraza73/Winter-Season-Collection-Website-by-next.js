@@ -25,8 +25,8 @@ const CATEGORY_MAP: Record<string, CategoryMeta> = {
   },
   'dresses': {
     title: 'Party & Casual Dresses',
-    description: 'Velvet wraps, pleated midi party dresses, floral sets, and everyday dresses tailored for festive occasions.',
-    bannerImage: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1200&q=80',
+    description: 'Designer velvet wraps, party knitted mini dresses, luxury satin midi gowns, tailored blazer dresses, and festive occasion wear.',
+    bannerImage: '/project-pic/Monsoon Blue Suzy Lace Satin Midi Dress.jpg',
     filter: (p) => p.category === 'Dresses',
   },
   'jackets-coats': {
@@ -83,3 +83,4 @@ export default async function CategoryPage({ params }: PageProps) {
     />
   );
 }
+
