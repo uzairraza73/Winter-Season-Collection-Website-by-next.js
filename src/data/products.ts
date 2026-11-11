@@ -4136,5 +4136,625 @@ export const products: Product[] = [
       "Concealed Invisible Zip"
     ],
     "isBestseller": true
+  },
+  {
+    "id": "dress-021",
+    "name": "Reiss Burgundy/Green Bianca Colour-Block Layered Midi Dress",
+    "brand": "REISS",
+    "price": 475,
+    "originalPrice": 550,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Luxury Edit", "Designer Edit"],
+    "colors": [
+      {
+        "name": "Burgundy / Green",
+        "hex": "#800020",
+        "images": [
+          "/project-pic/4.jpg",
+          "/project-pic/5.jpg",
+          "/project-pic/6.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 78,
+    "description": "Architectural colour-block layered midi dress from REISS featuring asymmetric fluid draping, rich contrasting autumnal panels, and high luxury finish.",
+    "features": [
+      "Colour-Block Layered Paneling",
+      "Fluid Asymmetric Drape",
+      "Concealed Back Zip Fastening",
+      "Signature REISS Atelier Tailoring"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-022",
+    "name": "Reiss Teal Green Perrie Velvet Draped Long-Sleeve Mini Dress",
+    "brand": "REISS",
+    "price": 300,
+    "originalPrice": 375,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Luxury Edit"],
+    "colors": [
+      {
+        "name": "Teal Green Velvet",
+        "hex": "#0D5C5B",
+        "images": [
+          "/project-pic/Reiss Teal Green Perrie Velvet Draped Long-Sleeve Mini Dress.jpg",
+          "/project-pic/Reiss Teal Green Perrie Velvet Draped Long-Sleeve Mini Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 115,
+    "description": "Opulent teal velvet mini dress with sculpted shoulder pads, gathered waist draping, and lustrous jewel-toned party glamour.",
+    "features": [
+      "Lustrous Silk-Touch Velvet",
+      "Sculpted Long Sleeves & Shoulder Pads",
+      "Ruched Draped Waist Detail",
+      "Perfect for Festive Cocktail Parties"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-023",
+    "name": "Love & Roses Black Velvet Embroidered Midi Dress",
+    "brand": "LOVE & ROSES",
+    "price": 258,
+    "originalPrice": 310,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Black Embroidered Velvet",
+        "hex": "#09090B",
+        "images": [
+          "/project-pic/Love & Roses Black Velvet Embroidered Midi Dress.jpg",
+          "/project-pic/Love & Roses Black Velvet Embroidered Midi Dress 1.jpg",
+          "/project-pic/Love & Roses Black Velvet Embroidered Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true },
+      { "label": "US 12", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 142,
+    "description": "Exquisite black velvet midi dress adorned with intricate metallic and tonal botanical embroidery framing the neckline, sleeves, and hem.",
+    "features": [
+      "Intricate Botanical Embroidery",
+      "Plush Deep Black Velvet",
+      "Flattering A-Line Midi Silhouette",
+      "Concealed Zip Fastening"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-024",
+    "name": "Seraphine Emerald Green Maternity Boatneck Knitted Dress",
+    "brand": "SERAPHINE",
+    "price": 198,
+    "originalPrice": 240,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Maternity Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Emerald Green",
+        "hex": "#047857",
+        "images": [
+          "/project-pic/Seraphine Emerald Green Maternity Boatneck Knitted Dress.jpg",
+          "/project-pic/Seraphine Emerald Green Maternity Boatneck Knitted Dress 1.jpg",
+          "/project-pic/Seraphine Emerald Green Maternity Boatneck Knitted Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 98,
+    "description": "Ultra-flattering boatneck maternity dress knitted from soft cashmere-touch yarn with plenty of gentle stretch to grow with your bump.",
+    "features": [
+      "Elegant Boatneck Collar",
+      "Cashmere-Touch Soft Stretch Yarn",
+      "Accommodates Bump Before & After Pregnancy",
+      "Rich Emerald Festive Tone"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-025",
+    "name": "Reiss Black Tara Velvet Patterned High-Neck Midi Dress",
+    "brand": "REISS",
+    "price": 405,
+    "originalPrice": 485,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Luxury Edit", "Trending"],
+    "colors": [
+      {
+        "name": "Black Burnout Velvet",
+        "hex": "#111827",
+        "images": [
+          "/project-pic/Reiss Black Tara Velvet Patterned High-Neck Midi Dress.jpg",
+          "/project-pic/Reiss Black Tara Velvet Patterned High-Neck Midi Dress 1.jpg",
+          "/project-pic/Reiss Black Tara Velvet Patterned High-Neck Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 86,
+    "description": "Devoré burnout velvet pattern dress featuring a refined high Victorian neck, sheer sleeve paneling, and an elegant trailing midi hemline.",
+    "features": [
+      "Devoré Burnout Velvet Artwork",
+      "High Neck Silhouette",
+      "Semi-Sheer Sleeve Detailing",
+      "Tailored Evening Sophistication"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-026",
+    "name": "Navy Blue Twist Front Long Sleeve Satin Maxi Dress",
+    "brand": "NEXT OCCASION",
+    "price": 90,
+    "originalPrice": 120,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Navy Satin",
+        "hex": "#1E3A8A",
+        "images": [
+          "/project-pic/Navy Blue Twist Front Long Sleeve Satin Maxi Dress.jpg",
+          "/project-pic/Navy Blue Twist Front Long Sleeve Satin Maxi Dress 1.jpg",
+          "/project-pic/Navy Blue Twist Front Long Sleeve Satin Maxi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true },
+      { "label": "US 12", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 167,
+    "description": "Floor-skimming liquid satin maxi gown with a waist-cinching twisted front knot, plunge V-neckline, and fluid draping.",
+    "features": [
+      "Twisted Knot Front Waist Accent",
+      "Liquid Midnight Satin Finish",
+      "Full Maxi Length with Side Slit",
+      "Long Sleeves for Winter Parties"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-027",
+    "name": "Monsoon Brown Shae Lace Collar Polka Dot Midi Dress",
+    "brand": "MONSOON",
+    "price": 200,
+    "originalPrice": 250,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Chocolate Polka Dot",
+        "hex": "#451A03",
+        "images": [
+          "/project-pic/Monsoon Brown Shae Lace Collar Polka Dot Midi Dress.jpg",
+          "/project-pic/Monsoon Brown Shae Lace Collar Polka Dot Midi Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 94,
+    "description": "Vintage polka dot midi dress in warm chocolate brown featuring an oversized statement white crochet lace collar and pleated skirt.",
+    "features": [
+      "Statement Crochet Lace Peter Pan Collar",
+      "Warm Brown Micro Polka Dot Print",
+      "Pleated Swing Midi Skirt",
+      "Concealed Zip & Button Cuffs"
+    ]
+  },
+  {
+    "id": "dress-028",
+    "name": "Lipsy Navy Blue Petite Off The Shoulder Gathered Waist Midi Dress",
+    "brand": "LIPSY LONDON",
+    "price": 140,
+    "originalPrice": 175,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Navy Blue",
+        "hex": "#0F172A",
+        "images": [
+          "/project-pic/Lipsy Navy Blue Petite Off The Shoulder Gathered Waist Midi Dress.jpg",
+          "/project-pic/Lipsy Navy Blue Petite Off The Shoulder Gathered Waist Midi Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4P", "available": true },
+      { "label": "US 6P", "available": true },
+      { "label": "US 8P", "available": true },
+      { "label": "US 10P", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 134,
+    "description": "Glamorous off-the-shoulder midi dress featuring a sweetheart Bardot neckline, gathered waist ruching, and a dramatic wrap hemline.",
+    "features": [
+      "Off-The-Shoulder Bardot Sweetheart Neck",
+      "Gathered Waist Cincher",
+      "Sculpted Petite Proportion",
+      "Stretch Crepe Fabric"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-029",
+    "name": "Lipsy Red Long Sleeve Off The Shoulder Gathered Waist Mini Dress",
+    "brand": "LIPSY LONDON",
+    "price": 136,
+    "originalPrice": 170,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "Christmas Edit"],
+    "colors": [
+      {
+        "name": "Festive Crimson Red",
+        "hex": "#DC2626",
+        "images": [
+          "/project-pic/Lipsy Red Long Sleeve Off The Shoulder Gathered Waist Mini Dress.jpg",
+          "/project-pic/Lipsy Red Long Sleeve Off The Shoulder Gathered Waist Mini Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 162,
+    "description": "Show-stopping crimson red Bardot mini dress with long sleeves, gathered figure-flattering waist pleats, and sleek winter party flair.",
+    "features": [
+      "Long Sleeve Bardot Off-Shoulder",
+      "Gathered Waist Ruching",
+      "Vibrant Festive Crimson Color",
+      "Stretch Silhouette Fabric"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-030",
+    "name": "The Set 2 Pack Maxi Sweat Dresses Grey Marl/Black",
+    "brand": "THE SET",
+    "price": 70,
+    "originalPrice": 95,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Value Pack", "New Arrival"],
+    "colors": [
+      {
+        "name": "Grey Marl / Black (2-Pack)",
+        "hex": "#4B5563",
+        "images": [
+          "/project-pic/a.jpg",
+          "/project-pic/s.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 210,
+    "description": "Great-value double pack featuring two comfortable brushed cotton maxi sweat dresses in essential Grey Marl and Jet Black. Ideal for casual winter layering.",
+    "features": [
+      "2-Pack Value Bundle (Grey Marl & Black)",
+      "Cozy Brushed Fleece Interior",
+      "Relaxed Maxi Length with Side Slits",
+      "Everyday Casual Warmth"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-031",
+    "name": "CERENE Ellie Burgundy Red Puff Sleeve Lace Midi Dress",
+    "brand": "CERENE",
+    "price": 230,
+    "originalPrice": 280,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Burgundy Lace",
+        "hex": "#7F1D1D",
+        "images": [
+          "/project-pic/CERENE Ellie Burgundy Red Puff Sleeve Lace Midi Dress.jpg",
+          "/project-pic/CERENE Ellie Burgundy Red Puff Sleeve Lace Midi Dress 1.jpg",
+          "/project-pic/CERENE Ellie Burgundy Red Puff Sleeve Lace Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 74,
+    "description": "Romantic corded lace occasion midi dress featuring dramatic pleated puff shoulders, sheer long lace sleeves, and scallop eyelash hemline.",
+    "features": [
+      "Voluminous Pleated Puff Sleeves",
+      "Corded Floral All-Over Lace",
+      "Deep Burgundy Wine Hue",
+      "Scalloped Eyelash Trims"
+    ]
+  },
+  {
+    "id": "dress-032",
+    "name": "Lipsy Black Polka Dot Chain Print Long Sleeve Tie Waist Midi Dress",
+    "brand": "LIPSY LONDON",
+    "price": 138,
+    "originalPrice": 170,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["New Arrival"],
+    "colors": [
+      {
+        "name": "Black / Gold Chain Print",
+        "hex": "#1F2937",
+        "images": [
+          "/project-pic/Lipsy Black Polka Dot Chain Print Long Sleeve Tie Waist Midi Dress.jpg",
+          "/project-pic/Lipsy Black Polka Dot Chain Print Long Sleeve Tie Waist Midi Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 118,
+    "description": "Equestrian-inspired chain and polka dot print midi dress with shirt collar, gold-tone button fastening, and self-fabric tie belt.",
+    "features": [
+      "Luxe Chain & Polka Dot Motif",
+      "Self-Fabric Waist Tie Belt",
+      "Flowing Pleated Hem",
+      "Smart Shirt-Dress Cut"
+    ]
+  },
+  {
+    "id": "dress-033",
+    "name": "Mocha Brown Long Sleeve Knit Satin Lace Trim 2 in 1 Mini Dress",
+    "brand": "NEXT OCCASION",
+    "price": 85,
+    "originalPrice": 110,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Trending"],
+    "colors": [
+      {
+        "name": "Mocha Brown",
+        "hex": "#78350F",
+        "images": [
+          "/project-pic/Mocha Brown Long Sleeve Knit Satin Lace Trim 2 in 1 Mini Dress.jpg",
+          "/project-pic/Mocha Brown Long Sleeve Knit Satin Lace Trim 2 in 1 Mini Dress 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.7,
+    "reviewCount": 89,
+    "description": "2-in-1 hybrid winter dress pairing a soft rib knit long-sleeve sweater bodice with a tiered satin skirt trimmed in eyelash lace.",
+    "features": [
+      "Hybrid 2-in-1 Layered Aesthetic",
+      "Eyelash Lace Hem Detail",
+      "Rib Knit Long Sleeve Top",
+      "Rich Warm Mocha Tone"
+    ]
+  },
+  {
+    "id": "dress-034",
+    "name": "Plum/ Yellow Floral Print Off Shoulder Mesh Midi Dress",
+    "brand": "NEXT OCCASION",
+    "price": 120,
+    "originalPrice": 150,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit"],
+    "colors": [
+      {
+        "name": "Plum / Floral",
+        "hex": "#581C87",
+        "images": [
+          "/project-pic/d.jpg",
+          "/project-pic/f.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 102,
+    "description": "Double-layered stretch mesh midi dress with Bardot off-shoulder neckline and rich autumnal floral print in plum and golden ochre.",
+    "features": [
+      "Flattering Ruched Stretch Mesh",
+      "Bardot Off-Shoulder Neckline",
+      "Autumnal Floral Botanical Print",
+      "Fully Lined Comfort Fit"
+    ]
+  },
+  {
+    "id": "dress-035",
+    "name": "Love & Roses Black Pink Lace Detail High Neck Knitted Midi Dress",
+    "brand": "LOVE & ROSES",
+    "price": 118,
+    "originalPrice": 145,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["New Arrival", "Best Seller"],
+    "colors": [
+      {
+        "name": "Black / Blush Pink Lace",
+        "hex": "#1F2937",
+        "images": [
+          "/project-pic/Love & Roses Black Pink Lace Detail High Neck Knitted Midi Dress.jpg",
+          "/project-pic/Love & Roses Black Pink Lace Detail High Neck Knitted Midi Dress 1.jpg",
+          "/project-pic/Love & Roses Black Pink Lace Detail High Neck Knitted Midi Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 124,
+    "description": "Comfortable fine-gauge knit midi dress featuring romantic blush pink floral lace inserts across the high neck, shoulders, and back.",
+    "features": [
+      "Blush Pink Floral Lace Yoke",
+      "Ribbed High Neck & Cuffs",
+      "Flattering Fine Gauge Stretch Knit",
+      "Elegant Column Midi Silhouette"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-036",
+    "name": "Grey Marl Ribbed Knit Henley Mini Dress",
+    "brand": "NEXT CASUAL",
+    "price": 75,
+    "originalPrice": 95,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Casual Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Grey Marl",
+        "hex": "#9CA3AF",
+        "images": [
+          "/project-pic/Grey Marl Ribbed Knit Henley Mini Dress.jpg",
+          "/project-pic/Grey Marl Ribbed Knit Henley Mini Dress 1.jpg",
+          "/project-pic/Grey Marl Ribbed Knit Henley Mini Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4", "available": true },
+      { "label": "US 6", "available": true },
+      { "label": "US 8", "available": true },
+      { "label": "US 10", "available": true },
+      { "label": "US 12", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 230,
+    "description": "Essential cozy Henley collar mini dress in tactile ribbed knit. Features horn button front placket and long sleeves for winter boots.",
+    "features": [
+      "Tactile Ribbed Stretch Knit",
+      "Functional Button-Down Henley Placket",
+      "Long Sleeve Fitted Cut",
+      "Versatile Everyday Styling"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "dress-037",
+    "name": "Love & Roses Black Petite Faux Suede Faux Leather Stud Mini Dress",
+    "brand": "LOVE & ROSES",
+    "price": 128,
+    "originalPrice": 160,
+    "category": "Dresses",
+    "department": "WOMEN",
+    "badges": ["Party Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Black Studded",
+        "hex": "#0F172A",
+        "images": [
+          "/project-pic/Love & Roses Black Petite Faux Suede Faux Leather Stud Mini Dress.jpg",
+          "/project-pic/Love & Roses Black Petite Faux Suede Faux Leather Stud Mini Dress 1.jpg",
+          "/project-pic/Love & Roses Black Petite Faux Suede Faux Leather Stud Mini Dress 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 4P", "available": true },
+      { "label": "US 6P", "available": true },
+      { "label": "US 8P", "available": true },
+      { "label": "US 10P", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 96,
+    "description": "Edgy yet sophisticated petite mini dress blending velvety faux suede with faux leather trims and silver metallic stud embellishments.",
+    "features": [
+      "Silver Metallic Stud Embellishments",
+      "Faux Suede & Faux Leather Mixed Media",
+      "Flattering Tailored Petite Fit",
+      "Concealed Zip Fastening"
+    ],
+    "isBestseller": true
   }
 ];

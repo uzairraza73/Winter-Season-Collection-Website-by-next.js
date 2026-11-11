@@ -9,26 +9,26 @@ import { ChevronRight } from 'lucide-react';
 const HERO_SLIDES = [
   {
     id: 1,
-    image: '/hero-kid.jpg',
-    title: "KIDS' SEASONAL STYLES",
+    image: '/hero-kids.jpg',
+    title: "KIDS' WINTER STYLES",
     subtitle: "Stay Warm. Shop More. Save Big.",
-    cta: 'SHOP KIDS COLLECTION',
-    href: '/category/dresses',
+    cta: 'SHOP KIDS',
+    href: '/category/toys',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&q=85',
-    title: "PARTY & CASUAL DRESSES",
-    subtitle: "Luxury Velvets, Satins, Knitwear & Evening Partywear",
-    cta: 'EXPLORE DRESSES',
+    image: '/hero-women.jpg',
+    title: "WOMEN'S WINTER EDIT",
+    subtitle: "Tailored Outerwear, Partywear & Cashmere Knits",
+    cta: 'SHOP WOMEN',
     href: '/category/dresses',
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1544923246-77307dd654cb?w=1600&q=85',
-    title: "SIGNATURE COATS & KNITS",
-    subtitle: "Engineered for Style, Warmth & Ultimate Comfort",
-    cta: 'SHOP JACKETS & COATS',
+    image: '/hero-men.jpg',
+    title: "MEN'S SIGNATURE EDIT",
+    subtitle: "Italian Wool Overcoats, Structured Blazers & Knits",
+    cta: 'SHOP MEN',
     href: '/category/jackets-coats',
   },
 ];
@@ -62,56 +62,56 @@ export default function HeroSection() {
             alt={slide.title}
             fill
             priority
-            className="object-cover object-left md:object-center"
+            className="object-cover object-center"
           />
-          {/* Subtle gradient so text on right is readable while background image remains vibrant and visible */}
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-white/75" />
+          {/* Subtle gradient to preserve full image beauty while ensuring text legibility */}
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-white/70" />
           <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-transparent sm:hidden" />
         </motion.div>
       </AnimatePresence>
 
-      {/* Floating text content on right */}
-      <div className="relative z-10 h-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 flex items-center justify-end py-12">
+      {/* Floating text content on right with compact, sleek & attractive card */}
+      <div className="relative z-10 h-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-14 flex items-center justify-end py-8">
         <AnimatePresence mode="wait">
           <motion.div
             key={slide.id + '-content'}
-            initial={{ opacity: 0, x: 30 }}
+            initial={{ opacity: 0, x: 25 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
-            transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-            className="text-right max-w-md sm:max-w-lg bg-white/90 backdrop-blur-md p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-[0_16px_48px_rgba(15,23,42,0.12)]"
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+            className="text-right max-w-xs sm:max-w-sm bg-white/90 backdrop-blur-md px-5 py-4 sm:px-6 sm:py-5 rounded-2xl border border-slate-200/90 shadow-[0_10px_30px_rgba(15,23,42,0.08)]"
           >
-            <span className="inline-block text-[11px] font-black uppercase tracking-widest text-sky-600 mb-2">
+            <span className="inline-block text-[10px] font-black uppercase tracking-widest text-sky-600 mb-1">
               Autumn / Winter 2026
             </span>
 
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight uppercase mb-3">
+            <h1 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 tracking-tight leading-snug uppercase mb-1.5">
               {slide.title}
             </h1>
 
-            <p className="text-xs sm:text-sm text-slate-600 font-medium mb-6 leading-relaxed">
+            <p className="text-[11px] sm:text-xs text-slate-600 font-medium mb-3.5 leading-relaxed">
               {slide.subtitle}
             </p>
 
             <Link
               href={slide.href}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-full text-xs font-black uppercase tracking-widest hover:bg-sky-600 transition-all shadow-md hover:shadow-lg hover:shadow-sky-500/20 group"
+              className="inline-flex items-center gap-1.5 px-4 py-2 bg-slate-900 text-white rounded-full text-[11px] font-black uppercase tracking-wider hover:bg-sky-600 transition-all shadow-sm hover:shadow-md hover:shadow-sky-500/20 group"
             >
               <span>{slide.cta}</span>
-              <ChevronRight size={15} className="group-hover:translate-x-1 transition-transform" />
+              <ChevronRight size={13} className="group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </motion.div>
         </AnimatePresence>
       </div>
 
       {/* Slide dots */}
-      <div className="absolute bottom-5 right-8 sm:right-16 z-20 flex gap-2">
+      <div className="absolute bottom-4 right-6 sm:right-12 z-20 flex gap-1.5">
         {HERO_SLIDES.map((_, i) => (
           <button
             key={i}
             onClick={() => setActiveSlide(i)}
             className={`block transition-all duration-300 rounded-full cursor-pointer ${
-              i === activeSlide ? 'w-8 h-2 bg-slate-900' : 'w-2 h-2 bg-slate-400 hover:bg-slate-700'
+              i === activeSlide ? 'w-6 h-1.5 bg-slate-900' : 'w-1.5 h-1.5 bg-slate-400 hover:bg-slate-700'
             }`}
             aria-label={`Slide ${i + 1}`}
           />
