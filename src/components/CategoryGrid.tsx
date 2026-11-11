@@ -22,7 +22,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Toys',
     title: 'Toys & Soft Plush',
     count: '16 items',
-    image: '/project-pic/toy box.jfif',
+    image: '/project-pic/toy box.png',
   },
   {
     id: 'tile-character',
@@ -30,7 +30,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Character Shops',
     title: 'Character Shops',
     count: '24 items',
-    image: '/project-pic/charater box.jfif',
+    image: '/project-pic/charater box.png',
   },
   {
     id: 'tile-dresses',
@@ -38,7 +38,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Dresses',
     title: 'Party & Casual Dresses',
     count: '38 styles',
-    image: '/project-pic/party box.jfif',
+    image: '/project-pic/party box.png',
   },
   {
     id: 'tile-jackets',
@@ -46,7 +46,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Jackets & Coats',
     title: 'Jackets & Outerwear',
     count: '24 styles',
-    image: '/project-pic/jacket box.jfif',
+    image: '/project-pic/jacket box.png',
   },
   {
     id: 'tile-homewear',
@@ -54,7 +54,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'New Homewear Things',
     title: 'New Homewear Things',
     count: '37 styles',
-    image: '/project-pic/homethings box.jfif',
+    image: '/project-pic/homethings box.png',
   },
   {
     id: 'tile-electric',
@@ -62,7 +62,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Electric Things',
     title: 'Electric & Tech',
     count: '15 styles',
-    image: '/project-pic/electric box.jfif',
+    image: '/project-pic/electric box.png',
   },
   {
     id: 'tile-christmas',
@@ -70,7 +70,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Christmas',
     title: 'Christmas Edit',
     count: '58 styles',
-    image: '/project-pic/christmas box.jfif',
+    image: '/project-pic/christmas box.png',
   },
 ];
 
