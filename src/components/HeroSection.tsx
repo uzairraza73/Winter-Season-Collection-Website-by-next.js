@@ -9,7 +9,7 @@ import { ChevronRight } from 'lucide-react';
 const HERO_SLIDES = [
   {
     id: 1,
-    image: '/hero-kids.jpg',
+    image: '/project-pic/kid hero session.jfif',
     title: "KIDS' WINTER STYLES",
     subtitle: "Stay Warm. Shop More. Save Big.",
     cta: 'SHOP KIDS',
@@ -17,7 +17,7 @@ const HERO_SLIDES = [
   },
   {
     id: 2,
-    image: '/hero-women.jpg',
+    image: '/project-pic/woman hero session.jfif',
     title: "WOMEN'S WINTER EDIT",
     subtitle: "Tailored Outerwear, Partywear & Cashmere Knits",
     cta: 'SHOP WOMEN',
@@ -25,7 +25,7 @@ const HERO_SLIDES = [
   },
   {
     id: 3,
-    image: '/hero-men.jpg',
+    image: '/project-pic/man hero session.jfif',
     title: "MEN'S SIGNATURE EDIT",
     subtitle: "Italian Wool Overcoats, Structured Blazers & Knits",
     cta: 'SHOP MEN',
@@ -47,14 +47,14 @@ export default function HeroSection() {
 
   return (
     <section className="relative w-full overflow-hidden bg-slate-100" style={{ minHeight: '380px', maxHeight: '560px', aspectRatio: '21/9' }}>
-      {/* Background slide image - High clarity & visibility */}
+      {/* Background slide image - Pure HD & Crystal Clear Visibility */}
       <AnimatePresence mode="wait">
         <motion.div
           key={slide.id}
-          initial={{ opacity: 0, scale: 1.02 }}
+          initial={{ opacity: 0, scale: 1.01 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.7, ease: 'easeInOut' }}
+          transition={{ duration: 0.65, ease: 'easeInOut' }}
           className="absolute inset-0 z-0"
         >
           <Image
@@ -62,11 +62,13 @@ export default function HeroSection() {
             alt={slide.title}
             fill
             priority
+            quality={100}
+            unoptimized
             className="object-cover object-center"
           />
-          {/* Subtle gradient to preserve full image beauty while ensuring text legibility */}
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-white/70" />
-          <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-transparent sm:hidden" />
+          {/* Subtle gradient strictly on the right to preserve 100% background image beauty & clarity */}
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-white/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-white/20 via-transparent to-transparent sm:hidden" />
         </motion.div>
       </AnimatePresence>
 
@@ -75,11 +77,11 @@ export default function HeroSection() {
         <AnimatePresence mode="wait">
           <motion.div
             key={slide.id + '-content'}
-            initial={{ opacity: 0, x: 25 }}
+            initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -20 }}
-            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-            className="text-right max-w-xs sm:max-w-sm bg-white/90 backdrop-blur-md px-5 py-4 sm:px-6 sm:py-5 rounded-2xl border border-slate-200/90 shadow-[0_10px_30px_rgba(15,23,42,0.08)]"
+            exit={{ opacity: 0, x: -15 }}
+            transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+            className="text-right max-w-xs sm:max-w-sm bg-white/92 backdrop-blur-md px-5 py-4 sm:px-6 sm:py-5 rounded-2xl border border-slate-200/90 shadow-[0_12px_36px_rgba(15,23,42,0.1)]"
           >
             <span className="inline-block text-[10px] font-black uppercase tracking-widest text-sky-600 mb-1">
               Autumn / Winter 2026

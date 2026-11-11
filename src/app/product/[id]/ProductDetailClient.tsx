@@ -75,6 +75,8 @@ export default function ProductDetailClient({
     ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)
     : null;
 
+  const currentPrice = selectedSize?.price ?? product.price;
+
   return (
     <div className="min-h-screen bg-white text-slate-900 flex flex-col">
       <VisaBanner />
@@ -189,7 +191,7 @@ export default function ProductDetailClient({
               {/* Price Banner */}
               <div className="flex items-baseline gap-3 mb-6 p-4 rounded-2xl bg-slate-50 border border-slate-200">
                 <span className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-                  ${product.price}
+                  ${currentPrice}
                 </span>
                 {product.originalPrice && (
                   <span className="text-lg text-slate-400 line-through font-semibold">

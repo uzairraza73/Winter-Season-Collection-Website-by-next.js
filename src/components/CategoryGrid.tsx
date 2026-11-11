@@ -22,7 +22,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Toys',
     title: 'Toys & Soft Plush',
     count: '16 items',
-    image: '/project-pic/Natural Hamish Monogram Letter Soft Toy Plush Christmas Decoration.webp',
+    image: '/project-pic/toy box.jfif',
   },
   {
     id: 'tile-character',
@@ -30,7 +30,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Character Shops',
     title: 'Character Shops',
     count: '24 items',
-    image: '/project-pic/Character Blue Character Blue Spiderman Puddle Suit.webp',
+    image: '/project-pic/charater box.jfif',
   },
   {
     id: 'tile-dresses',
@@ -38,7 +38,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Dresses',
     title: 'Party & Casual Dresses',
     count: '38 styles',
-    image: '/project-pic/Monsoon Blue Suzy Lace Satin Midi Dress.jpg',
+    image: '/project-pic/party box.jfif',
   },
   {
     id: 'tile-jackets',
@@ -46,15 +46,15 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Jackets & Coats',
     title: 'Jackets & Outerwear',
     count: '24 styles',
-    image: 'https://images.unsplash.com/photo-1544923246-77307dd654cb?w=800&q=80',
+    image: '/project-pic/jacket box.jfif',
   },
   {
     id: 'tile-homewear',
     slug: 'homewear',
     category: 'New Homewear Things',
     title: 'New Homewear Things',
-    count: '22 styles',
-    image: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80',
+    count: '37 styles',
+    image: '/project-pic/homethings box.jfif',
   },
   {
     id: 'tile-electric',
@@ -62,15 +62,15 @@ export const CATEGORY_TILES: CategoryTile[] = [
     category: 'Electric Things',
     title: 'Electric & Tech',
     count: '15 styles',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80',
+    image: '/project-pic/electric box.jfif',
   },
   {
     id: 'tile-christmas',
     slug: 'christmas',
     category: 'Christmas',
     title: 'Christmas Edit',
-    count: '32 styles',
-    image: '/project-pic/Natural Biscuit Soft Toy Plush Christmas Decotation.webp',
+    count: '58 styles',
+    image: '/project-pic/christmas box.jfif',
   },
 ];
 

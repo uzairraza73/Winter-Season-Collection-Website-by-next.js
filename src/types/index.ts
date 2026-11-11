@@ -11,6 +11,7 @@ export interface ProductColor {
 export interface ProductSize {
   label: string;
   available: boolean;
+  price?: number;
 }
 
 export type ProductBadge =

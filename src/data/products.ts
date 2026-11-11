@@ -4756,5 +4756,895 @@ export const products: Product[] = [
       "Concealed Zip Fastening"
     ],
     "isBestseller": true
+  },
+  {
+    "id": "home-001",
+    "name": "Green Woodland Deers Fleece Christmas Duvet Cover and Pillowcase Set",
+    "brand": "NEXT HOME",
+    "price": 50,
+    "originalPrice": 65,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Forest Green",
+        "hex": "#1B4332",
+        "images": [
+          "/project-pic/Green Woodland Deers Fleece Christmas Duvet Cover and Pillowcase Set.jpg",
+          "/project-pic/Green Woodland Deers Fleece Christmas Duvet Cover and Pillowcase Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($50)", "available": true, "price": 50 },
+      { "label": "Double ($69)", "available": true, "price": 69 },
+      { "label": "King ($89)", "available": true, "price": 89 },
+      { "label": "Super King ($105)", "available": true, "price": 105 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 184,
+    "description": "Ultra-cozy festive fleece bed set featuring majestic woodland deers in a snowy alpine forest. Thermal warmth for winter nights.",
+    "features": [
+      "Plush Thermal Fleece Fabric",
+      "Woodland Deer Alpine Pattern",
+      "Includes Matching Pillowcase(s)",
+      "Machine Washable & Quick Dry"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-002",
+    "name": "Natural Gingerbread Christmas Brushed Cotton Bed Set",
+    "brand": "NEXT HOME",
+    "price": 60,
+    "originalPrice": 75,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Warm Biscuit",
+        "hex": "#D4A373",
+        "images": [
+          "/project-pic/Natural Gingerbread Christmas Brushed Cotton Bed Set.jpg",
+          "/project-pic/Natural Gingerbread Christmas Brushed Cotton Bed Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($60)", "available": true, "price": 60 },
+      { "label": "Double ($80)", "available": true, "price": 80 },
+      { "label": "King ($100)", "available": true, "price": 100 },
+      { "label": "Super King ($123)", "available": true, "price": 123 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 142,
+    "description": "Charming festive gingerbread men, candy canes, and holiday houses printed on 100% brushed cotton flannelette for super-soft warmth.",
+    "features": [
+      "100% Pure Brushed Cotton",
+      "Whimsical Gingerbread Print",
+      "Breathable Natural Warmth",
+      "Reversible Holiday Design"
+    ]
+  },
+  {
+    "id": "home-003",
+    "name": "White Embroidered Christmas Tree Brushed Cotton Duvet Cover and Pillowcase Set",
+    "brand": "NEXT SIGNATURE",
+    "price": 109,
+    "originalPrice": 139,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Luxury Edit"],
+    "colors": [
+      {
+        "name": "Snow White",
+        "hex": "#FAFAFA",
+        "images": [
+          "/project-pic/White Embroidered Christmas Tree Brushed Cotton Duvet Cover and Pillowcase Set.jpg",
+          "/project-pic/White Embroidered Christmas Tree Brushed Cotton Duvet Cover and Pillowcase Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($109)", "available": true, "price": 109 },
+      { "label": "Double ($129)", "available": true, "price": 129 },
+      { "label": "King ($149)", "available": true, "price": 149 },
+      { "label": "Super King ($169)", "available": true, "price": 169 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 96,
+    "description": "Luxury heirloom Christmas bed set in crisp snow-white brushed cotton, embellished with delicately embroidered festive evergreen trees.",
+    "features": [
+      "Delicate Embroidered Christmas Trees",
+      "Heavyweight Brushed Cotton",
+      "Button Closure Placket",
+      "Clean Minimalist Winter Luxury"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-004",
+    "name": "Character Baubles Christmas Bed Set",
+    "brand": "NEXT KIDS",
+    "price": 36,
+    "originalPrice": 48,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Kids Holiday"],
+    "colors": [
+      {
+        "name": "Festive Multi",
+        "hex": "#E63946",
+        "images": [
+          "/project-pic/Character Baubles Christmas Bed Set.jpg",
+          "/project-pic/Character Baubles Christmas Bed Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Toddler ($36)", "available": true, "price": 36 },
+      { "label": "Single ($48)", "available": true, "price": 48 },
+      { "label": "Double ($60)", "available": true, "price": 60 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 115,
+    "description": "Fun and playful holiday character baubles bed set featuring festive faces and brightly coloured ornaments children love.",
+    "features": [
+      "Playful Character Baubles Artwork",
+      "Easy-Care Cotton Blend",
+      "Reversible Striped Underside",
+      "Popper Fastenings"
+    ]
+  },
+  {
+    "id": "home-005",
+    "name": "Pretty Icons Christmas Bed Set",
+    "brand": "NEXT HOME",
+    "price": 30,
+    "originalPrice": 40,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit"],
+    "colors": [
+      {
+        "name": "Pastel Pink",
+        "hex": "#FDE2E4",
+        "images": [
+          "/project-pic/Pretty Icons Christmas Bed Set.jpg",
+          "/project-pic/Pretty Icons Christmas Bed Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Toddler ($30)", "available": true, "price": 30 },
+      { "label": "Single ($38)", "available": true, "price": 38 },
+      { "label": "Double ($44)", "available": true, "price": 44 }
+    ],
+    "rating": 4.7,
+    "reviewCount": 88,
+    "description": "Sweet, pastel-toned holiday icons bed set with illustrated gifts, candy canes, trees, and bows on a soft blush canvas.",
+    "features": [
+      "Charming Pastel Holiday Icons",
+      "Soft Touch Microfibre Finish",
+      "Includes Matching Pillowcase",
+      "Wrinkle-Resistant"
+    ]
+  },
+  {
+    "id": "home-006",
+    "name": "White Floral Brushed Frill Bed Set",
+    "brand": "NEXT HOME",
+    "price": 87,
+    "originalPrice": 110,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Best Seller", "New Arrival"],
+    "colors": [
+      {
+        "name": "Winter Blossom White",
+        "hex": "#F8F9FA",
+        "images": [
+          "/project-pic/White Floral Brushed Frill Bed Set.jpg",
+          "/project-pic/White Floral Brushed Frill Bed Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($87)", "available": true, "price": 87 },
+      { "label": "Double ($107)", "available": true, "price": 107 },
+      { "label": "King ($127)", "available": true, "price": 127 },
+      { "label": "Super King ($147)", "available": true, "price": 147 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 176,
+    "description": "Romantic cottagecore brushed cotton bed set finished with an elegant gathered frill ruffle edge and subtle botanical florals.",
+    "features": [
+      "Gathered Ruffle Frill Border",
+      "Delicate Winter Floral Print",
+      "Brushed Cotton Softness",
+      "French Seam Construction"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-007",
+    "name": "Sage Green Christmas Wreath Embroidery Duvet Cover and Pillowcase Set",
+    "brand": "NEXT SIGNATURE",
+    "price": 89,
+    "originalPrice": 115,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Luxury Edit"],
+    "colors": [
+      {
+        "name": "Sage Green",
+        "hex": "#84A98C",
+        "images": [
+          "/project-pic/Sage Green Christmas Wreath Embroidery Duvet Cover and Pillowcase Set.jpg",
+          "/project-pic/Sage Green Christmas Wreath Embroidery Duvet Cover and Pillowcase Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($89)", "available": true, "price": 89 },
+      { "label": "Double ($109)", "available": true, "price": 109 },
+      { "label": "King ($129)", "available": true, "price": 129 },
+      { "label": "Super King ($149)", "available": true, "price": 149 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 132,
+    "description": "Calming sage green bed set with handcrafted holiday wreath embroidery and festive bow accents for an understated country-manor Christmas.",
+    "features": [
+      "Handcrafted Wreath Embroidery",
+      "Premium Washed Cotton",
+      "Calming Botanical Sage Tone",
+      "Matching Oxford Pillowcases"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-008",
+    "name": "The Grinch Christmas Duvet Cover and Pillowcase Set",
+    "brand": "THE GRINCH",
+    "price": 60,
+    "originalPrice": 75,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Character Special"],
+    "colors": [
+      {
+        "name": "Grinch Green / Red",
+        "hex": "#52B788",
+        "images": [
+          "/project-pic/The Grinch Christmas Duvet Cover and Pillowcase Set.jpg",
+          "/project-pic/The Grinch Christmas Duvet Cover and Pillowcase Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($60)", "available": true, "price": 60 },
+      { "label": "Double ($83)", "available": true, "price": 83 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 260,
+    "description": "Official Dr. Seuss The Grinch duvet cover set in bold festive green and holiday red. Full of mischievous Christmas charm.",
+    "features": [
+      "Official Dr. Seuss License",
+      "Reversible Grinch Holiday Print",
+      "Soft Durable Fabric",
+      "Great Gift for All Ages"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-009",
+    "name": "Catherine Lansfield Plum Christmas Nutcracker Stripe Reversible Duvet Cover Set",
+    "brand": "CATHERINE LANSFIELD",
+    "price": 35,
+    "originalPrice": 48,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Plum Nutcracker",
+        "hex": "#4A154B",
+        "images": [
+          "/project-pic/Catherine Lansfield Plum Christmas Nutcracker Stripe Reversible Duvet Cover Set.jpg",
+          "/project-pic/Catherine Lansfield Plum Christmas Nutcracker Stripe Reversible Duvet Cover Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($35)", "available": true, "price": 35 },
+      { "label": "Double ($50)", "available": true, "price": 50 },
+      { "label": "King ($65)", "available": true, "price": 65 },
+      { "label": "Super King ($75)", "available": true, "price": 75 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 195,
+    "description": "Heritage festive bedding by Catherine Lansfield with illustrated toy soldiers and candy stripes on a rich plum background.",
+    "features": [
+      "Classic Nutcracker Toy Soldiers",
+      "Reversible Candy Stripe Backing",
+      "Easy Care Polycotton Blend",
+      "Button Closure"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-010",
+    "name": "Furn Green Twelve Days Reversible Christmas Bed Set",
+    "brand": "FURN",
+    "price": 64,
+    "originalPrice": 85,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Deep Forest Green",
+        "hex": "#1E3F20",
+        "images": [
+          "/project-pic/Furn Green Twelve Days Reversible Christmas Bed Set.jpg",
+          "/project-pic/Furn Green Twelve Days Reversible Christmas Bed Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($64)", "available": true, "price": 64 },
+      { "label": "Double ($80)", "available": true, "price": 80 },
+      { "label": "King ($98)", "available": true, "price": 98 },
+      { "label": "Super King ($116)", "available": true, "price": 116 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 112,
+    "description": "Inspired by 'The Twelve Days of Christmas' carol, featuring charming illustrated swans, calling birds, and gold rings on rich green.",
+    "features": [
+      "Twelve Days of Christmas Illustration",
+      "Reversible Contrast Backing",
+      "Soft Brushed Finish",
+      "Button Closure"
+    ]
+  },
+  {
+    "id": "home-011",
+    "name": "Red Gingham Fitted Sheet and Pillowcase Set",
+    "brand": "NEXT HOME",
+    "price": 28,
+    "originalPrice": 38,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Classic Edit"],
+    "colors": [
+      {
+        "name": "Red & White Gingham",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Red Gingham Fitted Sheet and Pillowcase Set.jpg",
+          "/project-pic/Red Gingham Fitted Sheet and Pillowcase Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($28)", "available": true, "price": 28 },
+      { "label": "Double ($38)", "available": true, "price": 38 },
+      { "label": "King ($48)", "available": true, "price": 48 },
+      { "label": "Super King ($60)", "available": true, "price": 60 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 218,
+    "description": "Timeless red and white gingham check fitted sheet with deep elasticated corners and matching pillowcases. Complements any holiday bed.",
+    "features": [
+      "Classic Red Gingham Check",
+      "Extra Deep Elasticated Skirt",
+      "Breathable Cotton Blend",
+      "Fade-Resistant Colors"
+    ]
+  },
+  {
+    "id": "home-012",
+    "name": "Green Knitted Christmas Fair Isle Throw",
+    "brand": "NEXT HOME",
+    "price": 75,
+    "originalPrice": 95,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Fair Isle Forest Green",
+        "hex": "#2D6A4F",
+        "images": [
+          "/project-pic/Green Knitted Christmas Fair Isle Throw.jpg",
+          "/project-pic/Green Knitted Christmas Fair Isle Throw 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "130x200cm ($75)", "available": true, "price": 75 },
+      { "label": "150x200cm ($99)", "available": true, "price": 99 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 164,
+    "description": "Chunky knitted winter throw blanket with traditional Nordic Fair Isle snowflakes, trees, and festive fringed tassels.",
+    "features": [
+      "Traditional Nordic Fair Isle Pattern",
+      "Soft Cashmere-Feel Knit",
+      "Decorative Tassel Edges",
+      "Drapes Elegantly over Sofas & Beds"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-013",
+    "name": "Vantona Red Christmas Santa Duvet Cover Set",
+    "brand": "VANTONA",
+    "price": 50,
+    "originalPrice": 65,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit"],
+    "colors": [
+      {
+        "name": "Santa Red",
+        "hex": "#BA181B",
+        "images": [
+          "/project-pic/Vantona Red Christmas Santa Duvet Cover Set.jpg",
+          "/project-pic/Vantona Red Christmas Santa Duvet Cover Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($50)", "available": true, "price": 50 },
+      { "label": "Double ($75)", "available": true, "price": 75 },
+      { "label": "King ($98)", "available": true, "price": 98 },
+      { "label": "Super King ($123)", "available": true, "price": 123 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 140,
+    "description": "Festive Santa Claus duvet cover set in jolly red and white with flying reindeers and snowy Christmas Eve landscapes.",
+    "features": [
+      "Classic Santa & Reindeer Scene",
+      "Reversible Snowflake Pattern",
+      "High Thread Count Cotton Blend",
+      "Easy Iron Finish"
+    ]
+  },
+  {
+    "id": "home-014",
+    "name": "Red/Natural Deer Christmas Reversible Bed Set",
+    "brand": "NEXT HOME",
+    "price": 36,
+    "originalPrice": 48,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Red & Natural Deer",
+        "hex": "#A4161A",
+        "images": [
+          "/project-pic/g.jpg",
+          "/project-pic/h.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($36)", "available": true, "price": 36 },
+      { "label": "Double ($55)", "available": true, "price": 55 },
+      { "label": "King ($75)", "available": true, "price": 75 },
+      { "label": "Super King ($95)", "available": true, "price": 95 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 182,
+    "description": "Reversible festive bed set showcasing majestic red stag stenciled silhouettes on natural oatmeal, flipping to a cozy festive plaid.",
+    "features": [
+      "Stately Winter Stag Silhouettes",
+      "Reversible 2-in-1 Design",
+      "Soft Brushed Handfeel",
+      "Machine Washable"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "home-015",
+    "name": "Natural Gingerbread House Christmas Fleece Bed Set",
+    "brand": "NEXT HOME",
+    "price": 50,
+    "originalPrice": 65,
+    "category": "New Homewear Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Gingerbread Cream",
+        "hex": "#E9D8A6",
+        "images": [
+          "/project-pic/Natural Gingerbread House Christmas Fleece Bed Set.jpg",
+          "/project-pic/Natural Gingerbread House Christmas Fleece Bed Set 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Single ($50)", "available": true, "price": 50 },
+      { "label": "Double ($75)", "available": true, "price": 75 },
+      { "label": "King ($100)", "available": true, "price": 100 },
+      { "label": "Super King ($126)", "available": true, "price": 126 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 168,
+    "description": "Thick teddy fleece holiday bed set covered in cute gingerbread houses, snowy roofs, and icing details. Supreme sub-zero warmth.",
+    "features": [
+      "Super-Soft Teddy Fleece Fabric",
+      "Cozy Gingerbread Village Artwork",
+      "Traps Body Heat for Cold Nights",
+      "Includes 2 Fleece Pillowcases"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-001",
+    "name": "Red 50cm x 50cm Christmas Bow Striped Cushion",
+    "brand": "NEXT CHRISTMAS",
+    "price": 44,
+    "originalPrice": 55,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Candy Cane Red",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Red 50cm x 50cm Christmas Bow Striped Cushion.jpg",
+          "/project-pic/Red 50cm x 50cm Christmas Bow Striped Cushion 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "50cm x 50cm", "available": true, "price": 44 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 145,
+    "description": "Chunky striped candy cane red cushion adorned with an oversized 3D holiday bow front centerpiece. Perfect festive accent for sofas.",
+    "features": [
+      "3D Statement Holiday Bow",
+      "Candy Cane Stripe Woven Cover",
+      "Plump Feather-Feel Inner Included",
+      "Concealed Zip Fastener"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-002",
+    "name": "Christmas Pudding Cushion",
+    "brand": "NEXT CHRISTMAS",
+    "price": 36,
+    "originalPrice": 45,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Holiday Fun"],
+    "colors": [
+      {
+        "name": "Pudding Brown",
+        "hex": "#582F0E",
+        "images": [
+          "/project-pic/Christmas Pudding Cushion.jpg",
+          "/project-pic/Christmas Pudding Cushion 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size (40cm)", "available": true, "price": 36 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 190,
+    "description": "Novelty round Christmas pudding cushion with embroidered white brandy sauce icing, green holly leaves, and red berry pom-poms.",
+    "features": [
+      "Shaped Round Christmas Pudding",
+      "Faux Suede & Fleece Details",
+      "Berry Pom-Pom Embellishments",
+      "Super-Soft Cuddle Cushion"
+    ]
+  },
+  {
+    "id": "xmas-003",
+    "name": "50 Pack Gold Shatterproof Christmas Baubles",
+    "brand": "NEXT CHRISTMAS",
+    "price": 32,
+    "originalPrice": 40,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Metallic Gold",
+        "hex": "#D4AF37",
+        "images": [
+          "/project-pic/50 Pack Gold Shatterproof Christmas Baubles.jpg",
+          "/project-pic/50 Pack Gold Shatterproof Christmas Baubles 1.jpg",
+          "/project-pic/50 Pack Gold Shatterproof Christmas Baubles 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "50-Piece Pack", "available": true, "price": 32 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 320,
+    "description": "Grand 50-piece collection of shatterproof holiday baubles in assorted metallic gold, glitter, shiny, and frosted textures with hanging strings.",
+    "features": [
+      "50 Shatterproof Ornaments",
+      "Assorted Matte, Gloss & Glitter Textures",
+      "Child & Pet Safe Durability",
+      "Pre-Threaded Hanging Loops"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-004",
+    "name": "50 Pack Neutral Gold Shatterproof Christmas Baubles",
+    "brand": "NEXT CHRISTMAS",
+    "price": 32,
+    "originalPrice": 40,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit"],
+    "colors": [
+      {
+        "name": "Neutral Champagne Gold",
+        "hex": "#E0A96D",
+        "images": [
+          "/project-pic/50 Pack Neutral Gold Shatterproof Christmas Baubles.jpg",
+          "/project-pic/50 Pack Neutral Gold Shatterproof Christmas Baubles 1.jpg",
+          "/project-pic/50 Pack Neutral Gold Shatterproof Christmas Baubles 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "50-Piece Pack", "available": true, "price": 32 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 210,
+    "description": "Elegant neutral champagne and warm gold shatterproof baubles collection designed to create a tasteful, understated holiday tree display.",
+    "features": [
+      "50 Champagne & Neutral Baubles",
+      "Mixed Geometrical & Ribbed Finishes",
+      "Shatter-Resistant Construction",
+      "Pre-Tied Metallic Strings"
+    ]
+  },
+  {
+    "id": "xmas-005",
+    "name": "Red 50cm x 30cm Merry Christmas Embroidered Slogan Cushion",
+    "brand": "NEXT CHRISTMAS",
+    "price": 24,
+    "originalPrice": 32,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Festive Red",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Red 50cm x 30cm Merry Christmas Embroidered Slogan Cushion.jpg",
+          "/project-pic/Red 50cm x 30cm Merry Christmas Embroidered Slogan Cushion 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "50cm x 30cm", "available": true, "price": 24 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 245,
+    "description": "Lumbar statement cushion in Christmas red with gold and white 'Merry Christmas' chain-stitch embroidery and piped borders.",
+    "features": [
+      "Embroidered Holiday Script Slogan",
+      "Plush Velvet Lumbar Silhouette",
+      "Gold Metallic Thread Accents",
+      "Removable Cover with Zip"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-006",
+    "name": "50 Pack Dark Forest Green Shatterproof Christmas Baubles",
+    "brand": "NEXT CHRISTMAS",
+    "price": 32,
+    "originalPrice": 40,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Dark Forest Green",
+        "hex": "#1B4332",
+        "images": [
+          "/project-pic/50 Pack Dark Forest Green Shatterproof Christmas Baubles.jpg",
+          "/project-pic/50 Pack Dark Forest Green Shatterproof Christmas Baubles 1.jpg",
+          "/project-pic/50 Pack Dark Forest Green Shatterproof Christmas Baubles 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "50-Piece Pack", "available": true, "price": 32 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 178,
+    "description": "Sophisticated emerald and dark forest green bauble set featuring 50 shatterproof spheres in ribbed, glitter, and mirror finishes.",
+    "features": [
+      "50 Deep Emerald & Forest Baubles",
+      "Shatter-Resistant Luxury Spheres",
+      "Contrasting Textures & Ribbed Ribs",
+      "Coordinated Green Ribbon Ties"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-007",
+    "name": "Natural Christmas Cheese Draught Excluder",
+    "brand": "NEXT CHRISTMAS",
+    "price": 64,
+    "originalPrice": 80,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Holiday Novelty"],
+    "colors": [
+      {
+        "name": "Natural Festive",
+        "hex": "#DDA15E",
+        "images": [
+          "/project-pic/Natural Christmas Cheese Draught Excluder.jpg",
+          "/project-pic/Natural Christmas Cheese Draught Excluder 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Standard Door Width (90cm)", "available": true, "price": 64 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 94,
+    "description": "Whimsical draught excluder shaped like a festive artisanal cheese board with little festive mice wearing Santa hats.",
+    "features": [
+      "Handcrafted Festive Mice & Cheese Theme",
+      "Heavyweight Sand-Filled Draught Blocker",
+      "Keeps Winter Cold Outside",
+      "Fun Festive Conversation Piece"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-008",
+    "name": "Green Artificial Christmas Wreath with Bows",
+    "brand": "NEXT CHRISTMAS",
+    "price": 69,
+    "originalPrice": 85,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Best Seller"],
+    "colors": [
+      {
+        "name": "Evergreen & Velvet Bows",
+        "hex": "#2D6A4F",
+        "images": [
+          "/project-pic/Green Artifical Christmas Wreath with Bows.jpg",
+          "/project-pic/Green Artifical Christmas Wreath with Bows 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "55cm Diameter", "available": true, "price": 69 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 210,
+    "description": "Lush faux evergreen door wreath finished with frosted red berries, pine cones, and deep burgundy velvet ribbons.",
+    "features": [
+      "Dense Real-Touch Evergreen Needles",
+      "Velvet Ribbon Bows & Frosted Berries",
+      "Weather-Resistant for Front Doors",
+      "Pre-Shaped Sturdy Wire Base"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-009",
+    "name": "Natural Christmas Hamish The Highland Cow Mug",
+    "brand": "NEXT CHRISTMAS",
+    "price": 16,
+    "originalPrice": 22,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Gifting Favourite"],
+    "colors": [
+      {
+        "name": "Highland Oatmeal",
+        "hex": "#E0A96D",
+        "images": [
+          "/project-pic/Natural Christmas Hamish The Highland Cow Mug.jpg",
+          "/project-pic/Natural Christmas Hamish The Highland Cow Mug 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "400ml Mug", "available": true, "price": 16 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 430,
+    "description": "Hand-painted ceramic mug featuring Hamish the Highland Cow wrapped in a holiday scarf with textured fur and horned details.",
+    "features": [
+      "Iconic Hamish The Highland Cow",
+      "Hand-Painted Ceramic Stoneware",
+      "Microwave & Dishwasher Safe",
+      "Perfect Secret Santa Gift"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "xmas-010",
+    "name": "Natural Christmas Gingerbread Embroidered 30 X 50cm Cushion",
+    "brand": "NEXT CHRISTMAS",
+    "price": 36,
+    "originalPrice": 45,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit"],
+    "colors": [
+      {
+        "name": "Natural Linen",
+        "hex": "#EDE0D4",
+        "images": [
+          "/project-pic/Natural Christmas Gingerbread Embroidered 30 X 50cm Cushion.jpg",
+          "/project-pic/Natural Christmas Gingerbread Embroidered 30 X 50cm Cushion 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "30cm x 50cm", "available": true, "price": 36 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 118,
+    "description": "Textured linen-look cushion with embroidered gingerbread figures, candy trims, and festive candy-stripe piped edging.",
+    "features": [
+      "Detailed Gingerbread Embroidery",
+      "Candy-Cane Striped Piped Edges",
+      "Removable Cushion Cover",
+      "Plush Comfortable Filling"
+    ]
+  },
+  {
+    "id": "xmas-011",
+    "name": "Natural 43cm x 43cm Christmas Ski Scene Cushion",
+    "brand": "NEXT CHRISTMAS",
+    "price": 36,
+    "originalPrice": 45,
+    "category": "Christmas",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Alpine Edit"],
+    "colors": [
+      {
+        "name": "Natural Alpine",
+        "hex": "#F4F1DE",
+        "images": [
+          "/project-pic/Natural 43cm x 43cm Christmas Ski Scene Cushion.jpg",
+          "/project-pic/Natural 43cm x 43cm Christmas Ski Scene Cushion 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "43cm x 43cm", "available": true, "price": 36 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 105,
+    "description": "Scenic alpine tapestry cushion depicting retro winter skiers, snow-capped chalets, and mountain pine trees.",
+    "features": [
+      "Woven Alpine Ski Tapestry Artwork",
+      "Soft Natural Cotton Canvas Backing",
+      "Piped Contrast Borders",
+      "Timeless Winter Chalet Styling"
+    ]
   }
 ];
