@@ -17,6 +17,14 @@ export interface CategoryTile {
 
 export const CATEGORY_TILES: CategoryTile[] = [
   {
+    id: 'tile-winter',
+    slug: 'winter-collection',
+    category: 'Winter Collection',
+    title: 'Winter Collection',
+    count: 'All Winter Edits',
+    image: '/project-pic/jacket box.png',
+  },
+  {
     id: 'tile-toys',
     slug: 'toys',
     category: 'Toys',
@@ -61,7 +69,7 @@ export const CATEGORY_TILES: CategoryTile[] = [
     slug: 'electric-things',
     category: 'Electric Things',
     title: 'Electric & Tech',
-    count: '15 styles',
+    count: '30 styles',
     image: '/project-pic/electric box.png',
   },
   {

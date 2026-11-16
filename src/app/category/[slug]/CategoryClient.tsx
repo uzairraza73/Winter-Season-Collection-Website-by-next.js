@@ -18,21 +18,52 @@ interface CategoryClientProps {
   products: Product[];
 }
 
+type SessionFilter = 'ALL' | 'WOMEN' | 'MEN' | 'KIDS' | 'BOYS' | 'HOME' | 'CHRISTMAS';
+
+const SESSION_TABS: { label: string; value: SessionFilter }[] = [
+  { label: 'All Items', value: 'ALL' },
+  { label: "Women's Session", value: 'WOMEN' },
+  { label: "Men's Session", value: 'MEN' },
+  { label: 'Kids & Girls Session', value: 'KIDS' },
+  { label: "Boys' Session", value: 'BOYS' },
+  { label: 'Homewear & Tech Session', value: 'HOME' },
+  { label: 'Christmas Holiday Session', value: 'CHRISTMAS' },
+];
+
 export default function CategoryClient({
   categoryTitle,
   categoryDescription,
   bannerImage,
   products: initialProducts,
 }: CategoryClientProps) {
+  const [activeSession, setActiveSession] = useState<SessionFilter>('ALL');
   const [sortBy, setSortBy] = useState<'featured' | 'price-asc' | 'price-desc' | 'rating'>('featured');
 
+  const filteredProducts = useMemo(() => {
+    let list = [...initialProducts];
+    if (activeSession === 'WOMEN') {
+      list = list.filter((p) => p.department === 'WOMEN');
+    } else if (activeSession === 'MEN') {
+      list = list.filter((p) => p.department === 'MEN');
+    } else if (activeSession === 'KIDS') {
+      list = list.filter((p) => p.department === 'GIRLS' || p.department === 'BABY' || p.category === 'Toys');
+    } else if (activeSession === 'BOYS') {
+      list = list.filter((p) => p.department === 'BOYS');
+    } else if (activeSession === 'HOME') {
+      list = list.filter((p) => p.department === 'HOME' || p.category === 'New Homewear Things' || p.category === 'Electric Things');
+    } else if (activeSession === 'CHRISTMAS') {
+      list = list.filter((p) => p.badges.includes('Christmas Edit') || p.name.toLowerCase().includes('christmas') || p.department === 'CHRISTMAS');
+    }
+    return list;
+  }, [initialProducts, activeSession]);
+
   const sortedProducts = useMemo(() => {
-    const list = [...initialProducts];
+    const list = [...filteredProducts];
     if (sortBy === 'price-asc') return list.sort((a, b) => a.price - b.price);
     if (sortBy === 'price-desc') return list.sort((a, b) => b.price - a.price);
     if (sortBy === 'rating') return list.sort((a, b) => b.rating - a.rating);
     return list;
-  }, [initialProducts, sortBy]);
+  }, [filteredProducts, sortBy]);
 
   return (
     <div className="min-h-screen bg-[#FFFFFF] text-slate-900 flex flex-col">
@@ -73,11 +104,35 @@ export default function CategoryClient({
         </div>
       </section>
 
+      {/* Sub-Session Tabs (Kids session, Woman session, Man session, Boy session, etc.) */}
+      <div className="bg-white border-b border-slate-200 sticky top-0 z-20 shadow-xs">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-2 overflow-x-auto py-3 no-scrollbar">
+            {SESSION_TABS.map((tab) => {
+              const isActive = activeSession === tab.value;
+              return (
+                <button
+                  key={tab.value}
+                  onClick={() => setActiveSession(tab.value)}
+                  className={`px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider whitespace-nowrap transition-all cursor-pointer ${
+                    isActive
+                      ? 'bg-slate-900 text-white shadow-sm'
+                      : 'bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900'
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
       {/* Filter and Count Bar */}
       <div className="bg-slate-50 border-b border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between text-xs font-semibold text-slate-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-3 text-xs font-semibold text-slate-600">
           <div>
-            Showing <strong className="text-slate-900">{sortedProducts.length}</strong> items • Ready for US Dispatch
+            Showing <strong className="text-slate-900">{sortedProducts.length}</strong> items in this session • Ready for US Dispatch
           </div>
 
           <div className="flex items-center gap-2">
@@ -101,13 +156,13 @@ export default function CategoryClient({
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 flex-1 w-full">
         {sortedProducts.length === 0 ? (
           <div className="text-center py-20 bg-slate-50 rounded-3xl border border-slate-200 max-w-xl mx-auto">
-            <p className="text-base font-bold text-slate-700">No items available in this category currently.</p>
-            <Link
-              href="/"
-              className="inline-block mt-4 px-6 py-2.5 bg-slate-900 text-white rounded-full text-xs font-black uppercase tracking-wider hover:bg-sky-600 transition-colors"
+            <p className="text-base font-bold text-slate-700">No items available in this session currently.</p>
+            <button
+              onClick={() => setActiveSession('ALL')}
+              className="mt-4 px-6 py-2.5 bg-slate-900 text-white rounded-full text-xs font-black uppercase tracking-wider hover:bg-sky-600 transition-colors cursor-pointer"
             >
-              Return to Homepage
-            </Link>
+              View All Items
+            </button>
           </div>
         ) : (
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -122,4 +177,3 @@ export default function CategoryClient({
     </div>
   );
 }
-

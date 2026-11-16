@@ -23,6 +23,7 @@ import WishlistDrawer from '@/components/WishlistDrawer';
 
 const NAV_LINKS = [
   { name: 'HOME', href: '/' },
+  { name: 'WINTER COLLECTION', href: '/category/winter-collection', highlight: true },
   { name: 'TOYS & PLUSH', href: '/category/toys' },
   { name: 'CHARACTER SHOPS', href: '/category/character-shops' },
   { name: 'JACKETS & COATS', href: '/category/jackets-coats' },
@@ -258,7 +259,9 @@ export default function Header() {
                   key={link.name}
                   href={link.href}
                   className={`text-xs font-bold uppercase tracking-wider transition-colors py-1 ${
-                    link.color === 'gold'
+                    (link as any).highlight
+                      ? 'text-sky-700 bg-sky-50 px-2.5 py-1 rounded-full border border-sky-200 hover:bg-sky-100 hover:text-sky-900 shadow-xs'
+                      : link.color === 'gold'
                       ? 'text-amber-700 hover:text-amber-600'
                       : 'text-slate-700 hover:text-slate-950'
                   }`}

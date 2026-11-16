@@ -5646,5 +5646,988 @@ export const products: Product[] = [
       "Piped Contrast Borders",
       "Timeless Winter Chalet Styling"
     ]
+  },
+  {
+    "id": "elec-001",
+    "name": "Bronze Newton Concrete Table Lamp",
+    "brand": "NEXT LIGHTING",
+    "price": 189,
+    "originalPrice": 225,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Top Tech", "New Arrival"],
+    "colors": [
+      {
+        "name": "Bronze Concrete",
+        "hex": "#78350F",
+        "images": [
+          "/project-pic/Bronze Newton Concrete Table Lamp.jpg",
+          "/project-pic/Bronze Newton Concrete Table Lamp 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size (H45cm)", "available": true, "price": 189 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 78,
+    "description": "Architectural industrial table lamp pairing cast solid concrete with metallic brushed bronze hardware and inline cord switch.",
+    "features": [
+      "Solid Cast Concrete Base",
+      "Brushed Metallic Bronze Accents",
+      "Inline Cord Switch",
+      "E27 Bulb Compatible"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-002",
+    "name": "Black Resin Ribbed Electric Toothbrush Holder and Tidy",
+    "brand": "NEXT BATHROOM",
+    "price": 30,
+    "originalPrice": 38,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Smart Living"],
+    "colors": [
+      {
+        "name": "Matte Black",
+        "hex": "#1F2937",
+        "images": [
+          "/project-pic/Black Resin Ribbed Electric Toothbrush Holder and Tidy.jpg",
+          "/project-pic/Black Resin Ribbed Electric Toothbrush Holder and Tidy 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Standard", "available": true, "price": 30 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 142,
+    "description": "Contemporary matte black resin bathroom organizer with dedicated slots for electric toothbrush handles, replacement heads, and toothpaste.",
+    "features": [
+      "Weighted Water-Resistant Resin",
+      "Tactile Ribbed Design",
+      "Fits Major Electric Toothbrushes",
+      "Ventilated Easy-Clean Base"
+    ]
+  },
+  {
+    "id": "elec-003",
+    "name": "Natural Bertie Bear Remote Control Holder",
+    "brand": "NEXT ACCESSORIES",
+    "price": 20,
+    "originalPrice": 26,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Customer Favourite", "Multi-Category"],
+    "colors": [
+      {
+        "name": "Natural Cream",
+        "hex": "#E5D0BA",
+        "images": [
+          "/project-pic/Natural Bertie Bear Remote Control Holder.jpg",
+          "/project-pic/Natural Bertie Bear Remote Control Holder 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Standard (3 Compartments)", "available": true, "price": 20 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 210,
+    "description": "Adorable faux-fleece Bertie the Bear desktop and sofa organizer with divided slots for TV remotes, gaming controllers, and mobile phones.",
+    "features": [
+      "Bertie Bear Soft Plush Outer",
+      "3 Divided Deep Compartments",
+      "Fits Remotes, Phones & Consoles",
+      "Sturdy Non-Slip Weighted Base"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-004",
+    "name": "Pink Biscuit Friends Dangly Legs Ornament",
+    "brand": "NEXT NOVELTY",
+    "price": 30,
+    "originalPrice": 38,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Novelty"],
+    "colors": [
+      {
+        "name": "Biscuit Pink",
+        "hex": "#F472B6",
+        "images": [
+          "/project-pic/Pink Biscuit Friends Dangly Legs Ornament.jpg",
+          "/project-pic/Pink Biscuit Friends Dangly Legs Ornament 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size", "available": true, "price": 30 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 94,
+    "description": "Quirky ceramic shelf-sitter decoration featuring gingerbread biscuit friends with playful knitted dangly legs.",
+    "features": [
+      "Ceramic Hand-Painted Body",
+      "Soft Knitted Rope Dangly Legs",
+      "Shelf, Desk & Mantle Decor",
+      "Festive Pastel Palette"
+    ]
+  },
+  {
+    "id": "elec-005",
+    "name": "Multi Christmas Hamish Stacking Mugs with Wire Stand",
+    "brand": "NEXT CHRISTMAS",
+    "price": 56,
+    "originalPrice": 68,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Kitchen Tech"],
+    "colors": [
+      {
+        "name": "Festive Multi",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Multi Christmas Hamish Stacking Mugs with Wire Stand.jpg",
+          "/project-pic/Multi Christmas Hamish Stacking Mugs with Wire Stand 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Set of 4 Mugs + Stand", "available": true, "price": 56 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 188,
+    "description": "Space-saving stackable ceramic coffee mugs in a chrome counter wire stand, decorated with Hamish the Highland Cow in holiday attire.",
+    "features": [
+      "Set of 4 Nesting Ceramic Mugs",
+      "Vertical Chrome Counter Stand",
+      "Dishwasher & Microwave Safe",
+      "Highland Cow Holiday Prints"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-006",
+    "name": "Sage Green Pat the Chicken Egg House",
+    "brand": "NEXT COUNTRY",
+    "price": 50,
+    "originalPrice": 62,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Kitchen Essential"],
+    "colors": [
+      {
+        "name": "Sage Green",
+        "hex": "#84A98C",
+        "images": [
+          "/project-pic/Sage Green Pat the Chicken Egg House.jpg",
+          "/project-pic/Sage Green Pat the Chicken Egg House 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Holds 12 Eggs", "available": true, "price": 50 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 115,
+    "description": "Rustic wooden tabletop egg storage cabinet painted in soft sage green with mesh wire doors and Pat the Chicken ceramic finial.",
+    "features": [
+      "Holds Up to 12 Fresh Eggs",
+      "Twin Mesh Ventilation Doors",
+      "Solid Painted Timber Frame",
+      "Charming Farmhouse Aesthetic"
+    ]
+  },
+  {
+    "id": "elec-007",
+    "name": "Pink String Palazzo Easy Fit Pendant Lamp Shade",
+    "brand": "NEXT LIGHTING",
+    "price": 83,
+    "originalPrice": 100,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Lighting", "New Arrival"],
+    "colors": [
+      {
+        "name": "Palazzo Pink",
+        "hex": "#F43F5E",
+        "images": [
+          "/project-pic/Pink String Palazzo Easy Fit Pendant Lamp Shade.jpg",
+          "/project-pic/Pink String Palazzo Easy Fit Pendant Lamp Shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 35cm", "available": true, "price": 83 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 82,
+    "description": "Artisan woven string easy-fit ceiling shade that casts beautiful warm ambient linear shadows across bedrooms and living rooms.",
+    "features": [
+      "Easy-Fit Collar (No Electrician Needed)",
+      "Textured Woven String Construction",
+      "Warm Ambient Light Diffusion",
+      "Fits Standard Ceiling Roses"
+    ]
+  },
+  {
+    "id": "elec-008",
+    "name": "Set of 3 Red/Green Pigs in Blankets Christmas Ornament",
+    "brand": "NEXT CHRISTMAS",
+    "price": 36,
+    "originalPrice": 45,
+    "category": "Electric Things",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Holiday Novelty"],
+    "colors": [
+      {
+        "name": "Red & Green Blankets",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/Set of 3 Red/Green Pigs in Blankets Christmas Ornament.jpg",
+          "/project-pic/Set of 3 Red/Green Pigs in Blankets Christmas Ornament 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Set of 3", "available": true, "price": 36 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 240,
+    "description": "Cheeky British holiday classic! Set of three hand-painted ceramic pig figurines wrapped in cozy knitted Christmas blankets.",
+    "features": [
+      "Set of 3 Festive Pig Figurines",
+      "Knitted Texture Real Blankets",
+      "High-Gloss Glazed Ceramic",
+      "Great Dining Table Accent"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-009",
+    "name": "Natural Hamish The Highland Cow Utensil Pot",
+    "brand": "NEXT KITCHEN",
+    "price": 52,
+    "originalPrice": 65,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Best Seller", "Multi-Category"],
+    "colors": [
+      {
+        "name": "Natural Stoneware",
+        "hex": "#E0A96D",
+        "images": [
+          "/project-pic/Natural Hamish The Highland Cow Utensil Pot.jpg",
+          "/project-pic/Natural Hamish The Highland Cow Utensil Pot 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "H18cm x D14cm", "available": true, "price": 52 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 310,
+    "description": "Heavyweight glazed ceramic kitchen countertop utensil crock shaped with Hamish the Highland Cow's iconic shaggy coat and sculpted horns.",
+    "features": [
+      "Sculpted Highland Cow Horns & Coat",
+      "Heavy Tip-Resistant Ceramic",
+      "Deep Capacity for Whisks & Spoons",
+      "Dishwasher Safe"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-010",
+    "name": "Blue Ceramic Octopus Ornament",
+    "brand": "NEXT ACCESSORIES",
+    "price": 24,
+    "originalPrice": 30,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Coastal Living"],
+    "colors": [
+      {
+        "name": "Ocean Blue",
+        "hex": "#0284C7",
+        "images": [
+          "/project-pic/Blue Ceramic Octopus Ornament.jpg",
+          "/project-pic/Blue Ceramic Octopus Ornament 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "W16cm x H10cm", "available": true, "price": 24 }
+    ],
+    "rating": 4.7,
+    "reviewCount": 86,
+    "description": "High-gloss ocean blue glazed ceramic octopus sculpture with delicately curled tentacles for shelves, desks, or bathroom vanity units.",
+    "features": [
+      "High-Gloss Reactive Glaze",
+      "Sculpted Curled Tentacles",
+      "Statement Desk Paperweight",
+      "Protective Base Pads"
+    ]
+  },
+  {
+    "id": "elec-011",
+    "name": "Multi Iridescent Star Easy Fit Light shade",
+    "brand": "NEXT LIGHTING",
+    "price": 44,
+    "originalPrice": 55,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Lighting", "Kids Room"],
+    "colors": [
+      {
+        "name": "Iridescent Glow",
+        "hex": "#C084FC",
+        "images": [
+          "/project-pic/Multi Iridescent Star Easy Fit Light shade.jpg",
+          "/project-pic/Multi Iridescent Star Easy Fit Light shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 40cm", "available": true, "price": 44 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 134,
+    "description": "Shimmering 3D star ceiling pendant shade crafted with prismatic iridescent panels that reflect soft rainbow hues when illuminated.",
+    "features": [
+      "Prismatic Iridescent Sheen",
+      "Geometric 3D Star Silhouette",
+      "Easy-Fit Ring Fitting",
+      "Lightweight Safe Construction"
+    ]
+  },
+  {
+    "id": "elec-012",
+    "name": "Set of 4 Grey Hamish the Highland Cow Stacking Mugs with Wire Stand",
+    "brand": "NEXT KITCHEN",
+    "price": 48,
+    "originalPrice": 60,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Best Seller", "Kitchen Essential"],
+    "colors": [
+      {
+        "name": "Charcoal Grey",
+        "hex": "#4B5563",
+        "images": [
+          "/project-pic/Set of 4 Grey Hamish the Highland Cow Stacking Mugs with Wire Stand.jpg",
+          "/project-pic/Set of 4 Grey Hamish the Highland Cow Stacking Mugs with Wire Stand 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Set of 4 Mugs + Stand", "available": true, "price": 48 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 220,
+    "description": "Set of 4 modern charcoal grey ceramic stacking mugs with rustic sketched Hamish Highland Cow illustrations and vertical counter stand.",
+    "features": [
+      "4 Matching Stacking Mugs",
+      "Vertical Wire Counter Rack",
+      "Modern Charcoal Palette",
+      "Microwave & Dishwasher Safe"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-013",
+    "name": "Red/Green Hamish Nutcracker Christmas Ornament",
+    "brand": "NEXT CHRISTMAS",
+    "price": 24,
+    "originalPrice": 35,
+    "category": "Electric Things",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Limited Edition"],
+    "colors": [
+      {
+        "name": "Festive Red & Green",
+        "hex": "#C8102E",
+        "images": [
+          "/project-pic/gh.jpg",
+          "/project-pic/jk.jpg",
+          "/project-pic/ll.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Small 15cm ($24)", "available": true, "price": 24 },
+      { "label": "Medium 30cm ($68)", "available": true, "price": 68 },
+      { "label": "Large 60cm ($148)", "available": true, "price": 148 },
+      { "label": "Giant Statement 120cm ($298)", "available": true, "price": 298 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 178,
+    "description": "Collector's edition Hamish the Highland Cow dressed in traditional royal guard Nutcracker regalia with gold frogging and jeweled drum.",
+    "features": [
+      "Hand-Carved & Painted Timber",
+      "Real Fabric Accents & Gold Epaulettes",
+      "Available Up to Giant 120cm Size",
+      "Numbered Collector Piece"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-014",
+    "name": "Cath Kidston Multi Wallace and Gromit Stackable Tea For Two",
+    "brand": "CATH KIDSTON",
+    "price": 76,
+    "originalPrice": 95,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Character Special", "Designer Edit"],
+    "colors": [
+      {
+        "name": "Cath Kidston Floral Multi",
+        "hex": "#38BDF8",
+        "images": [
+          "/project-pic/Cath Kidston Multi Wallace and Gromit Stackable Tea For Two.jpg",
+          "/project-pic/Cath Kidston Multi Wallace and Gromit Stackable Tea For Two 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Teapot + 2 Cups Stack", "available": true, "price": 76 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 195,
+    "description": "Limited-edition collaboration between Cath Kidston and Aardman's Wallace & Gromit. Clever stacking ceramic teapot and two matching teacups.",
+    "features": [
+      "Official Aardman Wallace & Gromit License",
+      "Iconic Cath Kidston Ditsy Print",
+      "Nesting Teapot & 2 Cups Set",
+      "Fine China Construction"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-015",
+    "name": "Natural Hamish The Highland Cow Mug Tree",
+    "brand": "NEXT KITCHEN",
+    "price": 56,
+    "originalPrice": 70,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Kitchen Essential"],
+    "colors": [
+      {
+        "name": "Natural Acacia Wood",
+        "hex": "#A27B5C",
+        "images": [
+          "/project-pic/Natural Hamish The Highland Cow Mug Tree.jpg",
+          "/project-pic/Natural Hamish The Highland Cow Mug Tree 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Holds 6 Mugs", "available": true, "price": 56 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 128,
+    "description": "Solid natural acacia wood mug storage tree topped with a sculpted pewter-finish Hamish the Highland Cow finial. Holds up to 6 mugs safely.",
+    "features": [
+      "Solid Acacia Hardwood Trunk",
+      "Pewter Hamish Cow Finial",
+      "6 Heavy-Duty Peg Branches",
+      "Weighted Base with Soft Feet"
+    ]
+  },
+  {
+    "id": "elec-016",
+    "name": "Natural Christmas Penguin and Friends Snow Cute Mug",
+    "brand": "NEXT CHRISTMAS",
+    "price": 18,
+    "originalPrice": 24,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Christmas Edit", "Gifting Favourite"],
+    "colors": [
+      {
+        "name": "Snow White / Mint",
+        "hex": "#E0F2FE",
+        "images": [
+          "/project-pic/Natural Christmas Penguin and Friends Snow Cute Mug.jpg",
+          "/project-pic/Natural Christmas Penguin and Friends Snow Cute Mug 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "380ml Mug", "available": true, "price": 18 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 260,
+    "description": "Festive embossed ceramic mug featuring a cheerful polar penguin, polar bear cub, and snowy alpine trees with metallic gold rim.",
+    "features": [
+      "Embossed 3D Penguin Art",
+      "Real Metallic Gold Luster Rim",
+      "Comfort-Grip Handle",
+      "Gift-Boxed Presentation"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-017",
+    "name": "Set of 2 Natural Hamish The Highland Cow Bathroom Toothpaste Ornaments",
+    "brand": "NEXT BATHROOM",
+    "price": 36,
+    "originalPrice": 45,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Bathroom Living"],
+    "colors": [
+      {
+        "name": "Oatmeal Ceramic",
+        "hex": "#D6C7B2",
+        "images": [
+          "/project-pic/Set of 2 Natural Hamish The Highland Cow Bathroom Toothpaste Ornaments.jpg",
+          "/project-pic/Set of 2 Natural Hamish The Highland Cow Bathroom Toothpaste Ornaments 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Set of 2 Pieces", "available": true, "price": 36 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 98,
+    "description": "Duo of ceramic Hamish cow bathroom countertop holders designed to hold manual or electric toothbrushes and toothpaste tubes upright.",
+    "features": [
+      "Set of 2 Sculpted Holders",
+      "Hygienic Water Drainage Hole",
+      "Glazed Matte Stoneware",
+      "Adds Character to Bathrooms"
+    ]
+  },
+  {
+    "id": "elec-018",
+    "name": "Black Sink Sweeper – Beard Trimmings Sink Cleaner",
+    "brand": "PRO TECH GROOM",
+    "price": 15,
+    "originalPrice": 20,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Smart Grooming", "Trending"],
+    "colors": [
+      {
+        "name": "Matte Black",
+        "hex": "#111827",
+        "images": [
+          "/project-pic/Black Sink Sweeper – Beard Trimmings Sink Cleaner.jpg",
+          "/project-pic/Black Sink Sweeper – Beard Trimmings Sink Cleaner 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "One Size Sweeper + Stand", "available": true, "price": 15 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 340,
+    "description": "Essential grooming tool designed with static silicone bristles that effortlessly sweep up stubborn dry beard trimmings from bathroom sinks without clogging drains.",
+    "features": [
+      "Static Silicone Capture Bristles",
+      "No Water Required to Clean Sinks",
+      "Includes Sleek Storage Stand",
+      "Ergonomic Non-Slip Grip"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-019",
+    "name": "Natural Hug in a Mug Hamish the Highland Cow Hanging Decoration Gift",
+    "brand": "NEXT CHRISTMAS",
+    "price": 11,
+    "originalPrice": 15,
+    "category": "Electric Things",
+    "department": "CHRISTMAS",
+    "badges": ["Christmas Edit", "Gifting Favourite"],
+    "colors": [
+      {
+        "name": "Natural Brown",
+        "hex": "#B45309",
+        "images": [
+          "/project-pic/Natural Hug in a Mug Hamish the Highland Cow Hanging Decoration Gift.jpg",
+          "/project-pic/Natural Hug in a Mug Hamish the Highland Cow Hanging Decoration Gift 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Hanging Bauble Gift", "available": true, "price": 11 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 420,
+    "description": "Precious miniature Hamish Highland cow sitting inside a Christmas teacup marked 'Hug in a Mug' with hanging twine.",
+    "features": [
+      "Highland Cow in Teacup Motif",
+      "Hand-Finished Resin & Fabric Scarf",
+      "Jute Hanging Loop",
+      "Pre-Packaged Gift Box"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-020",
+    "name": "Natural Biscuit Character Ceramic Trinket Pot",
+    "brand": "NEXT ACCESSORIES",
+    "price": 28,
+    "originalPrice": 35,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Home Accents"],
+    "colors": [
+      {
+        "name": "Glazed Biscuit",
+        "hex": "#DDA15E",
+        "images": [
+          "/project-pic/Natural Biscuit Character Ceramic Trinket Pot.jpg",
+          "/project-pic/Natural Biscuit Character Ceramic Trinket Pot 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 10cm x H12cm", "available": true, "price": 28 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 112,
+    "description": "Lidded ceramic storage dish shaped like a cheerful ginger biscuit friend. Perfect for ear pods, keys, coins, or jewelry beside chargers.",
+    "features": [
+      "Removable Fitted Lid",
+      "Glazed High-Gloss Finish",
+      "Safe Storage for Small Tech & Rings",
+      "Felted Non-Scratch Base"
+    ]
+  },
+  {
+    "id": "elec-021",
+    "name": "Natural Bertie The Bear Light Pull",
+    "brand": "NEXT LIGHTING",
+    "price": 10,
+    "originalPrice": 14,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Bathroom Living"],
+    "colors": [
+      {
+        "name": "Natural Beige",
+        "hex": "#D4A373",
+        "images": [
+          "/project-pic/Natural Bertie The Bear Light Pull.jpg",
+          "/project-pic/Natural Bertie The Bear Light Pull 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Pull + 1m Cord", "available": true, "price": 10 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 160,
+    "description": "Cast resin sculpted Bertie the Bear replacement cord pull for bathroom ceiling lights and shower pull switches.",
+    "features": [
+      "Solid Cast Weighted Resin",
+      "Includes 1-Metre White Cord",
+      "Universal Connector Joint",
+      "Easy Tool-Free Installation"
+    ]
+  },
+  {
+    "id": "elec-022",
+    "name": "Black Metal Game Controller Easy Fit Light shade",
+    "brand": "NEXT LIGHTING",
+    "price": 65,
+    "originalPrice": 80,
+    "category": "Electric Things",
+    "department": "BOYS",
+    "badges": ["Gaming Room", "Top Tech"],
+    "colors": [
+      {
+        "name": "Matte Gamer Black",
+        "hex": "#111827",
+        "images": [
+          "/project-pic/Black Metal Game Controller Easy Fit Light shade.jpg",
+          "/project-pic/Black Metal Game Controller Easy Fit Light shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "W38cm x H26cm", "available": true, "price": 65 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 215,
+    "description": "Laser-cut powder-coated steel light shade shaped like an authentic video game controller with illuminated cutout buttons and D-pad.",
+    "features": [
+      "Laser-Cut Steel Controller Frame",
+      "Light Casts Button Silhouettes",
+      "Easy-Fit Collar (Attaches to Bulb Holder)",
+      "Essential Gamer Bedroom Addition"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-023",
+    "name": "Navy String Palazzo Easy Fit Pendant Lamp Shade",
+    "brand": "NEXT LIGHTING",
+    "price": 83,
+    "originalPrice": 105,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Lighting", "New Arrival"],
+    "colors": [
+      {
+        "name": "Midnight Navy String",
+        "hex": "#1E3A8A",
+        "images": [
+          "/project-pic/Navy String Palazzo Easy Fit Pendant Lamp Shade.jpg",
+          "/project-pic/Navy String Palazzo Easy Fit Pendant Lamp Shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 35cm", "available": true, "price": 83 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 78,
+    "description": "Architectural string easy-fit drum shade in deep midnight navy, creating subtle geometric ambient lighting for modern winter interiors.",
+    "features": [
+      "Tightly Strung Drum Architecture",
+      "Rich Midnight Navy Tone",
+      "Easy-Fit No Wiring Required",
+      "Dampens Glare with Warm Diffusion"
+    ]
+  },
+  {
+    "id": "elec-024",
+    "name": "Pastel Multi Pink Isla Floral Print Blackout/Thermal Eyelet Curtains",
+    "brand": "NEXT HOME",
+    "price": 99,
+    "originalPrice": 130,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Thermal Tech", "Best Seller"],
+    "colors": [
+      {
+        "name": "Pastel Isla Floral",
+        "hex": "#F472B6",
+        "images": [
+          "/project-pic/zx.jpg",
+          "/project-pic/cv.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "W117cm x Drop 137cm ($99)", "available": true, "price": 99 },
+      { "label": "W168cm x Drop 183cm ($148)", "available": true, "price": 148 },
+      { "label": "W228cm x Drop 228cm ($210)", "available": true, "price": 210 },
+      { "label": "W228cm x Drop 274cm ($258)", "available": true, "price": 258 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 275,
+    "description": "Engineered with advanced 3-pass thermal blackout technology that traps heat inside during winter cold snaps and blocks 100% of light. Price varies according to size.",
+    "features": [
+      "Thermal Insulation Heat-Lock Layer",
+      "100% Total Blackout Rating",
+      "Matt Silver Eyelet Header",
+      "Energy Saving Sub-Zero Protection"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-025",
+    "name": "Clear Isla Ombre Easy Fit Lamp Shade",
+    "brand": "NEXT LIGHTING",
+    "price": 50,
+    "originalPrice": 65,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Lighting"],
+    "colors": [
+      {
+        "name": "Smoked Clear Ombre",
+        "hex": "#9CA3AF",
+        "images": [
+          "/project-pic/Clear Isla Ombre Easy Fit Lamp Shade.jpg",
+          "/project-pic/Clear Isla Ombre Easy Fit Lamp Shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 28cm", "available": true, "price": 50 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 120,
+    "description": "Graduated smoked glass effect easy-fit lamp shade transitioning from charcoal tint to crystal clear glass.",
+    "features": [
+      "Hand-Blown Glass Finish",
+      "Smooth Gradient Ombre Tint",
+      "Easy Clip-On Ring Adapter",
+      "Pairs with Filament Vintage Bulbs"
+    ]
+  },
+  {
+    "id": "elec-026",
+    "name": "Smoke Grey Jensen Easy Fit Ceiling Light Shade",
+    "brand": "NEXT LIGHTING",
+    "price": 69,
+    "originalPrice": 85,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Lighting", "New Arrival"],
+    "colors": [
+      {
+        "name": "Smoke Grey",
+        "hex": "#4B5563",
+        "images": [
+          "/project-pic/Smoke Grey Jensen Easy Fit Ceiling Light Shade.jpg",
+          "/project-pic/Smoke Grey Jensen Easy Fit Ceiling Light Shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 32cm", "available": true, "price": 69 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 84,
+    "description": "Sculptural tiered smoke grey ribbed glass ceiling shade with brushed chrome fittings for hallway and dining room elegance.",
+    "features": [
+      "Tiered Ribbed Glass Silhouette",
+      "Sophisticated Smoky Grey Tint",
+      "No Electrician Required",
+      "Brushed Chrome Trim"
+    ]
+  },
+  {
+    "id": "elec-027",
+    "name": "Monochrome Football Easy Fit Ceiling Light Shade",
+    "brand": "NEXT LIGHTING",
+    "price": 60,
+    "originalPrice": 75,
+    "category": "Electric Things",
+    "department": "BOYS",
+    "badges": ["Kids Room"],
+    "colors": [
+      {
+        "name": "Monochrome Black & White",
+        "hex": "#1F2937",
+        "images": [
+          "/project-pic/Monochrome Football Easy Fit Ceiling Light Shade.jpg",
+          "/project-pic/Monochrome Football Easy Fit Ceiling Light Shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 30cm", "available": true, "price": 60 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 164,
+    "description": "Classic football globe light shade featuring traditional black and white pentagon panels with translucent light transmission.",
+    "features": [
+      "Classic Pentagon Football Design",
+      "Even Light Diffusion",
+      "Sturdy Metal Frame Structure",
+      "Ideal for Young Athletes' Bedrooms"
+    ]
+  },
+  {
+    "id": "elec-028",
+    "name": "Nickel Oriana Easy Fit Pendant Lamp Shade",
+    "brand": "NEXT LIGHTING",
+    "price": 75,
+    "originalPrice": 95,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Luxury Edit"],
+    "colors": [
+      {
+        "name": "Polished Nickel",
+        "hex": "#94A3B8",
+        "images": [
+          "/project-pic/Nickel Oriana Easy Fit Pendant Lamp Shade.jpg",
+          "/project-pic/Nickel Oriana Easy Fit Pendant Lamp Shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 34cm", "available": true, "price": 75 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 92,
+    "description": "Polished nickel metallic geometric pendant shade with beveled light-refracting acrylic crystal drops that sparkle brightly.",
+    "features": [
+      "Polished Mirror Nickel Finish",
+      "Faceted Crystal Droplets",
+      "Instant Chandelier Glamour",
+      "Easy-Fit Ceiling Attachment"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-029",
+    "name": "Clear Venetian Easy Fit Lamp Shade",
+    "brand": "NEXT LIGHTING",
+    "price": 89,
+    "originalPrice": 110,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Luxury Edit", "New Arrival"],
+    "colors": [
+      {
+        "name": "Clear Crystal Glass",
+        "hex": "#F1F5F9",
+        "images": [
+          "/project-pic/Clear Venetian Easy Fit Lamp Shade.jpg",
+          "/project-pic/Clear Venetian Easy Fit Lamp Shade 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 36cm", "available": true, "price": 89 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 110,
+    "description": "Venetian style molded pressed glass lampshade with intricate antique diamond prism cuts that scatter light brilliantly.",
+    "features": [
+      "Heavyweight Pressed Glass",
+      "Diamond Cut Prismatic Facets",
+      "Scatters Sparkling Ceiling Patterns",
+      "Fits Pendants or Table Lamps"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "elec-030",
+    "name": "Gold Bobbin Round Wall Mirror",
+    "brand": "NEXT HOME",
+    "price": 149,
+    "originalPrice": 185,
+    "category": "Electric Things",
+    "department": "HOME",
+    "badges": ["Home Accents", "Best Seller"],
+    "colors": [
+      {
+        "name": "Brushed Gold",
+        "hex": "#D4AF37",
+        "images": [
+          "/project-pic/Gold Bobbin Round Wall Mirror.jpg",
+          "/project-pic/Gold Bobbin Round Wall Mirror 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "Dia 70cm", "available": true, "price": 149 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 218,
+    "description": "Statement 70cm circular wall mirror framed by tactile carved bobbin bead turnings and finished in hand-applied brushed gold foil.",
+    "features": [
+      "70cm Large Circular Mirror",
+      "Artisanal Carved Bobbin Frame",
+      "Hand-Applied Brushed Gold Luster",
+      "Heavy-Duty Pre-Fitted Hanging Hardware"
+    ],
+    "isBestseller": true
   }
 ];

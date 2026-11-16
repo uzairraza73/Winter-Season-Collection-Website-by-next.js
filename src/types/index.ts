@@ -41,7 +41,8 @@ export type ProductCategory =
   | 'Jackets & Coats'
   | 'New Homewear Things'
   | 'Character Shops'
-  | 'Electric Things';
+  | 'Electric Things'
+  | 'Winter Collection';
 
 export interface Product {
   id: string;

@@ -11,6 +11,12 @@ interface CategoryMeta {
 }
 
 const CATEGORY_MAP: Record<string, CategoryMeta> = {
+  'winter-collection': {
+    title: 'The Winter Collection',
+    description: 'Explore the full seasonal catalog across Women, Men, Kids, Boys, Baby, Outerwear, Knitwear, and Festive Essentials.',
+    bannerImage: '/hero-women.jpg',
+    filter: () => true,
+  },
   'toys': {
     title: 'Toys & Soft Plush',
     description: 'Heirloom wooden toys, festive Highland Cow plushies, holiday gonks, and backpacks crafted for imagination and playtime cheer.',
