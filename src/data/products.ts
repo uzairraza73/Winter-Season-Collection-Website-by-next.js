@@ -6629,5 +6629,598 @@ export const products: Product[] = [
       "Heavy-Duty Pre-Fitted Hanging Hardware"
     ],
     "isBestseller": true
+  },
+  {
+    "id": "kid-001",
+    "name": "Multi 100% Cotton Pull On Wide Trousers (3mths-7yrs)",
+    "brand": "NEXT KIDS",
+    "price": 24,
+    "originalPrice": 29,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Winter Collection", "100% Cotton"],
+    "colors": [
+      {
+        "name": "Multi Pattern",
+        "hex": "#B47C57",
+        "images": [
+          "/project-pic/Multi 100 Cotton Pull On Wide Trousers (3mths-7yrs).jpg",
+          "/project-pic/Multi 100 Cotton Pull On Wide Trousers (3mths-7yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 24 },
+      { "label": "6-9 months", "available": true, "price": 24 },
+      { "label": "9-12 months", "available": true, "price": 25 },
+      { "label": "12-18 months", "available": true, "price": 25 },
+      { "label": "1.5-2 years", "available": true, "price": 26 },
+      { "label": "2-3 years", "available": true, "price": 26 },
+      { "label": "3-4 years", "available": true, "price": 27 },
+      { "label": "4-5 years", "available": true, "price": 28 },
+      { "label": "5-6 years", "available": true, "price": 28 },
+      { "label": "6-7 years", "available": true, "price": 29 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 84,
+    "description": "Ultra-soft 100% pure cotton pull-on wide-leg trousers designed for unrestricted movement, comfortable elasticated waistband, and cozy warmth.",
+    "features": [
+      "100% Breathable Cotton",
+      "Relaxed Wide Leg Cut",
+      "Stretchy Pull-On Waistband",
+      "Gentle On Delicate Skin"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-002",
+    "name": "Cream/Red Christmas Cookie Sweatshirt and Barrel Leg Set (3mths-7yrs)",
+    "brand": "NEXT FESTIVE",
+    "price": 33,
+    "originalPrice": 42,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Cream & Red",
+        "hex": "#F4EDE2",
+        "images": [
+          "/project-pic/12.jpg",
+          "/project-pic/13.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 33 },
+      { "label": "6-9 months", "available": true, "price": 33 },
+      { "label": "9-12 months", "available": true, "price": 34 },
+      { "label": "12-18 months", "available": true, "price": 35 },
+      { "label": "1.5-2 years", "available": true, "price": 36 },
+      { "label": "2-3 years", "available": true, "price": 37 },
+      { "label": "3-4 years", "available": true, "price": 38 },
+      { "label": "4-5 years", "available": true, "price": 39 },
+      { "label": "5-6 years", "available": true, "price": 40 },
+      { "label": "6-7 years", "available": true, "price": 42 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 96,
+    "description": "Adorable holiday two-piece outfit featuring a joyful festive Christmas cookie motif sweatshirt paired with matching barrel leg relaxed trousers.",
+    "features": [
+      "2-Piece Festive Co-ord Set",
+      "Cozy Fleece Backed Sweatshirt",
+      "Trendy Barrel Leg Pants",
+      "Festive Holiday Cookie Graphics"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-003",
+    "name": "Navy/Purple Christmas Santa Sweatshirt and Wide Leg Joggers Set (3mths-7yrs)",
+    "brand": "NEXT FESTIVE",
+    "price": 33,
+    "originalPrice": 42,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Navy & Purple",
+        "hex": "#1B2238",
+        "images": [
+          "/project-pic/14.jpg",
+          "/project-pic/15.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 33 },
+      { "label": "6-9 months", "available": true, "price": 33 },
+      { "label": "9-12 months", "available": true, "price": 34 },
+      { "label": "12-18 months", "available": true, "price": 35 },
+      { "label": "1.5-2 years", "available": true, "price": 36 },
+      { "label": "2-3 years", "available": true, "price": 37 },
+      { "label": "3-4 years", "available": true, "price": 38 },
+      { "label": "4-5 years", "available": true, "price": 39 },
+      { "label": "5-6 years", "available": true, "price": 40 },
+      { "label": "6-7 years", "available": true, "price": 42 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 88,
+    "description": "Festive Santa graphic sweatshirt and wide leg jogger combo in deep navy and vibrant purple tones, lined with brushed fleece for winter comfort.",
+    "features": [
+      "Matching 2-Piece Winter Set",
+      "Fun Santa Christmas Print",
+      "Comfort Wide Leg Joggers",
+      "Soft Brushed Interior"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-004",
+    "name": "Brown Sweatshirt and Wide Leg Leggings Christmas Baby Set (0mths- 7 years)",
+    "brand": "NEXT BABY",
+    "price": 33,
+    "originalPrice": 42,
+    "category": "Winter Collection",
+    "department": "BABY",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Gingerbread Brown",
+        "hex": "#795548",
+        "images": [
+          "/project-pic/Brown Sweatshirt and Wide Leg Leggings Christmas Baby Set (0mths-2yrs).jpg",
+          "/project-pic/Brown Sweatshirt and Wide Leg Leggings Christmas Baby Set (0mths-2yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 33 },
+      { "label": "6-9 months", "available": true, "price": 33 },
+      { "label": "9-12 months", "available": true, "price": 34 },
+      { "label": "12-18 months", "available": true, "price": 35 },
+      { "label": "1.5-2 years", "available": true, "price": 36 },
+      { "label": "2-3 years", "available": true, "price": 37 },
+      { "label": "3-4 years", "available": true, "price": 38 },
+      { "label": "4-5 years", "available": true, "price": 39 },
+      { "label": "5-6 years", "available": true, "price": 40 },
+      { "label": "6-7 years", "available": true, "price": 42 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 112,
+    "description": "Warm gingerbread brown sweatshirt and ribbed wide leg leggings baby holiday set, designed for snug winter mornings and festive family gatherings.",
+    "features": [
+      "Warm Gingerbread Colorway",
+      "Ribbed Wide-Leg Leggings",
+      "Gentle Elasticated Cuffs",
+      "Popper Fasteners on Baby Sizes"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-005",
+    "name": "Pink Christmas House Sequin Long Sleeve Top (3-16yrs)",
+    "brand": "NEXT KIDS",
+    "price": 42,
+    "originalPrice": 55,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Festive Pink",
+        "hex": "#F48FB1",
+        "images": [
+          "/project-pic/Pink Christmas House Sequin Long Sleeve Top (3-16yrs).jpg",
+          "/project-pic/Pink Christmas House Sequin Long Sleeve Top (3-16yrs) 1.jpg",
+          "/project-pic/Pink Christmas House Sequin Long Sleeve Top (3-16yrs) 2.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-4 years", "available": true, "price": 42 },
+      { "label": "4-5 years", "available": true, "price": 43 },
+      { "label": "5-6 years", "available": true, "price": 45 },
+      { "label": "6-7 years", "available": true, "price": 47 },
+      { "label": "7-8 years", "available": true, "price": 49 },
+      { "label": "8-9 years", "available": true, "price": 50 },
+      { "label": "9-10 years", "available": true, "price": 52 },
+      { "label": "11-12 years", "available": true, "price": 53 },
+      { "label": "13-14 years", "available": true, "price": 54 },
+      { "label": "15-16 years", "available": true, "price": 55 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 140,
+    "description": "Enchanting pink long-sleeve top decorated with an intricate sparkling sequin gingerbread Christmas house scene with Santa hats and snowy roofs.",
+    "features": [
+      "Shimmering Holiday Sequins",
+      "Soft Stretch Cotton Jersey",
+      "Long Sleeves for Winter Warmth",
+      "Festive Bakery Artwork"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-006",
+    "name": "Navy Christmas Long Sleeve Ribbed Raglan Top and Leggings Set (3mths-7yrs)",
+    "brand": "NEXT KIDS",
+    "price": 26,
+    "originalPrice": 35,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Navy Festive Rib",
+        "hex": "#1E2A38",
+        "images": [
+          "/project-pic/Navy Christmas Long Sleeve Ribbed Raglan Top and Leggings Set (3mths-7yrs).jpg",
+          "/project-pic/Navy Christmas Long Sleeve Ribbed Raglan Top and Leggings Set (3mths-7yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 26 },
+      { "label": "6-9 months", "available": true, "price": 26 },
+      { "label": "9-12 months", "available": true, "price": 27 },
+      { "label": "12-18 months", "available": true, "price": 28 },
+      { "label": "1.5-2 years", "available": true, "price": 29 },
+      { "label": "2-3 years", "available": true, "price": 30 },
+      { "label": "3-4 years", "available": true, "price": 31 },
+      { "label": "4-5 years", "available": true, "price": 32 },
+      { "label": "5-6 years", "available": true, "price": 33 },
+      { "label": "6-7 years", "available": true, "price": 35 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 75,
+    "description": "Deep navy ribbed raglan long-sleeve top with contrast Christmas trims paired with coordinated stretch leggings for all-day festive comfort.",
+    "features": [
+      "Ribbed Cotton Texture",
+      "Raglan Cut Sleeves",
+      "All-Day Stretch Comfort",
+      "Subtle Christmas Accents"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-007",
+    "name": "Burgundy Red Christmas Crew Neck Sweat Top & Jogger Set (3mths-7yrs)",
+    "brand": "NEXT KIDS",
+    "price": 35,
+    "originalPrice": 44,
+    "category": "Winter Collection",
+    "department": "BOYS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Burgundy Red",
+        "hex": "#6B1D2F",
+        "images": [
+          "/project-pic/Burgundy Red Christmas Crew Neck Sweat Top & Jogger Set (3mths-7yrs).jpg",
+          "/project-pic/Burgundy Red Christmas Crew Neck Sweat Top & Jogger Set (3mths-7yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 35 },
+      { "label": "6-9 months", "available": true, "price": 35 },
+      { "label": "9-12 months", "available": true, "price": 36 },
+      { "label": "12-18 months", "available": true, "price": 37 },
+      { "label": "1.5-2 years", "available": true, "price": 38 },
+      { "label": "2-3 years", "available": true, "price": 39 },
+      { "label": "3-4 years", "available": true, "price": 40 },
+      { "label": "4-5 years", "available": true, "price": 41 },
+      { "label": "5-6 years", "available": true, "price": 42 },
+      { "label": "6-7 years", "available": true, "price": 44 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 105,
+    "description": "Rich burgundy crew neck winter sweat top with ribbed cuffs and matching joggers featuring holiday embroidery details and fleece backing.",
+    "features": [
+      "Rich Burgundy Christmas Shade",
+      "Fleece-Lined Warmth",
+      "Drawstring Jogger Waist",
+      "Durable Holiday Set"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-008",
+    "name": "Cream Christmas Santa Zip Up Fleece (3mths-7yrs)",
+    "brand": "NEXT KIDS",
+    "price": 33,
+    "originalPrice": 35,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Cream Santa Fleece",
+        "hex": "#F5EFE6",
+        "images": [
+          "/project-pic/Cream Christmas Santa Zip Up Fleece (3mths-7yrs).jpg",
+          "/project-pic/Cream Christmas Santa Zip Up Fleece (3mths-7yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 33 },
+      { "label": "6-9 months", "available": true, "price": 33 },
+      { "label": "9-12 months", "available": true, "price": 33 },
+      { "label": "12-18 months", "available": true, "price": 33 },
+      { "label": "1.5-2 years", "available": true, "price": 34 },
+      { "label": "2-3 years", "available": true, "price": 34 },
+      { "label": "3-4 years", "available": true, "price": 34 },
+      { "label": "4-5 years", "available": true, "price": 35 },
+      { "label": "5-6 years", "available": true, "price": 35 },
+      { "label": "6-7 years", "available": true, "price": 35 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 160,
+    "description": "Fluffy teddy fleece zip-up jacket in warm cream with embroidered Santa Claus holiday motifs, chin guard zipper, and snug elasticated cuffs.",
+    "features": [
+      "Ultra-Plush Teddy Fleece",
+      "Full Zip with Chin Guard",
+      "Festive Santa Embroidery",
+      "Cozy Winter Layering Essential"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-009",
+    "name": "Red Christmas Crew Neck Sweat Top (3mths-7yrs)",
+    "brand": "NEXT FESTIVE",
+    "price": 25,
+    "originalPrice": 27,
+    "category": "Winter Collection",
+    "department": "BOYS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Crimson Holiday Red",
+        "hex": "#C41E3A",
+        "images": [
+          "/project-pic/Red Christmas Crew Neck Sweat Top (3mths-7yrs).jpg",
+          "/project-pic/Red Christmas Crew Neck Sweat Top (3mths-7yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 25 },
+      { "label": "6-9 months", "available": true, "price": 25 },
+      { "label": "9-12 months", "available": true, "price": 25 },
+      { "label": "12-18 months", "available": true, "price": 25 },
+      { "label": "1.5-2 years", "available": true, "price": 26 },
+      { "label": "2-3 years", "available": true, "price": 26 },
+      { "label": "3-4 years", "available": true, "price": 26 },
+      { "label": "4-5 years", "available": true, "price": 27 },
+      { "label": "5-6 years", "available": true, "price": 27 },
+      { "label": "6-7 years", "available": true, "price": 27 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 79,
+    "description": "Vibrant crimson red cotton sweatshirt with Christmas typography and graphics, ribbed hem, and neck poppers on infant sizes.",
+    "features": [
+      "Vibrant Christmas Red",
+      "Soft Brushed Interior",
+      "Popper Fasteners on Baby Sizes",
+      "Ribbed Collar and Cuffs"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-010",
+    "name": "Red Christmas Crew Neck Jumper (3mths-7yrs)",
+    "brand": "NEXT FESTIVE",
+    "price": 35,
+    "originalPrice": 40,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Classic Red Knit",
+        "hex": "#B71C1C",
+        "images": [
+          "/project-pic/Red Christmas Crew Neck Jumper (3mths-7yrs).jpg",
+          "/project-pic/Red Christmas Crew Neck Jumper (3mths-7yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 35 },
+      { "label": "6-9 months", "available": true, "price": 35 },
+      { "label": "9-12 months", "available": true, "price": 36 },
+      { "label": "12-18 months", "available": true, "price": 36 },
+      { "label": "1.5-2 years", "available": true, "price": 37 },
+      { "label": "2-3 years", "available": true, "price": 38 },
+      { "label": "3-4 years", "available": true, "price": 38 },
+      { "label": "4-5 years", "available": true, "price": 39 },
+      { "label": "5-6 years", "available": true, "price": 39 },
+      { "label": "6-7 years", "available": true, "price": 40 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 118,
+    "description": "Classic festive holiday knitted jumper in bright Christmas red with textured jacquard stitching and ultra-gentle itch-free yarn.",
+    "features": [
+      "Chunky Cable Knitted Feel",
+      "Soft Itch-Free Acrylic & Cotton Blend",
+      "Festive Crew Neckline",
+      "Ideal for Holiday Family Photos"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-011",
+    "name": "Chocolate Brown Crew Neck Jumper (3mths-10yrs)",
+    "brand": "NEXT KIDS",
+    "price": 35,
+    "originalPrice": 40,
+    "category": "Winter Collection",
+    "department": "BOYS",
+    "badges": ["Kids Session", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Chocolate Brown",
+        "hex": "#4E342E",
+        "images": [
+          "/project-pic/Chocolate Brown Crew Neck Jumper (3mths-10yrs).jpg",
+          "/project-pic/Chocolate Brown Crew Neck Jumper (3mths-10yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 35 },
+      { "label": "6-9 months", "available": true, "price": 35 },
+      { "label": "9-12 months", "available": true, "price": 35 },
+      { "label": "12-18 months", "available": true, "price": 36 },
+      { "label": "1.5-2 years", "available": true, "price": 36 },
+      { "label": "2-3 years", "available": true, "price": 37 },
+      { "label": "3-4 years", "available": true, "price": 37 },
+      { "label": "4-5 years", "available": true, "price": 38 },
+      { "label": "5-6 years", "available": true, "price": 38 },
+      { "label": "6-7 years", "available": true, "price": 39 },
+      { "label": "7-8 years", "available": true, "price": 39 },
+      { "label": "9-10 years", "available": true, "price": 40 }
+    ],
+    "rating": 4.9,
+    "reviewCount": 92,
+    "description": "Sophisticated chocolate brown crew neck knit jumper, combining warmth with a timeless minimalist winter wardrobe aesthetic.",
+    "features": [
+      "Timeless Chocolate Brown Shade",
+      "Soft Textured Knit Fabric",
+      "Crew Neck with Elastic Hem",
+      "Machine Washable Winter Knitwear"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-012",
+    "name": "Grey Crew Neck Jumper (3mths-10yrs)",
+    "brand": "NEXT KIDS",
+    "price": 35,
+    "originalPrice": 40,
+    "category": "Winter Collection",
+    "department": "BOYS",
+    "badges": ["Kids Session", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Heather Grey",
+        "hex": "#9E9E9E",
+        "images": [
+          "/project-pic/Grey Crew Neck Jumper (3mths-10yrs).jpg",
+          "/project-pic/Grey Crew Neck Jumper (3mths-10yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 35 },
+      { "label": "6-9 months", "available": true, "price": 35 },
+      { "label": "9-12 months", "available": true, "price": 35 },
+      { "label": "12-18 months", "available": true, "price": 36 },
+      { "label": "1.5-2 years", "available": true, "price": 36 },
+      { "label": "2-3 years", "available": true, "price": 37 },
+      { "label": "3-4 years", "available": true, "price": 37 },
+      { "label": "4-5 years", "available": true, "price": 38 },
+      { "label": "5-6 years", "available": true, "price": 38 },
+      { "label": "6-7 years", "available": true, "price": 39 },
+      { "label": "7-8 years", "available": true, "price": 39 },
+      { "label": "9-10 years", "available": true, "price": 40 }
+    ],
+    "rating": 4.8,
+    "reviewCount": 86,
+    "description": "Essential heather grey winter crew neck jumper made from breathable soft-touch yarn for versatile layering through the coldest months.",
+    "features": [
+      "Versatile Heather Grey Colorway",
+      "Fine Gauge Soft Knitted Fabric",
+      "Comfort Ribbed Neck and Cuffs",
+      "Everyday Winter Staple"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-013",
+    "name": "Pink Christmas Reindeer Santa Long Sleeve Button Dress (3mths-7yrs)",
+    "brand": "NEXT FESTIVE",
+    "price": 24,
+    "originalPrice": 29,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Pastel Pink Festive",
+        "hex": "#F8BBD0",
+        "images": [
+          "/project-pic/Pink Christmas Reindeer Santa Long Sleeve Button Dress (3mths-7yrs).jpg",
+          "/project-pic/Pink Christmas Reindeer Santa Long Sleeve Button Dress (3mths-7yrs) 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 24 },
+      { "label": "6-9 months", "available": true, "price": 24 },
+      { "label": "9-12 months", "available": true, "price": 25 },
+      { "label": "12-18 months", "available": true, "price": 25 },
+      { "label": "1.5-2 years", "available": true, "price": 26 },
+      { "label": "2-3 years", "available": true, "price": 26 },
+      { "label": "3-4 years", "available": true, "price": 27 },
+      { "label": "4-5 years", "available": true, "price": 28 },
+      { "label": "5-6 years", "available": true, "price": 28 },
+      { "label": "6-7 years", "available": true, "price": 29 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 125,
+    "description": "Sweet pastel pink long-sleeve winter dress printed with dancing reindeer and Santa motifs, detailed with front wooden buttons and a flared skirt.",
+    "features": [
+      "Whimsical Reindeer & Santa Holiday Pattern",
+      "Button Front Detail",
+      "Flared Twirl Skirt Silhouette",
+      "100% Breathable Soft Cotton"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "kid-014",
+    "name": "Red/Blue Fairisle Christmas Long Sleeve Sweat Dress (3mths-7yrs)",
+    "brand": "NEXT FESTIVE",
+    "price": 24,
+    "originalPrice": 29,
+    "category": "Winter Collection",
+    "department": "GIRLS",
+    "badges": ["Kids Session", "Christmas Edit", "Winter Collection"],
+    "colors": [
+      {
+        "name": "Red & Navy Fairisle",
+        "hex": "#B71C1C",
+        "images": [
+          "/project-pic/16.jpg",
+          "/project-pic/17.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "3-6 months", "available": true, "price": 24 },
+      { "label": "6-9 months", "available": true, "price": 24 },
+      { "label": "9-12 months", "available": true, "price": 25 },
+      { "label": "12-18 months", "available": true, "price": 25 },
+      { "label": "1.5-2 years", "available": true, "price": 26 },
+      { "label": "2-3 years", "available": true, "price": 26 },
+      { "label": "3-4 years", "available": true, "price": 27 },
+      { "label": "4-5 years", "available": true, "price": 28 },
+      { "label": "5-6 years", "available": true, "price": 28 },
+      { "label": "6-7 years", "available": true, "price": 29 }
+    ],
+    "rating": 5.0,
+    "reviewCount": 142,
+    "description": "Traditional Nordic Fairisle patterned long-sleeve sweat dress in rich festive red and blue tones, with fleece lining for supreme cozy winter comfort.",
+    "features": [
+      "Traditional Nordic Fairisle Yoke",
+      "Warm Brushed Sweatshirt Fabric",
+      "Long Sleeves with Ribbed Trim",
+      "Effortless Holiday Dressing"
+    ],
+    "isBestseller": true
   }
 ];

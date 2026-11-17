@@ -11,9 +11,45 @@ interface CategoryMeta {
 }
 
 const CATEGORY_MAP: Record<string, CategoryMeta> = {
+  'kids': {
+    title: "Kids' Collection",
+    description: 'Explore the full kids, baby, and youth collection — cozy knit jumpers, Christmas sets, character favorites, and everyday warm cotton staples.',
+    bannerImage: '/hero-kids.jpg',
+    filter: (p) => p.department === 'GIRLS' || p.department === 'BOYS' || p.department === 'BABY' || p.category === 'Toys' || p.category === 'Character Shops' || p.badges.includes('Kids Session'),
+  },
+  'boys': {
+    title: "Boys' Collection",
+    description: 'Warm sweatshirts, hoodies, character graphics, holiday co-ord sets, and crew neck jumpers tailored for boys.',
+    bannerImage: '/project-pic/jacket box.png',
+    filter: (p) => p.department === 'BOYS' || (p.category === 'Character Shops' && !p.name.toLowerCase().includes('dress')),
+  },
+  'girls': {
+    title: "Girls' Collection",
+    description: 'Festive dresses, sequin tops, velvet occasionwear, cozy sets, and character favorites for girls of all ages.',
+    bannerImage: '/project-pic/party box.png',
+    filter: (p) => p.department === 'GIRLS' || p.department === 'BABY' || p.category === 'Dresses',
+  },
+  'women': {
+    title: "Women's Collection",
+    description: 'Designer velvet gowns, knitted midi dresses, tailored wool overcoats, and winter party essentials for women.',
+    bannerImage: '/hero-women.jpg',
+    filter: (p) => p.department === 'WOMEN',
+  },
+  'men': {
+    title: "Men's Collection",
+    description: 'Premium winter coats, knitwear, tailored jackets, and warm essentials for men.',
+    bannerImage: '/hero-men.jpg',
+    filter: (p) => p.department === 'MEN',
+  },
+  'christmas': {
+    title: 'Christmas Edit',
+    description: 'Seasonal festive jumpers, monogram letter plush decorations, family pyjamas, cushions, and holiday gifting essentials.',
+    bannerImage: '/project-pic/christmas box.png',
+    filter: (p) => p.badges.includes('Christmas Edit') || p.name.toLowerCase().includes('christmas') || p.department === 'CHRISTMAS',
+  },
   'winter-collection': {
     title: 'The Winter Collection',
-    description: 'Explore the full seasonal catalog across Women, Men, Kids, Boys, Baby, Outerwear, Knitwear, and Festive Essentials.',
+    description: 'Explore our complete seasonal catalog across Kids, Boys, Girls, Women, Men, Outerwear, Knitwear, and Holiday Essentials.',
     bannerImage: '/hero-women.jpg',
     filter: () => true,
   },
@@ -52,12 +88,6 @@ const CATEGORY_MAP: Record<string, CategoryMeta> = {
     description: 'Smart grooming electronics, high-velocity ionic hair systems, and personal care accessories.',
     bannerImage: '/project-pic/electric box.png',
     filter: (p) => p.category === 'Electric Things',
-  },
-  'christmas': {
-    title: 'Christmas Edit',
-    description: 'Seasonal festive jumpers, monogram letter plush decorations, family pyjamas, cushions, and gifting essentials.',
-    bannerImage: '/project-pic/christmas box.png',
-    filter: (p) => p.badges.includes('Christmas Edit') || p.name.toLowerCase().includes('christmas'),
   },
 };
 

@@ -22,15 +22,13 @@ import AccountPopover from '@/components/AccountPopover';
 import WishlistDrawer from '@/components/WishlistDrawer';
 
 const NAV_LINKS = [
-  { name: 'HOME', href: '/' },
-  { name: 'WINTER COLLECTION', href: '/category/winter-collection', highlight: true },
-  { name: 'TOYS & PLUSH', href: '/category/toys' },
-  { name: 'CHARACTER SHOPS', href: '/category/character-shops' },
-  { name: 'JACKETS & COATS', href: '/category/jackets-coats' },
-  { name: 'DRESSES', href: '/category/dresses' },
-  { name: 'HOMEWEAR', href: '/category/homewear' },
-  { name: 'ELECTRIC', href: '/category/electric-things' },
+  { name: 'KIDS', href: '/category/kids' },
+  { name: 'BOYS', href: '/category/boys' },
+  { name: 'GIRL', href: '/category/girls' },
+  { name: 'WOMAN', href: '/category/women' },
+  { name: 'MAN', href: '/category/men' },
   { name: 'CHRISTMAS', href: '/category/christmas', color: 'gold' },
+  { name: 'WINTER COLLECTION', href: '/category/winter-collection', highlight: true },
 ];
 
 export default function Header() {
