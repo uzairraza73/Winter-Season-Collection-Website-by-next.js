@@ -821,10 +821,11 @@ export const products: Product[] = [
     "brand": "Pokémon",
     "price": 48,
     "category": "Character Shops",
-    "department": "BOYS",
+    "department": "MEN",
     "badges": [
       "Christmas Edit",
-      "Pokémon"
+      "Pokémon",
+      "Men's Session"
     ],
     "colors": [
       {
@@ -1021,9 +1022,10 @@ export const products: Product[] = [
     "brand": "NEXT HOLIDAY",
     "price": 44,
     "category": "Character Shops",
-    "department": "BOYS",
+    "department": "MEN",
     "badges": [
-      "Christmas Edit"
+      "Christmas Edit",
+      "Men's Session"
     ],
     "colors": [
       {
@@ -1622,10 +1624,11 @@ export const products: Product[] = [
     "brand": "Marvel Avengers",
     "price": 45,
     "category": "Character Shops",
-    "department": "BOYS",
+    "department": "MEN",
     "badges": [
       "Marvel",
-      "100% Cotton"
+      "100% Cotton",
+      "Men's Session"
     ],
     "colors": [
       {
@@ -2115,10 +2118,11 @@ export const products: Product[] = [
     "brand": "Nintendo Mario Kart",
     "price": 39,
     "category": "Character Shops",
-    "department": "BOYS",
+    "department": "MEN",
     "badges": [
       "Mario Kart",
-      "Racing Edit"
+      "Racing Edit",
+      "Men's Session"
     ],
     "colors": [
       {
@@ -5888,8 +5892,8 @@ export const products: Product[] = [
         "name": "Red & Green Blankets",
         "hex": "#C8102E",
         "images": [
-          "/project-pic/Set of 3 Red/Green Pigs in Blankets Christmas Ornament.jpg",
-          "/project-pic/Set of 3 Red/Green Pigs in Blankets Christmas Ornament 1.jpg"
+          "/project-pic/df.jpg",
+          "/project-pic/df.jpg"
         ]
       }
     ],
@@ -7220,6 +7224,660 @@ export const products: Product[] = [
       "Warm Brushed Sweatshirt Fabric",
       "Long Sleeves with Ribbed Trim",
       "Effortless Holiday Dressing"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-001",
+    "name": "Natural Scene Print Printed Borg Fleece",
+    "brand": "NEXT MEN",
+    "price": 115,
+    "originalPrice": 140,
+    "category": "Jackets & Coats",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Borg Fleece"],
+    "colors": [
+      {
+        "name": "Natural Scenic Borg",
+        "hex": "#D8CAB8",
+        "images": [
+          "/project-pic/Natural Scene Print Printed Borg Fleece.jpg",
+          "/project-pic/Natural Scene Print Printed Borg Fleece 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 112,
+    "description": "High-pile plush borg fleece zip-through jacket featuring an all-over scenic mountain landscape graphic print, mock stand collar, and side zipped pockets.",
+    "features": [
+      "Plush Thermal Borg Fleece",
+      "Full Zip Stand Neckline",
+      "Panoramic Nature Landscape Print",
+      "Elasticated Hem and Cuffs"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-002",
+    "name": "Brown Baggy Fit Five Pocket Cotton Rich Trousers",
+    "brand": "NEXT MEN",
+    "price": 73,
+    "originalPrice": 89,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Baggy Fit"],
+    "colors": [
+      {
+        "name": "Deep Brown",
+        "hex": "#4E3629",
+        "images": [
+          "/project-pic/Brown Baggy Fit Five Pocket Cotton Rich Trousers.jpg",
+          "/project-pic/Brown Baggy Fit Five Pocket Cotton Rich Trousers 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 78,
+    "description": "Relaxed baggy fit five-pocket trousers crafted in heavyweight cotton-rich twill for durable street-smart winter styling.",
+    "features": [
+      "Heavy Cotton-Rich Twill",
+      "Contemporary Baggy Silhouette",
+      "Classic Five-Pocket Styling",
+      "Durable Double-Stitched Seams"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-003",
+    "name": "Black Showerproof Hooded Coat With Brushed Lining",
+    "brand": "NEXT OUTDOOR",
+    "price": 190,
+    "originalPrice": 230,
+    "category": "Jackets & Coats",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Showerproof"],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#111111",
+        "images": [
+          "/project-pic/Black Showerproof Hooded Coat With Brushed Lining.jpg",
+          "/project-pic/Black Showerproof Hooded Coat With Brushed Lining 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 164,
+    "description": "Premium technical showerproof longline winter coat built with brushed microfleece interior lining, adjustable hood, storm flaps, and thermal barrier insulation.",
+    "features": [
+      "Showerproof Weather Shell",
+      "Insulated Brushed Microfleece Lining",
+      "Storm Guard Heavy Zip Fastening",
+      "Spacious Fleece-Lined Handwarmer Pockets"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-004",
+    "name": "Navy Blue Cotton Blend Quarter Zip Jumper",
+    "brand": "NEXT MEN",
+    "price": 77,
+    "originalPrice": 95,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Knitwear"],
+    "colors": [
+      {
+        "name": "Navy Blue",
+        "hex": "#1A2A44",
+        "images": [
+          "/project-pic/Navy Blue Cotton Blend Quarter Zip Jumper.jpg",
+          "/project-pic/Navy Blue Cotton Blend Quarter Zip Jumper 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 94,
+    "description": "Refined navy blue quarter-zip pullover knit from an ultra-soft breathable cotton blend with ribbed funnel neckline and contrast metallic zipper pull.",
+    "features": [
+      "Breathable Cotton Blend Knit",
+      "Quarter Zip Mock Funnel Collar",
+      "Ribbed Cuffs and Hem",
+      "Effortless Smart Casual Layer"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-005",
+    "name": "Black Overarm Stripe Cotton Blend Quarter Zip Jumper",
+    "brand": "NEXT MEN",
+    "price": 81,
+    "originalPrice": 99,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Quarter Zip"],
+    "colors": [
+      {
+        "name": "Black with Overarm Stripe",
+        "hex": "#1C1C1C",
+        "images": [
+          "/project-pic/Black Overarm Stripe Cotton Blend Quarter Zip Jumper.jpg",
+          "/project-pic/Black Overarm Stripe Cotton Blend Quarter Zip Jumper 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 86,
+    "description": "Athletic-inspired quarter zip sweater in jet black featuring contrasting overarm sporty racing stripes and a soft-touch structured cotton knit.",
+    "features": [
+      "Athletic Overarm Stripe Detailing",
+      "Subtle Mock High Collar",
+      "Soft Cotton-Rich Blend",
+      "Precision Ribbed Trims"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-006",
+    "name": "Charcoal Grey Wool Blend Herringbone Padded Coat With Mock Gilet",
+    "brand": "NEXT TAILORED",
+    "price": 190,
+    "originalPrice": 245,
+    "category": "Jackets & Coats",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Wool Blend"],
+    "colors": [
+      {
+        "name": "Charcoal Herringbone",
+        "hex": "#3D4146",
+        "images": [
+          "/project-pic/Charcoal Grey Wool Blend Herringbone Padded Coat With Mock Gilet.jpg",
+          "/project-pic/Charcoal Grey Wool Blend Herringbone Padded Coat With Mock Gilet 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 185,
+    "description": "Architectural winter overcoat woven from a rich charcoal grey herringbone wool blend with an integrated zip-in mock padded gilet insert for double-layered defense.",
+    "features": [
+      "Heritage Herringbone Wool Blend",
+      "Integrated Zip-In Mock Padded Gilet",
+      "Quilted Thermal Interior",
+      "Tailored Notch Lapels"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-007",
+    "name": "Black Smart Quilted Hybrid Hooded Jacket",
+    "brand": "NEXT MEN",
+    "price": 125,
+    "originalPrice": 155,
+    "category": "Jackets & Coats",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Hybrid"],
+    "colors": [
+      {
+        "name": "Black Hybrid",
+        "hex": "#1A1A1A",
+        "images": [
+          "/project-pic/Black Smart Quilted Hybrid Hooded Jacket.jpg",
+          "/project-pic/Black Smart Quilted Hybrid Hooded Jacket 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 104,
+    "description": "Sleek hybrid jacket combining diamond quilted weather-resistant padded chest panels with flexible stretch-knit jersey sleeves and an adjustable hood.",
+    "features": [
+      "Hybrid Quilted and Stretch Construction",
+      "Insulated Core Baffles",
+      "Adjustable Ergonomic Hood",
+      "Matte Gunmetal Zippers"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-008",
+    "name": "Black Official Guinness Horizontal 100% Cotton Block Rugby Shirt",
+    "brand": "Official Guinness",
+    "price": 77,
+    "originalPrice": 95,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Guinness"],
+    "colors": [
+      {
+        "name": "Black & Gold Guinness",
+        "hex": "#1A1715",
+        "images": [
+          "/project-pic/Black Official Guinness Horizontal 100 Cotton Block Rugby Shirt.jpg",
+          "/project-pic/Black Official Guinness Horizontal 100 Cotton Block Rugby Shirt 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 138,
+    "description": "Authentic licensed Guinness long-sleeve rugby jersey made with durable heavyweight 100% cotton, contrast twill collar, rubber buttons, and embroidered harp emblem.",
+    "features": [
+      "Official Licensed Guinness Merchandise",
+      "Heavyweight 100% Pure Cotton",
+      "Classic White Woven Twill Rugby Collar",
+      "Gold Thread Embroidered Crest"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-009",
+    "name": "Ecru White Guinness Plain Embroidered T-Shirt",
+    "brand": "Official Guinness",
+    "price": 38,
+    "originalPrice": 48,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "100% Cotton"],
+    "colors": [
+      {
+        "name": "Ecru White",
+        "hex": "#F5F2EB",
+        "images": [
+          "/project-pic/Ecru White Guinness Plain Embroidered T-Shirt.jpg",
+          "/project-pic/Ecru White Guinness Plain Embroidered T-Shirt 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 72,
+    "description": "Minimalist ecru tee finished in soft-washed cotton jersey with discreet embroidered Guinness gold harp on the chest pocket.",
+    "features": [
+      "100% Organic Soft-Washed Cotton",
+      "Minimalist Embroidered Chest Detail",
+      "Relaxed Crew Neck Silhouette",
+      "Breathable Natural Fabric"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-010",
+    "name": "Brown Cotton Blend Quarter Zip Jumper",
+    "brand": "NEXT MEN",
+    "price": 77,
+    "originalPrice": 95,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Quarter Zip"],
+    "colors": [
+      {
+        "name": "Warm Chestnut Brown",
+        "hex": "#5D4037",
+        "images": [
+          "/project-pic/Brown Cotton Blend Quarter Zip Jumper.jpg",
+          "/project-pic/Brown Cotton Blend Quarter Zip Jumper 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 91,
+    "description": "Warm chestnut brown mock zip sweater tailored from a rich cotton-acrylic knit, delivering lightweight thermal retention for effortless layering.",
+    "features": [
+      "Warm Chestnut Autumn/Winter Tone",
+      "Polished Silver Quarter Zip",
+      "Fine Ribbed Collar and Cuffs",
+      "Retains Shape After Machine Washing"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-011",
+    "name": "Brown Ruched Leather Loafers",
+    "brand": "NEXT FOOTWEAR",
+    "price": 111,
+    "originalPrice": 145,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Genuine Leather"],
+    "colors": [
+      {
+        "name": "Burnished Brown Leather",
+        "hex": "#4A2E1B",
+        "images": [
+          "/project-pic/Brown Ruched Leather Loafers.jpg",
+          "/project-pic/Brown Ruched Leather Loafers 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "US 7.5 (UK 6.5)", "available": true },
+      { "label": "US 8 (UK 7)", "available": true },
+      { "label": "US 9 (UK 8)", "available": true },
+      { "label": "US 10 (UK 9)", "available": true },
+      { "label": "US 11 (UK 10)", "available": true },
+      { "label": "US 12 (UK 11)", "available": true },
+      { "label": "US 12.5 (UK 11.5)", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 119,
+    "description": "Artisan slip-on dress loafers handcrafted with burnished genuine leather, distinctive ruched apron stitching, and cushioned memory foam footbeds.",
+    "features": [
+      "100% Genuine Burnished Leather",
+      "Hand-Stitched Ruched Apron Toe",
+      "Cushioned Orthotic Memory Insole",
+      "Reinforced Anti-Slip Outsole"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-012",
+    "name": "Red St. Moritz Ski Knitted Zip Neck Jumper",
+    "brand": "NEXT ALPINE",
+    "price": 81,
+    "originalPrice": 105,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Alpine Ski"],
+    "colors": [
+      {
+        "name": "Alpine Red & Ecru",
+        "hex": "#C62828",
+        "images": [
+          "/project-pic/Red St. Moritz Ski Knitted Zip Neck Jumper.jpg",
+          "/project-pic/Red St. Moritz Ski Knitted Zip Neck Jumper 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 147,
+    "description": "Retro alpine ski-club knit pullover in vivid scarlet red with contrast ecru horizontal chest blocks and St. Moritz graphic embroidery.",
+    "features": [
+      "Vintage Alpine Ski Resort Styling",
+      "High Protective Funnel Zip Neck",
+      "Thick Winter Gauge Thermal Knit",
+      "St. Moritz Graphic Jacquard"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-013",
+    "name": "Navy Blue 100% Cotton Regular Fit Mock Shirt Cable Knit Jumper",
+    "brand": "NEXT TAILORED",
+    "price": 75,
+    "originalPrice": 95,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "2-in-1"],
+    "colors": [
+      {
+        "name": "Navy Blue with White Collar",
+        "hex": "#1B2A4A",
+        "images": [
+          "/project-pic/Navy Blue 100 Cotton Regular Fit Mock Shirt Cable Knit Jumper.jpg",
+          "/project-pic/Navy Blue 100 Cotton Regular Fit Mock Shirt Cable Knit Jumper 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 98,
+    "description": "Effortless 2-in-1 office and formal styling: a navy cable knit pullover detailed with an attached crisp poplin white woven shirt collar.",
+    "features": [
+      "Smart 2-in-1 Mock Shirt Design",
+      "100% Combed Breathable Cotton",
+      "Traditional Textured Cable Knit",
+      "Crisp Pre-Fitted Poplin Collar"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-014",
+    "name": "White Slim Fit Long Sleeve Crew Neck T-Shirt",
+    "brand": "NEXT BASICS",
+    "price": 20,
+    "originalPrice": 26,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "100% Cotton"],
+    "colors": [
+      {
+        "name": "Optic White",
+        "hex": "#FFFFFF",
+        "images": [
+          "/project-pic/White Slim Fit Long Sleeve Crew Neck T-Shirt.jpg",
+          "/project-pic/White Slim Fit Long Sleeve Crew Neck T-Shirt 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.8,
+    "reviewCount": 210,
+    "description": "The quintessential base layer: pure combed stretch-cotton long-sleeve tee tailored in a neat slim fit for seamless comfort under jumpers and coats.",
+    "features": [
+      "Pure Combed Cotton Jersey",
+      "Tailored Modern Slim Fit",
+      "Ribbed Crew Neck and Wrists",
+      "Essential Winter Layering Staple"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-015",
+    "name": "Olive Green Borg Quarter Zip Fleece",
+    "brand": "NEXT MEN",
+    "price": 81,
+    "originalPrice": 105,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "Borg Fleece"],
+    "colors": [
+      {
+        "name": "Olive Green",
+        "hex": "#4B5320",
+        "images": [
+          "/project-pic/Olive Green Borg Quarter Zip Fleece.jpg",
+          "/project-pic/Olive Green Borg Quarter Zip Fleece 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 5.0,
+    "reviewCount": 115,
+    "description": "Deep olive green high-pile sherpa borg fleece with durable nylon chest zip pocket and thermal insulating lining.",
+    "features": [
+      "Ultra-Warm Sherpa Borg Texture",
+      "Quarter Zip High Neck",
+      "Woven Nylon Contrast Chest Pocket",
+      "Drawcord Hem Adjustment"
+    ],
+    "isBestseller": true
+  },
+  {
+    "id": "man-016",
+    "name": "Black Baggy Fit Jeans",
+    "brand": "NEXT DENIM",
+    "price": 73,
+    "originalPrice": 92,
+    "category": "Winter Collection",
+    "department": "MEN",
+    "badges": ["Men's Session", "Winter Collection", "100% Cotton Denim"],
+    "colors": [
+      {
+        "name": "Washed Black Denim",
+        "hex": "#2B2B2B",
+        "images": [
+          "/project-pic/Black Baggy Fit Jeans.jpg",
+          "/project-pic/Black Baggy Fit Jeans 1.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      { "label": "XS", "available": true },
+      { "label": "S", "available": true },
+      { "label": "M", "available": true },
+      { "label": "L", "available": true },
+      { "label": "XL", "available": true },
+      { "label": "XXL", "available": true },
+      { "label": "3XL", "available": true },
+      { "label": "4XL", "available": true },
+      { "label": "5XL", "available": true }
+    ],
+    "rating": 4.9,
+    "reviewCount": 126,
+    "description": "Authentic 90s-inspired washed black denim jeans with a wide-cut baggy leg, heavy 13oz cotton denim, and reinforced pocket rivets.",
+    "features": [
+      "100% Heavyweight 13oz Cotton Denim",
+      "Relaxed 90s Baggy Fit",
+      "Subtle Vintage Black Wash",
+      "Heavy-Duty Metal Button Fly"
     ],
     "isBestseller": true
   }

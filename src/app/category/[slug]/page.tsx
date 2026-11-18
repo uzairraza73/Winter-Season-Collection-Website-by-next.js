@@ -110,13 +110,15 @@ export default async function CategoryPage({ params }: PageProps) {
   const categoryProducts = products.filter(meta.filter);
 
   return (
-    <CategoryClient
-      slug={slug}
-      categoryTitle={meta.title}
-      categoryDescription={meta.description}
-      bannerImage={meta.bannerImage}
-      products={categoryProducts}
-    />
+    <React.Suspense fallback={<div className="min-h-screen bg-white" />}>
+      <CategoryClient
+        slug={slug}
+        categoryTitle={meta.title}
+        categoryDescription={meta.description}
+        bannerImage={meta.bannerImage}
+        products={categoryProducts}
+      />
+    </React.Suspense>
   );
 }
 

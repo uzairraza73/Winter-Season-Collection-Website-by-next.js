@@ -48,6 +48,10 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     .filter((p) => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
 
-  return <ProductDetailClient product={product} relatedProducts={relatedProducts} />;
+  return (
+    <React.Suspense fallback={<div className="min-h-screen bg-white" />}>
+      <ProductDetailClient product={product} relatedProducts={relatedProducts} />
+    </React.Suspense>
+  );
 }
 
